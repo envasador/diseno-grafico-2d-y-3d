@@ -185,6 +185,7 @@ body,
 .md-tabs__link {
   color: var(--vj-tinta) !important;
   opacity: 1 !important;
+    margin-top: .5rem !important;
   font-weight: 600 !important;
   font-size: 0.72rem !important;
   text-transform: uppercase !important;

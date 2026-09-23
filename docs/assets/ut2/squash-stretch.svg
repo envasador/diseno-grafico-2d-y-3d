@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="760" height="300" fill="#FFFFFF"/>
+<line x1="30" y1="250" x2="730" y2="250" stroke="#10261F" stroke-width="4"/>
+<ellipse cx="134" cy="214" rx="40" ry="40" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="130" cy="210" rx="40" ry="40" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="130" y="285" font-size="15" text-anchor="middle" font-weight="700" fill="#10261F">Reposo</text>
+<ellipse cx="384" cy="124" rx="31" ry="55" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="380" cy="120" rx="31" ry="55" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="380" y="285" font-size="15" text-anchor="middle" font-weight="700" fill="#10261F">Stretch (cae deprisa)</text>
+<ellipse cx="624" cy="229" rx="64" ry="25" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="620" cy="225" rx="64" ry="25" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="620" y="285" font-size="15" text-anchor="middle" font-weight="700" fill="#10261F">Squash (impacto)</text>
+<line x1="380" y1="190" x2="380" y2="225" stroke="#1E6B55" stroke-width="3"/>
+<polygon points="380,225 374.8,214.2 385.2,214.2" fill="#1E6B55"/>
+<text shape-rendering="auto" x="380" y="40" font-size="15" text-anchor="middle" font-weight="500" fill="#10261F" font-style="italic">El volumen se conserva: si se aplasta, se ensancha</text>
+</svg>

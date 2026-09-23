@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="700" height="420" fill="#FFFFFF"/>
+<rect x="35" y="25" width="300" height="380" fill="#10261F"/>
+<rect x="30" y="20" width="300" height="380" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="180" y="50" font-size="17" text-anchor="middle" font-weight="700" fill="#10261F">Espaciado uniforme</text>
+<line x1="90" y1="360" x2="270" y2="360" stroke="#10261F" stroke-width="4"/>
+<ellipse cx="180" cy="90.0" rx="15" ry="15" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="215" y="95.0" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">1</text>
+<ellipse cx="180" cy="130.83333333333331" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="138" y="135.83333333333331" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">2</text>
+<ellipse cx="180" cy="171.66666666666666" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="215" y="176.66666666666666" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">3</text>
+<ellipse cx="180" cy="212.5" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="138" y="217.5" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">4</text>
+<ellipse cx="180" cy="253.33333333333331" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="215" y="258.3333333333333" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">5</text>
+<ellipse cx="180" cy="294.1666666666667" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="138" y="299.1666666666667" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">6</text>
+<ellipse cx="180" cy="335.0" rx="15" ry="15" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="215" y="340.0" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">7</text>
+<text shape-rendering="auto" x="180" y="388" font-size="14" text-anchor="middle" font-weight="500" fill="#10261F" font-style="italic">parece un ascensor</text>
+<rect x="375" y="25" width="300" height="380" fill="#10261F"/>
+<rect x="370" y="20" width="300" height="380" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="520" y="50" font-size="17" text-anchor="middle" font-weight="700" fill="#10261F">Espaciado con gravedad</text>
+<line x1="430" y1="360" x2="610" y2="360" stroke="#10261F" stroke-width="4"/>
+<ellipse cx="520" cy="90.0" rx="15" ry="15" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="555" y="95.0" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">1</text>
+<ellipse cx="520" cy="96.80555555555556" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="478" y="101.80555555555556" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">2</text>
+<ellipse cx="520" cy="117.22222222222223" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="555" y="122.22222222222223" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">3</text>
+<ellipse cx="520" cy="151.25" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="478" y="156.25" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">4</text>
+<ellipse cx="520" cy="198.88888888888889" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="555" y="203.88888888888889" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">5</text>
+<ellipse cx="520" cy="260.1388888888889" rx="15" ry="15" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="478" y="265.1388888888889" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">6</text>
+<ellipse cx="520" cy="335.0" rx="15" ry="15" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="555" y="340.0" font-size="13" text-anchor="start" font-weight="600" fill="#10261F">7</text>
+<text shape-rendering="auto" x="520" y="388" font-size="14" text-anchor="middle" font-weight="500" fill="#10261F" font-style="italic">parece que cae</text>
+</svg>

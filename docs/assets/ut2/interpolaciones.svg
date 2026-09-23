@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="900" height="340" fill="#FFFFFF"/>
+<path d="M70.0,58.0 L133.3,125.2 L196.7,180.2 L260.0,223.0 L323.3,253.6 L386.7,271.9 L450.0,278.0 L513.3,271.9 L576.7,253.6 L640.0,223.0 L703.3,180.2 L766.7,125.2 L830.0,58.0" fill="none" stroke="#10261F" stroke-width="2" stroke-dasharray="4 6" opacity="0.45" shape-rendering="auto"/>
+<line x1="30" y1="300" x2="870" y2="300" stroke="#10261F" stroke-width="4"/>
+<ellipse cx="74.0" cy="62.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="70.0" cy="58.0" rx="22" ry="22" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="137.33333333333331" cy="129.2222222222222" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="133.33333333333331" cy="125.2222222222222" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="200.66666666666666" cy="184.2222222222222" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="196.66666666666666" cy="180.2222222222222" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="264.0" cy="227.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="260.0" cy="223.0" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="327.3333333333333" cy="257.55555555555554" rx="18.04" ry="27.5" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="323.3333333333333" cy="253.55555555555554" rx="18.04" ry="27.5" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="390.6666666666667" cy="275.8888888888889" rx="18.04" ry="27.5" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="386.6666666666667" cy="271.8888888888889" rx="18.04" ry="27.5" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="454.0" cy="290.36" rx="31.9" ry="13.64" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="450.0" cy="286.36" rx="31.9" ry="13.64" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="517.3333333333334" cy="275.88888888888886" rx="18.04" ry="27.5" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="513.3333333333334" cy="271.88888888888886" rx="18.04" ry="27.5" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="580.6666666666666" cy="257.55555555555554" rx="18.04" ry="27.5" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="576.6666666666666" cy="253.55555555555557" rx="18.04" ry="27.5" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="644.0" cy="227.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="640.0" cy="223.0" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="707.3333333333334" cy="184.2222222222222" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="703.3333333333334" cy="180.2222222222222" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="770.6666666666666" cy="129.22222222222226" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="766.6666666666666" cy="125.22222222222226" rx="22" ry="22" fill="#43AA8C" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="834.0" cy="62.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="830.0" cy="58.0" rx="22" ry="22" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<rect x="30" y="16" width="16" height="16" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="54" y="30" font-size="15" text-anchor="start" font-weight="600" fill="#10261F">Fotograma clave</text>
+<rect x="210" y="16" width="16" height="16" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="234" y="30" font-size="15" text-anchor="start" font-weight="600" fill="#10261F">Interpolación</text>
+</svg>
