@@ -1,0 +1,60 @@
+site_name: Diseño Gráfico 2D y 3D
+site_description: Material didáctico del módulo Diseño Gráfico 2D y 3D del CE Desarrollo de Videojuegos y Realidad Virtual del IES Rafael Alberti.
+site_author: Alejandro Carmona Martos
+repo_url: https://github.com/envasador/diseno-grafico-2d-y-3d
+repo_name: diseno-grafico-2d-y-3d
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Inicio: index.md
