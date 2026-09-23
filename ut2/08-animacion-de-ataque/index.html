@@ -1409,17 +1409,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#lo-que-te-llevas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lo que te llevas
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2104,17 +2093,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#lo-que-te-llevas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lo que te llevas
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2142,7 +2120,7 @@
 <h2 id="los-cuatro-estados-de-un-ataque">Los cuatro estados de un ataque<a class="headerlink" href="#los-cuatro-estados-de-un-ataque" title="Permanent link">&para;</a></h2>
 <p>Un ataque se puede dividir en estados, que son momentos diferentes dentro de una misma acción: <strong>anticipación</strong>, <strong>golpe</strong>, <strong>final del golpe</strong> y <strong>retroceso</strong>. En pixel art cada estado suele ser uno o dos frames, así que puedes tomarlos directamente como fotogramas clave.</p>
 <figure>
-<p><img alt="Anticipación, golpe, final del golpe y retroceso" src="../../assets/ut2/ataque-estados.png" /></p>
+<p><img alt="Anticipación, golpe, final del golpe y retroceso" src="../assets/ut2/ataque-estados.svg" /></p>
 <figcaption>Los cuatro estados de la animación de ataque. El golpe es el más importante.</figcaption>
 </figure>
 <h3 id="anticipacion">Anticipación<a class="headerlink" href="#anticipacion" title="Permanent link">&para;</a></h3>
@@ -2186,24 +2164,18 @@
 </tr>
 </tbody>
 </table>
-<figure>
-<p><img alt="Secuencia completa del ataque" src="../../assets/ut2/ataque-secuencia.png" /></p>
-<figcaption>La secuencia completa, de izquierda a derecha.</figcaption>
-</figure>
 <h2 id="easing-suavidad-al-principio-y-al-final">Easing: suavidad al principio y al final<a class="headerlink" href="#easing-suavidad-al-principio-y-al-final" title="Permanent link">&para;</a></h2>
 <p>El easing controla cómo acelera y frena un movimiento. En la vida real nada arranca ni se detiene de golpe: los objetos aceleran al empezar a moverse y frenan antes de pararse.</p>
 <p>El <strong>ease in</strong> (suavidad al principio) hace que el movimiento arranque despacio y vaya acelerando. El <strong>ease out</strong> (suavidad al final) hace que llegue rápido y frene poco a poco. El <strong>ease in-out</strong> combina los dos. En la práctica se consigue con el espaciado entre frames: frames muy juntos donde el movimiento es lento y muy separados donde es rápido, igual que la pelota que viste en el <a href="../05-principios-de-animacion/#timing">timing</a>.</p>
 <figure>
-<p><img alt="Ease in y ease out" src="../../assets/ut2/easing.png" /></p>
+<p><img alt="Ease in y ease out" src="../assets/ut2/easing.svg" /></p>
 <figcaption>Ease in: suavidad al principio. Ease out: suavidad al final.</figcaption>
 </figure>
 <p>En un ataque, el golpe tiene que ser instantáneo, así que no lleva ease in. Donde el easing marca la diferencia es después del impacto. Con <strong>ease out</strong>, el arma frena en dos o tres frames y el golpe resulta pesado y contundente. Sin él, el arma se detiene en seco y el movimiento parece mecánico.</p>
 <figure>
-<p><img alt="Golpe con ease out y golpe sin ease out" src="../../assets/ut2/easy-out.png" /></p>
+<p><img alt="Golpe con ease out y golpe sin ease out" src="../assets/ut2/easy-out.svg" /></p>
 <figcaption>A la izquierda, el golpe con ease out; a la derecha, sin él.</figcaption>
 </figure>
-<h2 id="lo-que-te-llevas">Lo que te llevas<a class="headerlink" href="#lo-que-te-llevas" title="Permanent link">&para;</a></h2>
-<p>Un ataque se construye con cuatro estados (anticipación, golpe, final y retroceso), y en el personaje del jugador la anticipación se reduce al mínimo para que el control responda. El golpe es rápido y lleva el motion blur, y el ease out después del impacto es lo que le da peso.</p>
 
 
 

@@ -1219,17 +1219,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#lo-que-te-llevas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lo que te llevas
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2004,17 +1993,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#lo-que-te-llevas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lo que te llevas
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -2040,18 +2018,18 @@
 <h2 id="mas-pixeles-mas-detalle-y-mas-trabajo">Más píxeles, más detalle (y más trabajo)<a class="headerlink" href="#mas-pixeles-mas-detalle-y-mas-trabajo" title="Permanent link">&para;</a></h2>
 <p>Con pocos píxeles tienes que sintetizar: una cara son dos puntos para los ojos y poco más, y cada píxel tiene un peso enorme. Con más píxeles puedes dibujar pliegues de ropa, expresiones matizadas y sombreados complejos. Ningún extremo es mejor que el otro; son estilos distintos.</p>
 <figure>
-<p><img alt="El mismo tipo de personaje dibujado con resoluciones crecientes" src="../../assets/ut2/tamano-estilos.png" /></p>
-<figcaption>Si tu estilo requiere más detalle, necesitas trabajar con resoluciones mayores.</figcaption>
+<p><img alt="La misma poción dibujada a tres resoluciones" src="../assets/ut2/tamano-estilos.svg" /></p>
+<figcaption>La misma poción a 8, 16 y 32 píxeles: cuanta más resolución, más detalle cabe.</figcaption>
 </figure>
 <p>La contrapartida es el trabajo. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, cuatro veces más. Y ese multiplicador se aplica a cada frame de cada animación. Por eso la regla práctica es clara: a más dimensión, más píxeles, y a más píxeles, más trabajo de pulido.</p>
 <figure>
-<p><img alt="Una espada a 16x16 y a 32x32 píxeles" src="../../assets/ut2/tamano-16-32.png" /></p>
+<p><img alt="Una espada a 16x16 y a 32x32 píxeles" src="../assets/ut2/tamano-16-32.svg" /></p>
 <figcaption>Duplicar el lado multiplica por cuatro el número de píxeles que tienes que resolver.</figcaption>
 </figure>
 <h2 id="dimensiones-recomendadas">Dimensiones recomendadas<a class="headerlink" href="#dimensiones-recomendadas" title="Permanent link">&para;</a></h2>
 <p>En videojuegos se trabaja casi siempre con dimensiones cuadradas que son potencias de dos: 16, 32, 64, 128, 256, 512 y 1024 píxeles de lado. Son los tamaños que mejor gestionan los motores (Unity, Godot) y las herramientas de empaquetado de texturas como TexturePacker. Verás por qué con más detalle en el apartado de <a href="../04-tiles-y-sprite-sheets/">tiles y sprite sheets</a>.</p>
 <figure>
-<p><img alt="Comparación de tamaños de 32x32 a 1024x1024" src="../../assets/ut2/tamano-potencias.png" /></p>
+<p><img alt="Comparación de tamaños de 32x32 a 1024x1024" src="../assets/ut2/tamano-potencias.svg" /></p>
 <figcaption>Las dimensiones más comunes para pixel art en videojuegos.</figcaption>
 </figure>
 <table>
@@ -2089,8 +2067,6 @@
 <h2 id="como-decidir-tu-tamano">Cómo decidir tu tamaño<a class="headerlink" href="#como-decidir-tu-tamano" title="Permanent link">&para;</a></h2>
 <p>Hazte tres preguntas antes de crear el archivo. La primera es cómo se va a ver en pantalla: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es cuántos frames vas a dibujar: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es qué tamaño tienen los tiles del mundo, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).</p>
 <p>Prueba siempre a tamaño real. Trabajar con el zoom al 800 % te engaña; lo que importa es cómo se ve al 100 % o al 200 %, que es como lo verá el jugador.</p>
-<h2 id="lo-que-te-llevas">Lo que te llevas<a class="headerlink" href="#lo-que-te-llevas" title="Permanent link">&para;</a></h2>
-<p>El tamaño del lienzo es una decisión de diseño que fija el nivel de detalle y la cantidad de trabajo, y en pixel art no se puede cambiar después sin redibujar. Elige entre las potencias de dos pensando en cómo se verá en pantalla, en cuántos frames tendrás que producir y en la rejilla del mundo.</p>
 
 
 
