@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="1000" height="330" fill="#FFFFFF"/>
+<rect x="25" y="25" width="640" height="290" fill="#10261F"/>
+<rect x="20" y="20" width="640" height="290" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<rect x="61" y="150" width="68" height="78" fill="#10261F"/>
+<rect x="65" y="226" width="24" height="44" fill="#10261F"/><rect x="101" y="226" width="24" height="44" fill="#10261F"/>
+<rect x="79" y="120" width="32" height="32" fill="#10261F"/>
+<rect x="129" y="65" width="14" height="150" fill="#10261F"/><rect x="117" y="190" width="38" height="10" fill="#10261F"/>
+<rect x="45" y="148" width="100" height="18" fill="#10261F"/>
+<text shape-rendering="auto" x="95" y="298" font-size="14" text-anchor="middle" font-weight="700" fill="#10261F">Guerrero</text>
+<polygon points="200,270 290,270 257,160 233,160" fill="#10261F"/>
+<circle cx="245" cy="148" r="16" fill="#10261F"/>
+<polygon points="209,138 281,138 259,120 223,60" fill="#10261F"/>
+<rect x="295" y="100" width="8" height="170" fill="#10261F"/><circle cx="299" cy="92" r="14" fill="#10261F"/>
+<polygon points="253,170 297,150 297,162 255,182" fill="#10261F"/>
+<text shape-rendering="auto" x="245" y="298" font-size="14" text-anchor="middle" font-weight="700" fill="#10261F">Maga</text>
+<polygon points="375,210 417,210 425,150 389,142" fill="#10261F"/>
+<polygon points="389,142 429,146 413,110 369,120" fill="#10261F"/>
+<polygon points="375,208 391,208 361,270 345,270" fill="#10261F"/>
+<polygon points="401,208 417,208 435,270 419,270" fill="#10261F"/>
+<polygon points="419,160 465,180 461,188 417,172" fill="#10261F"/>
+<polygon points="461,176 491,166 465,186" fill="#10261F"/>
+<text shape-rendering="auto" x="395" y="298" font-size="14" text-anchor="middle" font-weight="700" fill="#10261F">Pícaro</text>
+<ellipse cx="545" cy="190" rx="70" ry="62" fill="#10261F" shape-rendering="auto"/>
+<rect x="501" y="230" width="30" height="40" fill="#10261F"/><rect x="559" y="230" width="30" height="40" fill="#10261F"/>
+<circle cx="551" cy="120" r="14" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="473" cy="212" rx="20" ry="40" fill="#10261F" shape-rendering="auto"/><ellipse cx="617" cy="212" rx="20" ry="40" fill="#10261F" shape-rendering="auto"/>
+<text shape-rendering="auto" x="545" y="298" font-size="14" text-anchor="middle" font-weight="700" fill="#10261F">Gigante</text>
+<rect x="695" y="25" width="290" height="290" fill="#10261F"/>
+<rect x="690" y="20" width="290" height="290" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<rect x="756" y="150" width="48" height="70" fill="#10261F"/>
+<rect x="758" y="218" width="18" height="52" fill="#10261F"/><rect x="784" y="218" width="18" height="52" fill="#10261F"/>
+<rect x="744" y="152" width="12" height="60" fill="#10261F"/><rect x="804" y="152" width="12" height="60" fill="#10261F"/>
+<circle cx="780" cy="134" r="17" fill="#10261F" shape-rendering="auto"/>
+<rect x="866" y="150" width="48" height="70" fill="#10261F"/>
+<rect x="868" y="218" width="18" height="52" fill="#10261F"/><rect x="894" y="218" width="18" height="52" fill="#10261F"/>
+<rect x="854" y="152" width="12" height="60" fill="#10261F"/><rect x="914" y="152" width="12" height="60" fill="#10261F"/>
+<circle cx="890" cy="134" r="17" fill="#10261F" shape-rendering="auto"/>
+<text shape-rendering="auto" x="835" y="298" font-size="14" text-anchor="middle" font-weight="700" fill="#E4572E">¿Quién es quién?</text>
+</svg>

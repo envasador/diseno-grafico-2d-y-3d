@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="900" height="340" fill="#FFFFFF"/>
+<line x1="30" y1="300" x2="870" y2="300" stroke="#10261F" stroke-width="4"/>
+<ellipse cx="74.0" cy="62.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="70.0" cy="58.0" rx="22" ry="22" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="454.0" cy="290.36" rx="31.9" ry="13.64" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="450.0" cy="286.36" rx="31.9" ry="13.64" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<ellipse cx="834.0" cy="62.0" rx="22" ry="22" fill="#10261F" shape-rendering="auto"/>
+<ellipse cx="830.0" cy="58.0" rx="22" ry="22" fill="#FFD167" stroke="#10261F" stroke-width="3" shape-rendering="auto"/>
+<text shape-rendering="auto" x="70.0" y="24.0" font-size="18" text-anchor="middle" font-weight="700" fill="#10261F">1</text>
+<text shape-rendering="auto" x="450.0" y="260" font-size="18" text-anchor="middle" font-weight="700" fill="#10261F">2</text>
+<text shape-rendering="auto" x="830.0" y="24.0" font-size="18" text-anchor="middle" font-weight="700" fill="#10261F">3</text>
+</svg>

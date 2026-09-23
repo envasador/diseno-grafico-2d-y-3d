@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="IBM Plex Sans, Helvetica, Arial, sans-serif" shape-rendering="crispEdges">
+<rect width="900" height="300" fill="#FFFFFF"/>
+<rect x="25" y="25" width="260" height="250" fill="#10261F"/>
+<rect x="20" y="20" width="260" height="250" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="36" y="50" font-size="18" text-anchor="start" font-weight="700" fill="#10261F">Lineal</text>
+<line x1="50" y1="220" x2="250" y2="220" stroke="#10261F" stroke-width="2"/>
+<rect x="41.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<rect x="74.33333333333333" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="107.66666666666666" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="141.0" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="174.33333333333331" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="207.66666666666669" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="241.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<polyline points="50.0,180.0 55.0,177.2 60.0,174.5 65.0,171.8 70.0,169.0 75.0,166.2 80.0,163.5 85.0,160.8 90.0,158.0 95.0,155.2 100.0,152.5 105.0,149.8 110.0,147.0 115.0,144.2 120.0,141.5 125.0,138.8 130.0,136.0 135.0,133.2 140.0,130.5 145.0,127.8 150.0,125.0 155.0,122.2 160.0,119.5 165.0,116.8 170.0,114.0 175.0,111.2 180.0,108.5 185.0,105.8 190.0,103.0 195.0,100.2 200.0,97.5 205.0,94.8 210.0,92.0 215.0,89.2 220.0,86.5 225.0,83.8 230.0,81.0 235.0,78.2 240.0,75.5 245.0,72.8 250.0,70.0" fill="none" stroke="#1E6B55" stroke-width="4" shape-rendering="auto"/>
+<line x1="50" y1="70" x2="50" y2="180" stroke="#10261F" stroke-width="2"/>
+<line x1="50" y1="180" x2="250" y2="180" stroke="#10261F" stroke-width="2"/>
+<text shape-rendering="auto" x="250" y="196" font-size="11" text-anchor="end" font-weight="500" fill="#10261F">tiempo</text>
+<text shape-rendering="auto" x="54" y="80" font-size="11" text-anchor="start" font-weight="500" fill="#10261F">posición</text>
+<text shape-rendering="auto" x="150.0" y="254" font-size="12" text-anchor="middle" font-weight="500" fill="#10261F">espaciado de los frames</text>
+<rect x="315" y="25" width="260" height="250" fill="#10261F"/>
+<rect x="310" y="20" width="260" height="250" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="326" y="50" font-size="18" text-anchor="start" font-weight="700" fill="#10261F">Ease in</text>
+<line x1="340" y1="220" x2="540" y2="220" stroke="#10261F" stroke-width="2"/>
+<rect x="331.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<rect x="336.55555555555554" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="353.22222222222223" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="381.0" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="419.8888888888889" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="469.8888888888889" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="531.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<polyline points="340.0,180.0 345.0,179.9 350.0,179.7 355.0,179.4 360.0,178.9 365.0,178.3 370.0,177.5 375.0,176.6 380.0,175.6 385.0,174.4 390.0,173.1 395.0,171.7 400.0,170.1 405.0,168.4 410.0,166.5 415.0,164.5 420.0,162.4 425.0,160.1 430.0,157.7 435.0,155.2 440.0,152.5 445.0,149.7 450.0,146.7 455.0,143.6 460.0,140.4 465.0,137.0 470.0,133.5 475.0,129.9 480.0,126.1 485.0,122.2 490.0,118.1 495.0,113.9 500.0,109.6 505.0,105.1 510.0,100.5 515.0,95.8 520.0,90.9 525.0,85.9 530.0,80.7 535.0,75.4 540.0,70.0" fill="none" stroke="#1E6B55" stroke-width="4" shape-rendering="auto"/>
+<line x1="340" y1="70" x2="340" y2="180" stroke="#10261F" stroke-width="2"/>
+<line x1="340" y1="180" x2="540" y2="180" stroke="#10261F" stroke-width="2"/>
+<text shape-rendering="auto" x="540" y="196" font-size="11" text-anchor="end" font-weight="500" fill="#10261F">tiempo</text>
+<text shape-rendering="auto" x="344" y="80" font-size="11" text-anchor="start" font-weight="500" fill="#10261F">posición</text>
+<text shape-rendering="auto" x="440.0" y="254" font-size="12" text-anchor="middle" font-weight="500" fill="#10261F">espaciado de los frames</text>
+<rect x="605" y="25" width="260" height="250" fill="#10261F"/>
+<rect x="600" y="20" width="260" height="250" fill="#FFFFFF" stroke="#10261F" stroke-width="3"/>
+<text shape-rendering="auto" x="616" y="50" font-size="18" text-anchor="start" font-weight="700" fill="#10261F">Ease out</text>
+<line x1="630" y1="220" x2="830" y2="220" stroke="#10261F" stroke-width="2"/>
+<rect x="621.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<rect x="682.1111111111111" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="732.1111111111111" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="771.0" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="798.7777777777778" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="815.4444444444445" y="211" width="18" height="18" fill="#43AA8C" stroke="#10261F" stroke-width="3"/>
+<rect x="821.0" y="211" width="18" height="18" fill="#FFD167" stroke="#10261F" stroke-width="3"/>
+<polyline points="630.0,180.0 635.0,174.6 640.0,169.3 645.0,164.1 650.0,159.1 655.0,154.2 660.0,149.5 665.0,144.9 670.0,140.4 675.0,136.1 680.0,131.9 685.0,127.8 690.0,123.9 695.0,120.1 700.0,116.5 705.0,113.0 710.0,109.6 715.0,106.4 720.0,103.3 725.0,100.3 730.0,97.5 735.0,94.8 740.0,92.3 745.0,89.9 750.0,87.6 755.0,85.5 760.0,83.5 765.0,81.6 770.0,79.9 775.0,78.3 780.0,76.9 785.0,75.6 790.0,74.4 795.0,73.4 800.0,72.5 805.0,71.7 810.0,71.1 815.0,70.6 820.0,70.3 825.0,70.1 830.0,70.0" fill="none" stroke="#1E6B55" stroke-width="4" shape-rendering="auto"/>
+<line x1="630" y1="70" x2="630" y2="180" stroke="#10261F" stroke-width="2"/>
+<line x1="630" y1="180" x2="830" y2="180" stroke="#10261F" stroke-width="2"/>
+<text shape-rendering="auto" x="830" y="196" font-size="11" text-anchor="end" font-weight="500" fill="#10261F">tiempo</text>
+<text shape-rendering="auto" x="634" y="80" font-size="11" text-anchor="start" font-weight="500" fill="#10261F">posición</text>
+<text shape-rendering="auto" x="730.0" y="254" font-size="12" text-anchor="middle" font-weight="500" fill="#10261F">espaciado de los frames</text>
+</svg>
