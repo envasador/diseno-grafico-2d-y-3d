@@ -58,29 +58,46 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - UD1 Concept art:
-      - ud1/index.md
-      - Arte conceptual: ud1/01-arte-conceptual.md
-      - Proceso creativo: ud1/02-proceso-creativo.md
-  - UD2 Ilustración:
-      - ud2/index.md
-      - Affinity Designer: ud2/01-affinity-designer.md
-      - Personajes y escenarios: ud2/02-dibujar-personajes-y-escenarios.md
-      - Flujo de concept de personaje: ud2/03-flujo-concept-art-personaje.md
-  - UD3 UI/UX:
-      - ud3/index.md
-      - Introducción UI/UX: ud3/01-introduccion-ui-ux.md
-      - Leyes de UX: ud3/02-leyes-ux.md
-      - El HUD: ud3/03-hud.md
-      - Diseño de producto aplicado: ud3/04-diseno-de-producto-aplicado.md
-  - UD4 Arte 2D:
-      - ud4/index.md
-      - Introducción al arte 2D: ud4/01-arte-2d.md
-  - UD5 Arte 3D:
-      - ud5/index.md
-      - Introducción al 3D y Blender: ud5/01-introduccion-3d-blender.md
-      - Modelado básico: ud5/02-modelado-basico.md
-      - Materiales y texturas: ud5/03-materiales-y-texturas.md
-      - Iluminación: ud5/04-iluminacion.md
+  - Concept:
+      - concept/index.md
+      - Proceso creativo: concept/proceso-creativo.md
+      - Moodboard: concept/moodboard.md
+      - Siluetas: concept/siluetas.md
+      - Thumbnails y formas: concept/thumbnails.md
+      - Color y luz: concept/color.md
+      - Estilos artísticos: concept/estilos-artisticos.md
+      - Hojas de producción: concept/hojas-de-produccion.md
+      - Perspectiva de género: concept/perspectiva-de-genero.md
+      - Biblia de arte: concept/biblia-de-arte.md
+  - UT1 Ilustración:
+      - ut1/index.md
+      - Affinity Designer: ut1/01-affinity-designer.md
+      - Personajes y escenarios: ut1/02-dibujo-de-personajes-y-escenarios.md
+      - Flujo de un personaje: ut1/03-flujo-de-un-personaje.md
+  - UT2 Arte 2D:
+      - ut2/index.md
+      - El arte 2D: ut2/01-arte-2d.md
+      - Programas para pixel art: ut2/02-programas-pixel-art.md
+      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
+      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
+      - Principios de animación: ut2/05-principios-de-animacion.md
+      - Animación de espera: ut2/06-animacion-de-espera.md
+      - Walking cycle: ut2/07-walking-cycle.md
+      - Animación de ataque: ut2/08-animacion-de-ataque.md
+      - Escenarios 2D: ut2/09-escenarios-2d.md
+  - UT3 Arte 3D:
+      - ut3/index.md
+      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
+      - Modelado básico: ut3/02-modelado-basico.md
+      - Materiales y texturas: ut3/03-materiales-y-texturas.md
+  - UT4 Cámara y luz:
+      - ut4/index.md
+      - Iluminación: ut4/01-iluminacion.md
+  - Anexo UI/UX:
+      - anexo-ui-ux/index.md
+      - Introducción UI/UX: anexo-ui-ux/01-introduccion-ui-ux.md
+      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
+      - El HUD: anexo-ui-ux/03-hud.md
+      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
   - Proyectos:
       - proyectos/index.md
