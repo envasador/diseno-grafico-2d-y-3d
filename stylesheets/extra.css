@@ -673,3 +673,49 @@ body,
   background-color: transparent !important;
   box-shadow: none !important;
 }
+
+/* ===== ADMONITION PROPIA: concept =====
+   Uso: !!! concept "Fase de concept"
+   Marca en cada unidad el enlace con la pestaña Concept */
+:root {
+  --md-admonition-icon--concept: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>');
+}
+
+.md-typeset .admonition.concept,
+.md-typeset details.concept {
+  border-color: var(--vj-tinta) !important;
+  background-color: var(--vj-amarillo-claro) !important;
+}
+
+.md-typeset .concept > .admonition-title,
+.md-typeset .concept > summary {
+  background-color: var(--vj-amarillo) !important;
+}
+
+.md-typeset .concept > .admonition-title::before,
+.md-typeset .concept > summary::before {
+  -webkit-mask-image: var(--md-admonition-icon--concept) !important;
+  mask-image: var(--md-admonition-icon--concept) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.concept,
+[data-md-color-scheme="slate"] .md-typeset details.concept {
+  background-color: #2A2616 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.concept > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset details.concept > summary {
+  background-color: var(--vj-amarillo) !important;
+  color: var(--vj-tinta) !important;
+}
+
+/* Pies de imagen: <figure> con markdown dentro */
+.md-typeset figure figcaption {
+  font-size: 0.68rem !important;
+  color: #4A5A54 !important;
+  max-width: 100% !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset figure figcaption {
+  color: #9AA8A3 !important;
+}
