@@ -58,3 +58,29 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
+  - UD1 Concept art:
+      - ud1/index.md
+      - Arte conceptual: ud1/01-arte-conceptual.md
+      - Proceso creativo: ud1/02-proceso-creativo.md
+  - UD2 Ilustración:
+      - ud2/index.md
+      - Affinity Designer: ud2/01-affinity-designer.md
+      - Personajes y escenarios: ud2/02-dibujar-personajes-y-escenarios.md
+      - Flujo de concept de personaje: ud2/03-flujo-concept-art-personaje.md
+  - UD3 UI/UX:
+      - ud3/index.md
+      - Introducción UI/UX: ud3/01-introduccion-ui-ux.md
+      - Leyes de UX: ud3/02-leyes-ux.md
+      - El HUD: ud3/03-hud.md
+      - Diseño de producto aplicado: ud3/04-diseno-de-producto-aplicado.md
+  - UD4 Arte 2D:
+      - ud4/index.md
+      - Introducción al arte 2D: ud4/01-arte-2d.md
+  - UD5 Arte 3D:
+      - ud5/index.md
+      - Introducción al 3D y Blender: ud5/01-introduccion-3d-blender.md
+      - Modelado básico: ud5/02-modelado-basico.md
+      - Materiales y texturas: ud5/03-materiales-y-texturas.md
+      - Iluminación: ud5/04-iluminacion.md
+  - Proyectos:
+      - proyectos/index.md
