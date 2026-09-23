@@ -31,7 +31,3 @@ En esta unidad trabajaremos frame a frame, porque es la técnica que mejor ense�
 Un personaje 2D jugable necesita, como mínimo, un sprite base, una animación de espera, un ciclo de andar y una acción principal (un ataque, un salto). Todo eso se exporta como sprite sheets que el motor recorta y reproduce. Además, el personaje necesita un mundo, que en 2D se construye con tilesets y fondos por capas.
 
 Ese es el recorrido de esta unidad: herramientas, tamaño, tiles y sprite sheets, principios de animación, las tres animaciones básicas y, al final, el escenario.
-
-## Lo que te llevas
-
-El arte 2D agrupa técnicas muy distintas (pixel art, vectorial y pintado a mano), y cada una tiene su forma natural de animarse. Elegir técnica es elegir un proceso de producción, así que la decisión se toma pensando en el estilo que buscas y en el tiempo que tienes.

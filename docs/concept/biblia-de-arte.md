@@ -38,7 +38,3 @@ Al final del curso tendrás un documento de portfolio que demuestra algo muy val
 ## Formato de entrega
 
 La biblia de arte se construye en Figma, en un único archivo con una página por bloque. Así puedes enlazarla en cada entrega, recibir comentarios directamente sobre ella y presentarla en clase.
-
-## Lo que te llevas
-
-La biblia de arte recoge en un solo documento las decisiones visuales del proyecto y las convierte en reglas que cualquiera puede seguir. En este curso la vas construyendo capítulo a capítulo, y es lo que da continuidad a todo tu trabajo del año.

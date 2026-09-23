@@ -33,7 +33,3 @@ En un proyecto real cada tarea se hace con el programa que mejor la resuelve. Un
 3. **Escenarios y efectos** en un programa de ilustración (Affinity Photo, Affinity Designer o Photoshop), donde componer fondos grandes, pintar degradados de cielo o preparar capas de parallax es más cómodo.
 
 Las explicaciones de clase se hacen con Pyxel Edit, porque su rejilla de tiles hace muy visibles los conceptos de esta unidad. Puedes trabajar con otra herramienta siempre que exporte PNG y sprite sheets con todos los frames del mismo tamaño.
-
-## Lo que te llevas
-
-La herramienta importa menos que tu criterio, pero una herramienta específica te ahorra mucho trabajo en animación y exportación. Lo habitual es combinar un editor de pixel art para sprites, animaciones y tiles con un programa de ilustración para fondos y efectos.

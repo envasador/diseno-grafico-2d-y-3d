@@ -19,7 +19,7 @@ El número de frames no es lo único que importa. El ciclo es una gran oportunid
 Seis frames es un buen punto de partida: es suficiente para que el movimiento se lea con claridad y asumible de producir. Esta es la receta.
 
 <figure markdown>
-![Base de 6 frames para el walking cycle](../assets/ut2/walk-6-frames.png)
+![Base de 6 frames para el walking cycle](../assets/ut2/walk-6-frames.svg)
 <figcaption>La base: 6 frames en total.</figcaption>
 </figure>
 
@@ -28,15 +28,15 @@ Seis frames es un buen punto de partida: es suficiente para que el movimiento se
 **Los brazos.** Los brazos siempre avanzan junto a la pierna contraria. Cuando la pierna derecha va delante, el brazo izquierdo va delante, y al revés. Es lo que hacemos al andar para mantener el equilibrio, y si lo inviertes el personaje parece un robot.
 
 <figure markdown>
-![Brazos y piernas contrarios en el ciclo de andar](../assets/ut2/walk-brazos-piernas.png)
-<figcaption>Brazo izquierdo con pierna derecha, brazo derecho con pierna izquierda.</figcaption>
+![Brazos y piernas contrarios en el ciclo de andar](../assets/ut2/walk-brazos-piernas.svg)
+<figcaption>Frames 1 y 4: cuando la pierna cercana va delante, el brazo cercano va detrás, y al revés.</figcaption>
 </figure>
 
 **Copiar y modificar.** Como las dos mitades son simétricas, no tienes que dibujar seis poses distintas desde cero. El frame 4 parte del frame 1, el 5 del 2 y el 6 del 3: copias el frame y cambias qué pierna y qué brazo van delante.
 
 <figure markdown>
-![Frames equivalentes en cada mitad del ciclo](../assets/ut2/walk-copiar.png)
-<figcaption>Los frames del mismo color son equivalentes: se copian y se intercambian las extremidades.</figcaption>
+![Frames equivalentes en cada mitad del ciclo](../assets/ut2/walk-copiar.svg)
+<figcaption>Los frames del mismo color son equivalentes (A y A′, B y B′, C y C′): se copian y se intercambian las extremidades.</figcaption>
 </figure>
 
 **La altura.** Aquí está el detalle que hace que el ciclo parezca vivo. Al andar, el cuerpo sube y baja: está más bajo justo después de apoyar el pie, cuando carga el peso, y más alto cuando la pierna libre pasa junto a la de apoyo. En la receta de 6 frames:
@@ -46,8 +46,8 @@ Seis frames es un buen punto de partida: es suficiente para que el movimiento se
 - En los frames **2 y 5** reduce **2 píxeles** su altura máxima.
 
 <figure markdown>
-![Variación de altura del personaje en cada frame del ciclo](../assets/ut2/walk-alturas.png)
-<figcaption>De arriba abajo: frames 1 y 4 (1 píxel más bajo), 2 y 5 (2 píxeles más bajo), 3 y 6 (altura máxima).</figcaption>
+![Variación de altura del personaje en cada frame del ciclo](../assets/ut2/walk-alturas.svg)
+<figcaption>La línea discontinua marca la altura máxima: los frames 3 y 6 la tocan, el 1 y el 4 quedan 1 píxel por debajo y el 2 y el 5, 2 píxeles.</figcaption>
 </figure>
 
 Uno o dos píxeles parecen nada, pero a escala de sprite es exactamente lo que el ojo necesita para percibir el peso del cuerpo. Sin esa variación, el personaje se desliza por el escenario como si fuera sobre raíles.
@@ -61,7 +61,3 @@ Uno o dos píxeles parecen nada, pero a escala de sprite es exactamente lo que e
 ## Comprobar el ciclo
 
 Reproduce la animación en bucle y fíjate en tres cosas. Que no haya un salto visible entre el frame 6 y el 1. Que los pies no parezcan resbalar cuando están apoyados. Y que el personaje mantenga su volumen en todos los frames: un brazo que crece o una cabeza que cambia de forma se notan muchísimo en bucle.
-
-## Lo que te llevas
-
-Un walking cycle de 6 frames se construye con dos mitades simétricas, con los brazos siempre opuestos a las piernas y con una variación de uno o dos píxeles de altura que da peso al cuerpo. A partir de esa receta, la personalidad del personaje se añade en la postura, el ritmo y la forma de apoyar.

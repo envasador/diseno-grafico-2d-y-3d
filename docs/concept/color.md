@@ -37,7 +37,3 @@ Un **color key** es un thumbnail en color que fija la paleta y la luz de una esc
 Un **color script** es la secuencia de color keys de todo un juego o de un nivel, colocados en orden. Permite ver de un vistazo cómo evoluciona la emoción: dónde el juego se vuelve frío y opresivo, dónde recupera la calidez. Pixar lo popularizó en cine, y en videojuegos se usa para planificar la progresión visual de los niveles.
 
 En la **UT4** vas a usar color keys como referencia para configurar la iluminación de tu escena 3D, y compararás el render con tu key para ver si has conseguido la atmósfera que buscabas.
-
-## Lo que te llevas
-
-Resuelve primero el valor y después el color, y trabaja siempre con una paleta limitada que dé coherencia al proyecto. Los color keys te permiten decidir la luz y la atmósfera antes de producir, y te servirán de objetivo cuando ilumines en 3D.

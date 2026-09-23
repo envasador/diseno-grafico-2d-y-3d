@@ -9,7 +9,7 @@ Los fotogramas clave (keyframes) son los frames más descriptivos de una animaci
 La regla es que, encadenando solo los fotogramas clave, la animación ya tiene que entenderse. Si con las poses clave no se lee la acción, añadir frames intermedios no lo va a arreglar.
 
 <figure markdown>
-![Fotogramas clave de una pelota que bota](../assets/ut2/keyframes.png)
+![Fotogramas clave de una pelota que bota](../assets/ut2/keyframes.svg)
 <figcaption>Solo con los fotogramas clave la acción ya se entiende, aunque todavía salta de golpe.</figcaption>
 </figure>
 
@@ -20,7 +20,7 @@ Por eso siempre se empieza por aquí. Dibuja las poses clave, reprodúcelas y co
 Las interpolaciones (inbetweens) son los frames que se dibujan entre dos fotogramas clave para que el ojo perciba el movimiento como continuo. Con solo las poses clave, la pelota aparece arriba y de repente abajo. Con interpolaciones, recorre el camino.
 
 <figure markdown>
-![Fotogramas clave con interpolaciones intermedias](../assets/ut2/interpolaciones.png)
+![Fotogramas clave con interpolaciones intermedias](../assets/ut2/interpolaciones.svg)
 <figcaption>Las interpolaciones rellenan el camino entre poses clave y hacen que el movimiento sea fluido.</figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ El timing es el tiempo que tarda un elemento en realizar una acción, y es lo qu
 El timing se controla de dos formas: con el número de frames y con la duración de cada frame. En pixel art es muy habitual no dar la misma duración a todos. Las poses importantes se mantienen más tiempo y los frames de transición pasan rápido.
 
 <figure markdown>
-![Distribución del timing en una animación](../assets/ut2/timing.png)
-<figcaption>Manipulando el tiempo proporcionas emoción e intención a la animación.</figcaption>
+![Distribución del timing en una animación](../assets/ut2/timing.svg)
+<figcaption>Mismo número de frames, distinto espaciado: a la izquierda cae a velocidad constante; a la derecha acelera como con gravedad.</figcaption>
 </figure>
 
 En la pelota, fíjate en el espaciado: cerca de la parte alta los frames están muy juntos (la pelota frena, se queda casi quieta y empieza a caer) y cerca del suelo están muy separados (va rápida). Ese cambio de espaciado es lo que el ojo interpreta como gravedad.
@@ -46,7 +46,7 @@ El **squash** (aplastamiento) y el **stretch** (estiramiento) son deformaciones 
 La regla que no puedes saltarte es que el volumen se conserva: si la pelota se aplasta verticalmente, se ensancha horizontalmente. Si solo la achatas, parecerá que encoge.
 
 <figure markdown>
-![Squash al tocar el suelo y stretch durante la caída](../assets/ut2/squash-stretch.png)
+![Squash al tocar el suelo y stretch durante la caída](../assets/ut2/squash-stretch.svg)
 <figcaption>Squash al impactar y stretch en la caída. Son frames que por separado parecen "raros", y es lo normal.</figcaption>
 </figure>
 
@@ -60,7 +60,3 @@ Estos frames, vistos sueltos, parecen dibujos mal hechos. Reproducidos a velocid
 | Interpolaciones | Fluidez | ¿El movimiento es continuo o salta? |
 | Timing | Peso e intención | ¿Pesa lo que tiene que pesar? |
 | Squash, stretch y motion blur | Flexibilidad, velocidad e impacto | ¿Se siente la velocidad y el golpe? |
-
-## Lo que te llevas
-
-Una animación se construye de fuera hacia dentro: primero los fotogramas clave que cuentan la acción, después las interpolaciones y el timing que le dan peso, y por último las deformaciones que le dan vida. Si las poses clave no funcionan, nada de lo que añadas después lo arreglará.

@@ -719,3 +719,14 @@ body,
 [data-md-color-scheme="slate"] .md-typeset figure figcaption {
   color: #9AA8A3 !important;
 }
+
+/* Diagramas SVG: ocupan todo el ancho del contenido */
+.md-typeset figure {
+  width: 100% !important;
+}
+
+.md-typeset figure img[src$=".svg"] {
+  width: 100% !important;
+  height: auto !important;
+  background-color: #FFFFFF !important;
+}

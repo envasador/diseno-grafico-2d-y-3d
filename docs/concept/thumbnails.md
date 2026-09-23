@@ -36,7 +36,3 @@ Pero las formas básicas también comunican. Nuestro cerebro asocia cada una con
 La gracia está en combinarlas. Un personaje construido con cuadrados pero con algún detalle triangular puede ser un protector con un lado peligroso. Una forma general redonda con un acento afilado resulta simpática pero con carácter.
 
 Además de las geométricas están las formas orgánicas: curvas irregulares y contornos naturales que aportan vida. La naturaleza casi nunca es perfectamente geométrica, así que los diseños que solo usan formas puras pueden resultar rígidos. Lo habitual es construir con formas básicas y después romperlas con curvas orgánicas.
-
-## Lo que te llevas
-
-Los thumbnails son la herramienta para explorar en cantidad: pequeños, rápidos y sin detalle, para decidir forma, pose y composición antes de invertir tiempo. Las formas básicas, además de darte estructura, comunican, así que elígelas según lo que quieras que el jugador sienta.

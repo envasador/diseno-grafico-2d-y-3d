@@ -5,7 +5,7 @@ Haz la prueba con cualquier personaje famoso de videojuego: rellénalo de negro 
 Por eso la silueta es lo primero que se diseña y lo primero que se comprueba.
 
 <figure markdown>
-![Siluetas de personajes reconocibles solo por su forma](../assets/concept/silueta-lectura.png)
+![Siluetas de personajes reconocibles solo por su forma](../assets/concept/silueta-lectura.svg)
 <figcaption>Solo con la forma sabes quién es cada personaje y qué hace. A la derecha, dos siluetas casi idénticas: sin detalle no hay manera de distinguirlas.</figcaption>
 </figure>
 
@@ -16,8 +16,8 @@ Una buena silueta responde a tres preguntas sin necesidad de color ni detalle: *
 Esto es especialmente importante en el diseño de juegos porque la silueta también transmite información de juego. Un enemigo tiene que distinguirse de un aliado de un vistazo; un enemigo peligroso, de uno débil. Si dos tipos de enemigo tienen la misma silueta, el jugador los confundirá en plena acción.
 
 <figure markdown>
-![Colección de siluetas de personajes de videojuego](../assets/concept/silueta-personajes.png)
-<figcaption>Los personajes más icónicos se reconocen en negro total.</figcaption>
+![La mascota del curso en color y en silueta](../assets/concept/silueta-personajes.svg)
+<figcaption>La prueba del negro con la mascota del curso: la pose y la espada se siguen leyendo sin color.</figcaption>
 </figure>
 
 Hay juegos que llevan esta idea al extremo. En *Limbo* (2010) casi todo lo que ves son siluetas negras sobre fondos grises, y aun así distingues perfectamente al protagonista, a la araña y cada elemento del escenario con el que puedes interactuar.
@@ -38,7 +38,3 @@ Unos criterios para decidir cuál funciona:
 ## La silueta en cada unidad
 
 En la **UT2** la silueta es crítica, porque a 32×32 píxeles es casi lo único que el jugador percibe; además, cada frame de una animación tiene que seguir leyéndose. En la **UT3** comprobarás la silueta de tus modelos desde varios ángulos y a distancia de cámara de juego. En la **UT4** la iluminación puede reforzarla con contraluces o destruirla si el personaje se funde con el fondo.
-
-## Lo que te llevas
-
-La silueta es la prueba más rápida y más honesta de un diseño: si no se lee en negro, el detalle no la va a salvar. Diseña primero la forma, en cantidad y a tamaño pequeño, y añade color y detalle solo sobre la que ya funciona.

@@ -48,7 +48,3 @@ La prueba de que has terminado bien es sencilla: si alguien del equipo puede pro
 | Desarrollo | ¿Cuál funciona mejor y por qué? | Diseños refinados con color |
 | Revisión | ¿Funciona para el juego y el equipo? | Cambios aplicados |
 | Finalización | ¿Puede otra persona producirlo? | Hojas de producción y biblia de arte |
-
-## Lo que te llevas
-
-El proceso creativo es una secuencia que se repite: entender el encargo, buscar referencias, explorar en cantidad, refinar pocas opciones, revisar y documentar. Saltarte fases rara vez ahorra tiempo, porque los problemas que no aparecen en el concept aparecen después en producción.

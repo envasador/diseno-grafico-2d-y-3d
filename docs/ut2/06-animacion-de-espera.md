@@ -9,7 +9,7 @@ La animación de espera es la que reproduce un personaje cuando el jugador no lo
 Se divide en dos estados que se suceden en el tiempo: **idle** (parada) y **waiting** (espera).
 
 <figure markdown>
-![Animación de parada y animación de espera](../assets/ut2/idle-waiting.png)
+![Animación de parada y animación de espera](../assets/ut2/idle-waiting.svg)
 <figcaption>Primero el idle, en bucle. Si el jugador tarda, el waiting.</figcaption>
 </figure>
 
@@ -38,7 +38,3 @@ Técnicamente suele tener tres partes: una transición desde el idle, la acción
 |---|---|---|---|
 | Idle | En cuanto el personaje deja de moverse, en bucle | 2 a 6 frames | Que está vivo y listo |
 | Waiting | Tras unos segundos de inactividad | Más larga y variable | Personalidad; que el jugador se ha ido |
-
-## Lo que te llevas
-
-La animación de espera es la que más va a ver el jugador, y se divide en un idle en bucle, de pocos frames y cambios mínimos, y un waiting posterior que es tu mejor ocasión para dar personalidad al personaje. Con que el idle enlace sin saltos y respire con calma, el personaje ya parecerá vivo.

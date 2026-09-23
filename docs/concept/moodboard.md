@@ -40,7 +40,3 @@ A lo largo del curso irás creando moodboards específicos en cada unidad: uno d
 Imagina un juego de exploración en una ciudad costera abandonada donde la naturaleza lo ha recuperado todo. Un moodboard sólido podría tener fotografías de pueblos pesqueros en ruinas, hormigón con salitre y óxido, vegetación creciendo por las fachadas, la luz dorada y baja del atardecer, redes y cuerdas de pesca como texturas, una paleta de azules desaturados con acentos de verde intenso y un par de fotogramas de películas con esa misma sensación de calma después del desastre.
 
 Fíjate en que casi ninguna de esas imágenes es de un videojuego. Todas juntas, sin embargo, ya definen el juego.
-
-## Lo que te llevas
-
-El moodboard convierte una intención difícil de explicar en algo que todo el equipo ve igual. Funciona cuando busca sensaciones en fuentes variadas, está bien seleccionado y se mantiene vivo durante todo el proyecto.

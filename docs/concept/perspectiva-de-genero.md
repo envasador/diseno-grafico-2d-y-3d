@@ -30,7 +30,3 @@ La perspectiva de género se integra en las mismas fases del [proceso creativo](
 ## Ejemplos para analizar
 
 *Horizon Zero Dawn* presenta a Aloy con una armadura y una ropa coherentes con su vida de cazadora. *Celeste* construye una protagonista cuyo conflicto es interior y cuyo diseño es sencillo y reconocible. *The Last of Us Part II* incluye protagonistas con cuerpos y trayectorias muy distintos. Analizarlos (qué decisiones de diseño toman y qué comunican) es un buen ejercicio para tu propia práctica.
-
-## Lo que te llevas
-
-La perspectiva de género se aplica en cada fase del proceso: al buscar referencias, al explorar siluetas, al diseñar ropa y poses y al revisar el reparto completo. Detectar los clichés te obliga a decidir, y decidir de forma consciente produce personajes más variados y con más identidad.

@@ -54,7 +54,3 @@ El [moodboard](moodboard.md) te ayudará a decidir: si todas las referencias que
 ## Una vez elegido
 
 Cuando el estilo está decidido hay que documentarlo para que todo el equipo lo aplique igual: paleta, proporciones, grosor de línea, nivel de detalle, cómo se tratan las sombras. Esa documentación forma parte de tu [biblia de arte](biblia-de-arte.md). Dentro del estilo puede haber variaciones (cada zona del juego con su propia paleta, por ejemplo), pero siempre sobre las mismas reglas.
-
-## Lo que te llevas
-
-El estilo artístico afecta a la emoción, al coste de producción y a la vida del juego, así que se elige con criterio y teniendo en cuenta lo que tu equipo puede producir. Una vez elegido, se documenta para que todo el proyecto hable el mismo idioma visual.

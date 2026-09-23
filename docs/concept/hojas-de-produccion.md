@@ -38,7 +38,3 @@ Los objetos siguen la misma lógica: vistas desde varios ángulos, escala respec
 | Hoja de poses | Cómo se mueve y actúa | UT2 (fotogramas clave) y UT3 (animación) |
 | Callouts | Detalles y materiales | UT3 (materiales y texturas) |
 | Hoja de props o entornos | Escala, piezas y materiales del mundo | UT2 (tilesets) y UT3 (escena) |
-
-## Lo que te llevas
-
-Las hojas de producción convierten un diseño aprobado en algo que otra persona puede producir sin preguntarte nada. Cada una responde a una duda concreta del equipo de producción, y en este curso cada una conecta directamente con una unidad.

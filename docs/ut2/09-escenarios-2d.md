@@ -48,7 +48,3 @@ Al pintar las capas de parallax ten en cuenta tres cosas:
 ## La fase de concept del escenario
 
 Los escenarios también pasan por concept antes de producirse. Unos [thumbnails](../concept/thumbnails.md) de composición te ayudan a decidir cuántas capas de profundidad tendrá la escena, un [color key](../concept/color.md#color-keys-y-color-script) fija la paleta y la atmósfera, y una [hoja de entornos](../concept/hojas-de-produccion.md#hojas-de-props-y-de-entornos) con las piezas del tileset y el personaje al lado para comparar escala evita sorpresas al montar el nivel.
-
-## Lo que te llevas
-
-Un escenario 2D empieza por decidir la perspectiva, que tiene que coincidir con la del personaje. Lo jugable se construye con tilesets que encajan, cubren todos los casos y tienen variantes; lo lejano se pinta en capas de parallax que pierden contraste con la distancia y nunca compiten con el primer plano.
