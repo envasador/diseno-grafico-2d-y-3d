@@ -27,11 +27,11 @@ No hay un formato único, pero una biblia de arte completa suele tener estos blo
 
 Tu biblia de arte crece con cada unidad. No hace falta que esté completa al principio; al contrario, cada fase de concept le añade un capítulo:
 
-- **Primer proyecto.** Visión, moodboard, estilo y paleta del mundo de tu juego.
+- **Proyecto 1, Fase 0.** Visión, moodboard, estilo, paleta y concept del personaje.
 - **UT1.** Ilustraciones y composiciones de personajes y escenarios con el estilo definido.
-- **UT2.** Model sheet y hoja de poses de tu personaje en 2D, lista de animaciones y tilesets.
-- **UT3.** Turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
-- **UT4.** Color keys de iluminación y encuadres de cámara de tu escena.
+- **UT2 y proyecto 1.** Model sheet y hoja de poses del personaje en 2D, lista de animaciones y tilesets.
+- **UT3 y proyecto 2.** Turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
+- **UT4 y proyecto 3.** Guion, storyboard, color keys de iluminación y encuadres de la cinemática.
 
 Al final del curso tendrás un documento de portfolio que demuestra algo muy valorado en la industria: que sabes llevar un proyecto visual de principio a fin con coherencia.
 

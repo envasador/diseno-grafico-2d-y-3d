@@ -98,10 +98,8 @@ def walk():
     g, pos, (pw, ph) = tira(sel, S=S, num=False, gap=60, extra_alto=70)
     notas = [('pierna cercana delante', 'brazo cercano detrás'), ('pierna cercana detrás', 'brazo cercano delante')]
     for i, (sx, sy) in enumerate(pos):
-        p = WALK[0 if i == 0 else 3]
-        top = 24 - 21 + p['off']
-        pie = (6 + 6 + p['pieA'][0] + 1, 24)
-        mano = (6 + 7 + p['brazo'][0], top + 10 + p['brazo'][1])
+        pie = sel[i].pie
+        mano = sel[i].mano
         px_, py_ = sx + pie[0] * S + S / 2, sy + pie[1] * S + S / 2
         mx_, my_ = sx + mano[0] * S + S / 2, sy + mano[1] * S + S / 2
         g.add(f'<circle cx="{px_}" cy="{py_}" r="11" fill="none" stroke="{CORAL}" stroke-width="4"/>')
@@ -115,7 +113,7 @@ def walk():
 # ---------------------------------------------------------------- IDLE / WAITING
 def idle():
     a = [mascota(**IDLE[0]), mascota(**IDLE[1])]
-    sentado = mascota(off=7, sentado=True, pieA=(6, 0), pieB=(5, 0), brazo=(3, 2))
+    sentado = mascota(**SENTADO)
     S = 6
     fw, fh = a[0].w * S, a[0].h * S
     pw, ph = fw + 12, fh + 34
@@ -155,7 +153,7 @@ def ataque():
     g, pos, (pw, ph) = tira(fr, S=S, pie=nombres, num=True)
     # estela en el golpe (frame 2): arco desde arriba-atrás hasta delante
     sx, sy = pos[1]
-    top = 24 - 21 + 1; hombro = (6 + 7, top + 10)
+    hombro = fr[1].hombro
     estela(g, sx, sy, S, hombro[0] + 1, hombro[1] + 1, 13, -120, -8, 4)
     g.sprite(fr[1], sx, sy, S)      # personaje por encima de la estela
     # resaltar el golpe
@@ -165,9 +163,9 @@ def ataque():
 
     # easy out: dos filas
     S = 4
-    golpe = ATAQUE[1]
-    con = [dict(golpe), dict(golpe, brazo=(4, 1), espada=(8, 3)), dict(golpe, brazo=(4, 2), espada=(7, 5)), dict(golpe, brazo=(4, 2), espada=(7, 5))]
-    sin = [dict(golpe), dict(golpe, brazo=(4, 2), espada=(7, 5)), dict(golpe, brazo=(4, 2), espada=(7, 5)), dict(golpe, brazo=(4, 2), espada=(7, 5))]
+    golpe, final = ATAQUE[1], ATAQUE[2]
+    con = [golpe, GOLPE_BAJA, final, final]
+    sin = [golpe, final, final, final]
     filas = [('Con ease out: la espada frena poco a poco', con), ('Sin ease out: la espada se para en seco', sin)]
     fw, fh = 34 * S, 26 * S
     pw, ph = fw + 12, fh + 12
