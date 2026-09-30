@@ -15,9 +15,9 @@ Una buena silueta responde a tres preguntas sin necesidad de color ni detalle: *
 
 Esto es especialmente importante en el diseño de juegos porque la silueta también transmite información de juego. Un enemigo tiene que distinguirse de un aliado de un vistazo; un enemigo peligroso, de uno débil. Si dos tipos de enemigo tienen la misma silueta, el jugador los confundirá en plena acción.
 
-<figure markdown>
-![La mascota del curso en color y en silueta](../assets/concept/silueta-personajes.svg)
-<figcaption>La prueba del negro con la mascota del curso: la pose y la espada se siguen leyendo sin color.</figcaption>
+<figure>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/mjpena/6216028292" title="Day 255"><img src="https://live.staticflickr.com/6032/6216028292_6000e495da_b.jpg" width="1024" height="745" alt="Escena final de Limbo con dos niños en silueta" loading="lazy" style="width:100%;height:auto"></a><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<figcaption>La prueba del negro llevada al juego completo: en el final de <i>Limbo</i> (Playdead, 2010) las dos figuras no tienen ni un detalle interior y aun así se leen perfectamente. Foto: <a href="https://www.flickr.com/photos/mjpena/6216028292">mjpena en Flickr</a> (todos los derechos reservados), insertada desde Flickr.</figcaption>
 </figure>
 
 Hay juegos que llevan esta idea al extremo. En *Limbo* (2010) casi todo lo que ves son siluetas negras sobre fondos grises, y aun así distingues perfectamente al protagonista, a la araña y cada elemento del escenario con el que puedes interactuar.
