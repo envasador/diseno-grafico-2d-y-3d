@@ -1,8 +1,8 @@
 # UT1 Ilustración digital y diseño vectorial
 
-Un concept que solo existe en tu cabeza (o en un boceto a lápiz que solo entiendes tú) no le sirve a nadie del equipo. En esta unidad aprendes a convertir esas ideas en imágenes acabadas con herramientas profesionales de ilustración y dibujo vectorial. Vas a organizar un archivo en capas para poder cambiarlo sin romper nada, combinar formas, preparar la imagen para el sitio donde se va a usar y meter texto cuando haga falta.
+Un concept que solo existe en tu cabeza (o en un boceto a lápiz que solo entiendes tú) no le sirve a nadie del equipo. En esta unidad aprendes a **convertir esas ideas en imágenes acabadas** con herramientas profesionales de ilustración y dibujo vectorial. Vas a **organizar un archivo en capas** para poder cambiarlo sin romper nada, combinar formas, preparar la imagen para el sitio donde se va a usar y meter texto cuando haga falta.
 
-Es la unidad en la que el concept se pone guapo para presentarse, así que va muy de la mano de la pestaña Concept. Y es corta a propósito: la idea es que llegues con soltura a la UT2, donde empieza la animación.
+Es la unidad en la que **el concept se pone guapo para presentarse**, así que va muy de la mano de la pestaña Concept. Y es corta a propósito: la idea es que **llegues con soltura a la UT2**, donde empieza la animación.
 
 Esta unidad desarrolla el **RA2**: genera composiciones avanzadas aplicando herramientas profesionales de ilustración digital y dibujo vectorial.
 

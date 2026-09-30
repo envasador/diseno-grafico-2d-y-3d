@@ -7,11 +7,11 @@ hide:
 
 Material del módulo Diseño Gráfico 2D y 3D del Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual del IES Rafael Alberti.
 
-A lo largo del curso harás tres proyectos (arte 2D, arte 3D y una cinemática) que van acompañando a las unidades: cada uno pone en práctica lo que acabas de ver. Todas las unidades se apoyan en el mismo proceso creativo, que es lo que trabajas en Concept.
+A lo largo del curso harás **tres proyectos** (arte 2D, arte 3D y una cinemática) que van acompañando a las unidades: cada uno pone en práctica lo que acabas de ver. Todas las unidades se apoyan en el **mismo proceso creativo**, que es lo que trabajas en Concept.
 
 ## Cómo está organizado
 
-La pestaña **Concept** es transversal: recoge el proceso creativo y las herramientas de diseño que usarás en todas las unidades. Cada unidad empieza con una fase de concept que te indica qué preparar antes de producir, y lo que produces en esa fase va a la biblia de arte del proyecto en el que estés.
+La pestaña **Concept** es transversal: recoge el proceso creativo y las herramientas de diseño que usarás en todas las unidades. Cada unidad empieza con una **fase de concept** que te indica qué preparar antes de producir, y lo que produces en esa fase va a la **biblia de arte** del proyecto en el que estés.
 
 | Bloque | Resultado de aprendizaje | Contenido |
 |---|---|---|
@@ -24,7 +24,7 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 
 ## Resultados de aprendizaje y criterios de evaluación
 
-El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 261/2021, que establece el Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual. Tiene cinco resultados de aprendizaje (RA), que describen lo que tienes que saber hacer al terminar, y cada uno se concreta en criterios de evaluación (CE), que son lo que se comprueba en tus entregas. Despliega cada uno para ver sus criterios.
+El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 261/2021, que establece el Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual. Tiene **cinco resultados de aprendizaje (RA)**, que describen lo que tienes que saber hacer al terminar, y cada uno se concreta en **criterios de evaluación (CE)**, que son lo que se comprueba en tus entregas. Despliega cada uno para ver sus criterios.
 
 ??? abstract "RA1. Desarrolla los principios del proceso creativo del arte conceptual del proyecto del videojuego."
     Se trabaja en la fase de concept de los tres proyectos (la Fase 0), apoyándote en la pestaña Concept.

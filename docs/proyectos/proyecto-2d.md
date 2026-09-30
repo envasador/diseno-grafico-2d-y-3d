@@ -1,6 +1,6 @@
 # Proyecto 1 · Arte 2D
 
-En este proyecto defines el aspecto visual de tu juego y lo llevas hasta un personaje jugable en 2D: diseñas el mundo y al protagonista en concept, lo ilustras en una composición de presentación y después lo produces como sprite animado, con su tileset y su escenario. Todo lo que decidas aquí (estilo, paleta, personaje) queda recogido en la biblia de arte del proyecto.
+En este proyecto **defines el aspecto visual de tu juego y lo llevas hasta un personaje jugable en 2D**: diseñas el mundo y al protagonista en concept, lo ilustras en una composición de presentación y después lo produces como sprite animado, con su tileset y su escenario. Todo lo que decidas aquí (estilo, paleta, personaje) queda recogido en la **biblia de arte** del proyecto.
 
 ## Objetivos
 
@@ -51,23 +51,23 @@ En este proyecto defines el aspecto visual de tu juego y lo llevas hasta un pers
 
 ## Punto de partida
 
-Elige una de estas líneas y justifica la elección en la presentación:
+Elige una de estas líneas y **justifica la elección en la presentación**:
 
 1. El juego de tu equipo del curso.
 2. Tu proyecto para la Game Off, la MiniJam, la Global Game Jam o la Málaga Jam.
 3. Un proyecto personal (un juego, una novela gráfica, una experiencia de realidad virtual…).
 
-Contextualiza el juego con todo lo que ayude a entenderlo: género, público, plataforma, mecánicas principales y tono. Cuanto más completo sea el contexto, mejor podrás justificar tus decisiones de arte.
+Contextualiza el juego con todo lo que ayude a entenderlo: **género, público, plataforma, mecánicas principales y tono**. Cuanto más completo sea el contexto, mejor podrás justificar tus decisiones de arte.
 
 ## Fase 0 · Concept art *(entrega previa con nota: RA1 y RA2)*
 
-Esta fase es el concept art del juego. Tiene entrega propia antes de empezar la producción 2D, porque en ella se evalúan el RA1 y el RA2.
+Esta fase es el concept art del juego. Tiene **entrega propia** antes de empezar la producción 2D, porque en ella se evalúan el RA1 y el RA2.
 
 **Proceso creativo.** Explica el proceso artístico que vas a seguir (las [etapas del proceso creativo](../concept/proceso-creativo.md) aplicadas a tu proyecto) y cómo vas a incorporar la [perspectiva de género](../concept/perspectiva-de-genero.md).
 
 **Moodboard y estilo.** Crea un [moodboard](../concept/moodboard.md) de inspiración y elige el [estilo artístico](../concept/estilos-artisticos.md) del juego, justificando la elección según el público, el tono y lo que puedes producir.
 
-**Personaje.** Diseña el personaje o personajes principales. Puedes elegir entre dos formas de construirlos, y en ambas el archivo tiene que mostrar el proceso separado en capas, con el personaje terminado en la última:
+**Personaje.** Diseña el personaje o personajes principales. Puedes elegir entre dos formas de construirlos, y en ambas el archivo tiene que mostrar el proceso **separado en capas**, con el personaje terminado en la última:
 
 1. **Por volumen y ritmos:** una capa para la estructura ("esqueleto"), otra para los volúmenes ("músculos"), otra para la definición, y así hasta el personaje final.
 2. **A partir de mancha:** desde la [silueta](../concept/siluetas.md) en masa hasta el personaje definido.
@@ -86,7 +86,7 @@ Esta fase es el concept art del juego. Tiene entrega propia antes de empezar la 
 
 ## Producción 2D *(RA3)*
 
-Con el concept aprobado, produce el arte del juego en 2D. Antes de animar, prepara la fase de concept de la UT2: siluetas a tamaño de sprite, paleta y hoja de poses.
+Con el concept aprobado, produce el arte del juego en 2D. Antes de animar, prepara la fase de concept de la UT2: **siluetas a tamaño de sprite, paleta y hoja de poses**.
 
 Tienes que completar:
 
@@ -101,7 +101,7 @@ Tienes que completar:
 | Tileset | Un tileset que cubra los casos que necesita tu nivel |
 | Escenario | Un nivel montado con el tileset, con fondo y perspectiva coherentes |
 
-Puedes hacerlo en pixel art o en arte 2D vectorial:
+Puedes hacerlo **en pixel art o en arte 2D vectorial**:
 
 - **Pixel art:** se recomienda Pyxel Edit, aunque puedes usar Aseprite u otro editor. El nivel se monta en Tiled o en el editor de tilemaps del motor.
 - **Arte 2D vectorial:** el personaje y el escenario se crean en el programa de edición que prefieras, y la animación se hace en Blender o mediante sprite sheet.

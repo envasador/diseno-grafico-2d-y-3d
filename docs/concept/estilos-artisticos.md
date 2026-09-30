@@ -1,12 +1,12 @@
 # Concept · Estilos artísticos
 
-Piensa en *Celeste*, *Hollow Knight* y *The Last of Us*. Los tres son juegos sobre personajes en situaciones difíciles, y aun así no podrían parecerse menos. El estilo artístico es la firma visual de un juego: decide cómo se ve, pero también cómo se siente, cuánto cuesta producirlo y cómo va a envejecer.
+Piensa en *Celeste*, *Hollow Knight* y *The Last of Us*. Los tres son juegos sobre personajes en situaciones difíciles, y aun así no podrían parecerse menos. El estilo artístico es **la firma visual de un juego**: decide cómo se ve, pero también cómo se siente, **cuánto cuesta producirlo y cómo va a envejecer**.
 
-Elegir estilo es una de las primeras decisiones del concept, y conviene tomarla con criterio y no solo por gusto personal.
+Elegir estilo es una de las primeras decisiones del concept, y conviene tomarla **con criterio** y no solo por gusto personal.
 
 ## Estilos de representación
 
-Los estilos se pueden ordenar según cuánto se alejan de la realidad y con qué técnica se producen. Esta tabla recoge los más habituales:
+Los estilos se pueden ordenar según **cuánto se alejan de la realidad y con qué técnica se producen**. Esta tabla recoge los más habituales:
 
 | Estilo | Rasgos principales | Ejemplos | A tener en cuenta |
 |---|---|---|---|
@@ -23,7 +23,7 @@ Los estilos se pueden ordenar según cuánto se alejan de la realidad y con qué
 
 ## Estéticas temáticas
 
-Además del estilo de representación, muchos juegos se definen por una estética temática, que puede combinarse con cualquiera de los estilos anteriores:
+Además del estilo de representación, muchos juegos se definen por una **estética temática**, que puede combinarse con cualquiera de los estilos anteriores:
 
 | Estética | Rasgos | Ejemplos |
 |---|---|---|
@@ -36,7 +36,7 @@ Además del estilo de representación, muchos juegos se definen por una estétic
 | Horror | Desaturación, iluminación opresiva, formas perturbadoras | *Silent Hill*, *Amnesia* |
 | Realismo mágico | Mundo cotidiano con elementos fantásticos integrados | *Kentucky Route Zero*, *Night in the Woods* |
 
-Los juegos más memorables suelen mezclar. *Hyper Light Drifter* combina pixel art con iluminación moderna; *Okami* mezcla pintura tradicional japonesa con cel shading; *Breath of the Wild* une cel shading con un mundo de proporciones realistas.
+Los juegos más memorables **suelen mezclar**. *Hyper Light Drifter* combina pixel art con iluminación moderna; *Okami* mezcla pintura tradicional japonesa con cel shading; *Breath of the Wild* une cel shading con un mundo de proporciones realistas.
 
 ## Cómo elegir
 
@@ -49,8 +49,8 @@ Antes de decidir, hazte estas preguntas:
 5. **¿Cómo va a envejecer?** Los estilos estilizados aguantan mejor el paso del tiempo que el realismo de su época.
 6. **¿Qué lo hace reconocible?** En un mercado saturado, un estilo propio vale mucho.
 
-El [moodboard](moodboard.md) te ayudará a decidir: si todas las referencias que te atraen apuntan a una dirección, esa suele ser la buena.
+El [moodboard](moodboard.md) te ayudará a decidir: si todas las referencias que te atraen apuntan a una dirección, **esa suele ser la buena**.
 
 ## Una vez elegido
 
-Cuando el estilo está decidido hay que documentarlo para que todo el equipo lo aplique igual: paleta, proporciones, grosor de línea, nivel de detalle, cómo se tratan las sombras. Esa documentación forma parte de tu [biblia de arte](biblia-de-arte.md). Dentro del estilo puede haber variaciones (cada zona del juego con su propia paleta, por ejemplo), pero siempre sobre las mismas reglas.
+Cuando el estilo está decidido **hay que documentarlo para que todo el equipo lo aplique igual**: paleta, proporciones, grosor de línea, nivel de detalle, cómo se tratan las sombras. Esa documentación forma parte de tu [biblia de arte](biblia-de-arte.md). Dentro del estilo puede haber variaciones (cada zona del juego con su propia paleta, por ejemplo), pero **siempre sobre las mismas reglas**.

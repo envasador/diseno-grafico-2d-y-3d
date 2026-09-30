@@ -1,8 +1,8 @@
 # Concept · La silueta
 
-Haz la prueba con cualquier personaje famoso de videojuego: rellénalo de negro y quita todo lo demás. Si lo sigues reconociendo, tiene una buena silueta. En un juego el jugador ve a los personajes pequeños, en movimiento, de lejos, a contraluz o en mitad de una pelea con veinte cosas en pantalla. En esas condiciones los detalles desaparecen y lo único que queda es la forma.
+Haz la prueba con cualquier personaje famoso de videojuego: rellénalo de negro y quita todo lo demás. Si lo sigues reconociendo, tiene una **buena silueta**. En un juego el jugador ve a los personajes pequeños, en movimiento, de lejos, a contraluz o en mitad de una pelea con veinte cosas en pantalla. En esas condiciones los detalles desaparecen y **lo único que queda es la forma**.
 
-Por eso la silueta es lo primero que se diseña y lo primero que se comprueba.
+Por eso **la silueta es lo primero que se diseña y lo primero que se comprueba**.
 
 <figure markdown>
 ![Siluetas de personajes conocidos de videojuegos, reconocibles solo por su forma](../assets/concept/silueta-personajes-videojuego.jpg){ loading=lazy }
@@ -18,7 +18,7 @@ Una buena silueta responde a tres preguntas sin necesidad de color ni detalle: *
 <figcaption>A la izquierda, solo con la forma sabes quién es cada figura y qué está haciendo. A la derecha, dos siluetas casi iguales: la coleta y las fundas de las pistolas bastan para saber cuál es Lara Croft. Lara Croft (<i>Tomb Raider</i>) © Crystal Dynamics; resto de siluetas © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
-Esto es especialmente importante en el diseño de juegos porque la silueta también transmite información de juego. Un enemigo tiene que distinguirse de un aliado de un vistazo; un enemigo peligroso, de uno débil. Si dos tipos de enemigo tienen la misma silueta, el jugador los confundirá en plena acción.
+Esto es especialmente importante en el diseño de juegos porque la silueta **también transmite información de juego**. Un enemigo tiene que distinguirse de un aliado de un vistazo; un enemigo peligroso, de uno débil. Si dos tipos de enemigo tienen la misma silueta, **el jugador los confundirá en plena acción**.
 
 <figure>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTisW114nSWKnIRxJt643J4HohwhDddHreQ2vMgL0qLKIvPPnM4" alt="Mario, Luigi, Wario y Waluigi comparados por su forma" loading="lazy" referrerpolicy="no-referrer">
@@ -34,9 +34,9 @@ Hay juegos que llevan esta idea al extremo. En *Limbo* (2010) casi todo lo que v
 
 ## Cómo diseñar desde la silueta
 
-El método más eficaz es empezar directamente en negro. En lugar de dibujar líneas, pintas manchas de forma rellena con un pincel o una herramienta de lazo, muy rápido y a tamaño pequeño. Así no puedes esconder un problema de forma detrás de un buen detalle.
+El método más eficaz es **empezar directamente en negro**. En lugar de dibujar líneas, pintas manchas de forma rellena con un pincel o una herramienta de lazo, muy rápido y a tamaño pequeño. Así **no puedes esconder un problema de forma detrás de un buen detalle**.
 
-Haz muchas: una hoja entera con veinte o treinta variaciones del mismo personaje. Cambia proporciones, postura, accesorios y ropa. Después elige las que se leen mejor y trabaja sobre ellas; el color y el detalle se añaden encima de una forma que ya funciona.
+Haz muchas: una hoja entera con **veinte o treinta variaciones del mismo personaje**. Cambia proporciones, postura, accesorios y ropa. Después elige las que se leen mejor y trabaja sobre ellas; el color y el detalle se añaden **encima de una forma que ya funciona**.
 
 Unos criterios para decidir cuál funciona:
 

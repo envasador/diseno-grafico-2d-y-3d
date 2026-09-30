@@ -1,6 +1,6 @@
 # Proyectos
 
-A lo largo del curso harás tres proyectos que van acompañando a las unidades: el primero se centra en el arte 2D, el segundo en el 3D y el tercero en la puesta en escena con cámaras y luz. Cada uno pone en práctica lo que acabas de ver, y en cada uno eliges de qué juego partes (el de tu equipo, una jam o un proyecto personal).
+A lo largo del curso harás **tres proyectos** que van acompañando a las unidades: el primero se centra en el arte 2D, el segundo en el 3D y el tercero en la puesta en escena con cámaras y luz. Cada uno pone en práctica lo que acabas de ver, y en cada uno **eliges de qué juego partes** (el de tu equipo, una jam o un proyecto personal).
 
 | Proyecto | Resultados de aprendizaje | Lo que produces |
 |---|---|---|
@@ -10,7 +10,7 @@ A lo largo del curso harás tres proyectos que van acompañando a las unidades: 
 
 ## El concept es transversal
 
-No hay un proyecto de concept aislado. Cada proyecto empieza por una **Fase 0 de concept** obligatoria, en la que preparas lo que la pestaña [Concept](../concept/index.md) describe para ese tipo de producción: en 2D, el concept art del juego y del personaje; en 3D, el turnaround y los callouts de materiales; en la cinemática, el storyboard y los color keys. Todo lo que produces en esa fase se recoge en la [biblia de arte](../concept/biblia-de-arte.md) de ese proyecto.
+**No hay un proyecto de concept aislado.** Cada proyecto empieza por una **Fase 0 de concept** obligatoria, en la que preparas lo que la pestaña [Concept](../concept/index.md) describe para ese tipo de producción: en 2D, el concept art del juego y del personaje; en 3D, el turnaround y los callouts de materiales; en la cinemática, el storyboard y los color keys. Todo lo que produces en esa fase se recoge en la **[biblia de arte](../concept/biblia-de-arte.md)** de ese proyecto.
 
 El **RA1** se evalúa en las tres Fases 0, cada una con los criterios que le corresponden:
 
@@ -20,23 +20,23 @@ El **RA1** se evalúa en las tres Fases 0, cada una con los criterios que le cor
 | Arte 3D | c, d, g | 30 % |
 | Cinemática | b, c, e | 30 % |
 
-Así, lo que se valora es cómo evoluciona tu proceso a lo largo del curso, además del resultado de un único trabajo.
+Así, lo que se valora es **cómo evoluciona tu proceso a lo largo del curso**, además del resultado de un único trabajo.
 
 ## Normas comunes de entrega
 
 Estas indicaciones sirven para todas las entregas del módulo:
 
-- El trabajo debe estar bien presentado, sin faltas de ortografía y con una estructura visual clara. Tu nombre y apellidos (y los de tu equipo, si trabajáis en grupo) deben aparecer en la presentación.
-- Si utilizas contenido de Internet (texturas, referencias, modelos base, tipografías), indica la URL de la fuente junto al material correspondiente.
+- El trabajo debe estar bien presentado, **sin faltas de ortografía** y con una estructura visual clara. Tu nombre y apellidos (y los de tu equipo, si trabajáis en grupo) deben aparecer en la presentación.
+- Si utilizas contenido de Internet (texturas, referencias, modelos base, tipografías), **indica la URL de la fuente** junto al material correspondiente.
 - **Plagio:** cualquier copia supone un 0 tanto para quien copia como para quien facilita el trabajo, y también en el Resultado de Aprendizaje asociado.
-- Las entregas que no cumplan estas características no se corregirán.
-- Cada alumno o alumna sube su propia copia a la tarea de Moodle, aunque el trabajo se haya hecho en equipo.
-- Las presentaciones se hacen en **Figma**, con un primer frame de portada en una página separada. Tienes que compartir el archivo conmigo en modo editor con el usuario que indico en la tarea de Moodle.
-- Los archivos editables se entregan en una carpeta de Google Drive de tu cuenta de `@g.educaand.es` (o una plataforma equivalente a la que yo tenga acceso), enlazada desde una página del proyecto de Figma. La fecha de última modificación debe ser anterior a la fecha y hora de entrega de Moodle.
+- Las entregas que no cumplan estas características **no se corregirán**.
+- Cada alumno o alumna **sube su propia copia a la tarea de Moodle**, aunque el trabajo se haya hecho en equipo.
+- Las presentaciones se hacen en **Figma**, con un primer frame de portada en una página separada. Tienes que compartir el archivo conmigo **en modo editor** con el usuario que indico en la tarea de Moodle.
+- Los archivos editables se entregan en una carpeta de Google Drive de tu cuenta de `@g.educaand.es` (o una plataforma equivalente a la que yo tenga acceso), enlazada desde una página del proyecto de Figma. La fecha de última modificación debe ser **anterior a la fecha y hora de entrega** de Moodle.
 
 ## Evaluación
 
-Cada criterio se evalúa en una escala de cinco niveles:
+Cada criterio se evalúa en **una escala de cinco niveles**:
 
 | Nivel | Nota |
 |---|---|
