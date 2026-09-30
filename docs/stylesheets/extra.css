@@ -731,3 +731,10 @@ body,
   height: auto !important;
   background-color: #FFFFFF !important;
 }
+
+/* Desplegables de RA en la portada (??? abstract): títulos largos en una línea */
+.md-typeset details.abstract > summary {
+  font-size: 0.62rem !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
