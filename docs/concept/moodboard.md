@@ -41,9 +41,13 @@ Imagina un juego de exploración en una ciudad costera abandonada donde la natur
 
 Fíjate en que casi ninguna de esas imágenes es de un videojuego. Todas juntas, sin embargo, ya definen el juego.
 
-Ahora mira uno de verdad. En este tablero conviven una consola portátil, un disco de un juego de baile, televisores de tubo, un salón recreativo, ropa, un bolso y un hacha de juguete. Son objetos muy distintos, y aun así todo parece del mismo mundo: el rosa y el magenta dominan casi todas las imágenes, se repite la estética retro de pantallas y recreativas, y aparece varias veces una chica con ese aire entre dulce y peligroso. Sin leer una sola línea ya sabes qué tono, qué paleta y qué tipo de protagonista tendría ese juego.
+Ahora mira uno de verdad. Este tablero corresponde a la primera fase del proceso creativo de un juego musical: recoge el concepto, la IA protagonista y la estética. Su autora buscaba un mundo digital basado en un arcade retro, muy colorido, con predominio de morados y rosas, y con un contraste constante entre lo cute y lo peligroso.
+
+Fíjate en cómo lo consigue. Conviven una consola portátil, un disco de un juego de baile, televisores de tubo, un salón recreativo, ropa, un bolso y un hacha de juguete, y aun así todo parece del mismo mundo. El rosa y el magenta unifican imágenes que vienen de sitios muy distintos, y la chica que aparece varias veces (dulce por fuera, con un ojo tapado y una pistola en la mano) ya cuenta el tono del juego. Hasta el texto de la esquina, "I am sentient, I am aware, I am alive", adelanta la idea de una IA consciente de sí misma.
 
 <figure markdown>
 ![Moodboard en tonos rosa y magenta con consolas, recreativas, pantallas de tubo y moda](../assets/concept/moodboard-amate-jimenez-angela.png){ loading=lazy }
-<figcaption>Moodboard de Amate Jiménez, Ángela. Imágenes recopiladas © de sus respectivos autores. Uso con fines educativos.</figcaption>
+<figcaption>Moodboard de Amate Jiménez, Ángela. Imágenes recopiladas de Pinterest, © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
+
+El moodboard también deja ver sus referentes. De *Friday Night Funkin'* y *Rhythm Paradise* toma la estética y la jugabilidad musical. De *Doki Doki Literature Club!* toma el concepto: una fachada bonita que esconde un mundo tétrico y una IA que sabe que existe. Esto es lo que se busca en esta fase: que las referencias expliquen el porqué del juego, además de su aspecto.
