@@ -30,6 +30,6 @@ En un proyecto real cada tarea se hace con el programa que mejor la resuelve. Un
 
 1. **Personajes y objetos** en un editor de pixel art (Pyxel Edit o Aseprite), donde controlas cada píxel.
 2. **Animaciones y tilesets** en el mismo editor, aprovechando su línea de tiempo y su rejilla.
-3. **Escenarios y efectos** en un programa de ilustración (Affinity Photo, Affinity Designer o Photoshop), donde componer fondos grandes, pintar degradados de cielo o preparar capas de parallax es más cómodo.
+3. **Escenarios y efectos** en un programa de ilustración (Affinity o Photoshop), donde componer fondos grandes, pintar degradados de cielo o preparar capas de parallax es más cómodo.
 
 Las explicaciones de clase se hacen con Pyxel Edit, porque su rejilla de tiles hace muy visibles los conceptos de esta unidad. Puedes trabajar con otra herramienta siempre que exporte PNG y sprite sheets con todos los frames del mismo tamaño.

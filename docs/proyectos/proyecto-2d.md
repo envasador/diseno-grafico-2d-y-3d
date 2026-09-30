@@ -111,7 +111,7 @@ Puedes hacerlo en pixel art o en arte 2D vectorial:
 **Entrega de la Fase 0:**
 
 - Proyecto de Figma titulado *Concept Art - nombre y apellidos*, con el informe completo del proceso y todos los elementos gráficos que expliquen tanto el proceso como el resultado.
-- Archivos originales del programa de ilustración (Affinity Designer o similar) y los exportados.
+- Archivos originales del programa de ilustración (Affinity o similar) y los exportados.
 
 **Entrega final:**
 

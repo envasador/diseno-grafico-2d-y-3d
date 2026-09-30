@@ -20,6 +20,5 @@ Esta unidad desarrolla el **RA2**: genera composiciones avanzadas aplicando herr
 
 | Apartado | Contenido |
 |---|---|
-| [UT1.1 Affinity Designer para concept art](01-affinity-designer.md) | Entorno, capas, selección, composición, exportación y texto |
-| [UT1.2 Dibujar personajes y escenarios](02-dibujo-de-personajes-y-escenarios.md) | Formas, proporciones y perspectiva |
-| [UT1.3 Flujo de trabajo de un personaje](03-flujo-de-un-personaje.md) | Del boceto vectorial al personaje coloreado e integrado |
+| [UT1.1 Ilustrar con Affinity](01-ilustrar-con-affinity.md) | Estudios, vectorial y píxel, capas, formas y nodos, selección, exportación y texto |
+| [UT1.2 Del boceto a la ilustración](02-del-boceto-a-la-ilustracion.md) | Formas, proporciones, pose, perspectiva, composición y el recorrido completo en Affinity |

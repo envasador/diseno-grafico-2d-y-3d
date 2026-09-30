@@ -81,9 +81,8 @@ nav:
       - Biblia de arte: concept/biblia-de-arte.md
   - UT1 Ilustración:
       - ut1/index.md
-      - Affinity Designer: ut1/01-affinity-designer.md
-      - Personajes y escenarios: ut1/02-dibujo-de-personajes-y-escenarios.md
-      - Flujo de un personaje: ut1/03-flujo-de-un-personaje.md
+      - Ilustrar con Affinity: ut1/01-ilustrar-con-affinity.md
+      - Del boceto a la ilustración: ut1/02-del-boceto-a-la-ilustracion.md
 #  - UT2 Arte 2D:
 #      - ut2/index.md
 #      - El arte 2D: ut2/01-arte-2d.md
