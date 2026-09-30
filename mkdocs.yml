@@ -59,10 +59,8 @@ markdown_extensions:
 # Secciones ocultas: se abren poco a poco. Para publicar una unidad,
 # borra su línea de exclude_docs y descomenta su bloque en nav.
 exclude_docs: |
-  /ut2/
   /ut3/
   /ut4/
-  /assets/ut2/
   /anexo-ui-ux/
   /proyectos/proyecto-3d.md
   /proyectos/proyecto-cinematica.md
@@ -84,17 +82,17 @@ nav:
       - ut1/index.md
       - Ilustrar con Affinity: ut1/01-ilustrar-con-affinity.md
       - Del boceto a la ilustración: ut1/02-del-boceto-a-la-ilustracion.md
-#  - UT2 Arte 2D:
-#      - ut2/index.md
-#      - El arte 2D: ut2/01-arte-2d.md
-#      - Programas para pixel art: ut2/02-programas-pixel-art.md
-#      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
-#      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
-#      - Principios de animación: ut2/05-principios-de-animacion.md
-#      - Animación de espera: ut2/06-animacion-de-espera.md
-#      - Walking cycle: ut2/07-walking-cycle.md
-#      - Animación de ataque: ut2/08-animacion-de-ataque.md
-#      - Escenarios 2D: ut2/09-escenarios-2d.md
+  - UT2 Arte 2D:
+      - ut2/index.md
+      - El arte 2D: ut2/01-arte-2d.md
+      - Programas para pixel art: ut2/02-programas-pixel-art.md
+      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
+      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
+      - Principios de animación: ut2/05-principios-de-animacion.md
+      - Animación de espera: ut2/06-animacion-de-espera.md
+      - Walking cycle: ut2/07-walking-cycle.md
+      - Animación de ataque: ut2/08-animacion-de-ataque.md
+      - Escenarios 2D: ut2/09-escenarios-2d.md
 #  - UT3 Arte 3D:
 #      - ut3/index.md
 #      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
