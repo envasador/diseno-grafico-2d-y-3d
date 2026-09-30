@@ -9,15 +9,15 @@ En pixel art el tamaño no se cambia después. Si dibujas un personaje a 16×16 
 Con pocos píxeles tienes que sintetizar: una cara son dos puntos para los ojos y poco más, y cada píxel pesa muchísimo. Con más píxeles caben pliegues de ropa, expresiones con matices y sombreados complejos. ¿Cuál es mejor? Ninguno. Son estilos distintos, y cada juego pide el suyo.
 
 <figure markdown>
-![La misma poción dibujada a tres resoluciones](../assets/ut2/tamano-estilos.svg)
-<figcaption>La misma poción a 8, 16 y 32 píxeles: cuanta más resolución, más detalle cabe.</figcaption>
+![Personajes dibujados con más o menos píxeles](../assets/ut2/tamano-estilos.png){ loading=lazy }
+<figcaption>El mismo tipo de personaje con más o menos píxeles: cuanta más resolución, más detalle cabe. Imagen de <a href="http://collet66.blog52.fc2.com/">Syosa</a>. Uso con fines educativos.</figcaption>
 </figure>
 
 Lo que sí hay que tener claro es la factura. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, cuatro veces más. Y ahora multiplica eso por cada frame de cada animación. La regla práctica es sencilla: a más dimensión, más píxeles, y a más píxeles, más horas de pulido.
 
 <figure markdown>
-![Una espada a 16x16 y a 32x32 píxeles](../assets/ut2/tamano-16-32.svg)
-<figcaption>Duplicar el lado multiplica por cuatro el número de píxeles que tienes que resolver.</figcaption>
+![Una espada a 16x16 y a 32x32 píxeles](../assets/ut2/tamano-16-32.png){ loading=lazy }
+<figcaption>Duplicar el lado multiplica por cuatro el número de píxeles que tienes que resolver. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 ## Dimensiones recomendadas
@@ -25,8 +25,8 @@ Lo que sí hay que tener claro es la factura. Una espada de 16×16 tiene 256 pí
 En videojuegos se trabaja casi siempre con dimensiones cuadradas que son potencias de dos: 16, 32, 64, 128, 256, 512 y 1024 píxeles de lado. Son los tamaños que mejor gestionan los motores (Unity, Godot) y las herramientas de empaquetado de texturas como TexturePacker. Verás por qué con más detalle en el apartado de [tiles y sprite sheets](04-tiles-y-sprite-sheets.md).
 
 <figure markdown>
-![Comparación de tamaños de 32x32 a 1024x1024](../assets/ut2/tamano-potencias.svg)
-<figcaption>Las dimensiones más comunes para pixel art en videojuegos.</figcaption>
+![Comparación de tamaños de 32x32 a 1024x1024](../assets/ut2/tamano-potencias.png){ loading=lazy }
+<figcaption>Las dimensiones más comunes para pixel art en videojuegos. Uso con fines educativos.</figcaption>
 </figure>
 
 | Tamaño del personaje | Qué permite | Juegos de referencia |

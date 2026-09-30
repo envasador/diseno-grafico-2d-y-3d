@@ -9,8 +9,8 @@ La animación de espera es la que reproduce un personaje cuando el jugador no lo
 Se divide en dos estados que se suceden en el tiempo: **idle** (parada) y **waiting** (espera).
 
 <figure markdown>
-![Animación de parada y animación de espera](../assets/ut2/idle-waiting.svg)
-<figcaption>Primero el idle, en bucle. Si el jugador tarda, el waiting.</figcaption>
+![Animación de parada y animación de espera](../assets/ut2/idle-waiting.png){ loading=lazy }
+<figcaption>Primero el idle, en bucle. Si el jugador tarda, el waiting. Sonic © SEGA. Uso con fines educativos.</figcaption>
 </figure>
 
 ## Idle: la animación de parada

@@ -11,8 +11,8 @@ La animación de ataque es la que permite al jugador atacar con su personaje. Su
 Un ataque se puede dividir en estados, que son momentos diferentes dentro de una misma acción: **anticipación**, **golpe**, **final del golpe** y **retroceso**. En pixel art cada estado suele ser uno o dos frames, así que puedes tomarlos directamente como fotogramas clave.
 
 <figure markdown>
-![Anticipación, golpe, final del golpe y retroceso](../assets/ut2/ataque-estados.svg)
-<figcaption>Los cuatro estados de la animación de ataque. El golpe es el más importante.</figcaption>
+![Anticipación, golpe, final del golpe y retroceso](../assets/ut2/ataque-estados.png){ loading=lazy }
+<figcaption>Los cuatro estados de la animación de ataque. El golpe es el más importante. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 ### Anticipación
@@ -50,13 +50,13 @@ El easing controla cómo acelera y frena un movimiento. Piensa en un coche: nunc
 El **ease in** (suavidad al principio) hace que el movimiento arranque despacio y vaya acelerando. El **ease out** (suavidad al final) hace que llegue rápido y frene poco a poco. El **ease in-out** combina los dos. En la práctica se consigue con el espaciado entre frames: frames muy juntos donde el movimiento es lento y muy separados donde es rápido, igual que la pelota que viste en el [timing](05-principios-de-animacion.md#timing).
 
 <figure markdown>
-![Ease in y ease out](../assets/ut2/easing.svg)
-<figcaption>Ease in: suavidad al principio. Ease out: suavidad al final.</figcaption>
+![Ease in y ease out](../assets/ut2/easing.png){ loading=lazy }
+<figcaption>Ease in: suavidad al principio. Ease out: suavidad al final. Uso con fines educativos.</figcaption>
 </figure>
 
 En un ataque, el golpe tiene que ser instantáneo, así que no lleva ease in. Donde el easing marca la diferencia es después del impacto. Con **ease out**, el arma frena en dos o tres frames y el golpe resulta pesado y contundente. Sin él, el arma se para en seco y el movimiento parece de robot de cocina.
 
 <figure markdown>
-![Golpe con ease out y golpe sin ease out](../assets/ut2/easy-out.svg)
-<figcaption>A la izquierda, el golpe con ease out; a la derecha, sin él.</figcaption>
+![Golpe con ease out y golpe sin ease out](../assets/ut2/easy-out.png){ loading=lazy }
+<figcaption>A la izquierda, el golpe con ease out; a la derecha, sin él. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>

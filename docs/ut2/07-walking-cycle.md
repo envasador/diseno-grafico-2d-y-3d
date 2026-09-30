@@ -21,8 +21,8 @@ El número de frames no es lo único que importa. El ciclo es una gran oportunid
 Seis frames es un buen punto de partida: suficientes para que el movimiento se lea claro y pocos para que puedas producirlos sin morir en el intento. Esta es la receta.
 
 <figure markdown>
-![Base de 6 frames para el walking cycle](../assets/ut2/walk-6-frames.svg)
-<figcaption>La base: 6 frames en total.</figcaption>
+![Base de 6 frames para el walking cycle](../assets/ut2/walk-6-frames.png){ loading=lazy }
+<figcaption>La base: 6 frames en total. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 **Las piernas.** Durante los frames 1, 2 y 3, una pierna está apoyada en el suelo y se desplaza hacia atrás, empujando el cuerpo hacia delante. Durante los frames 4, 5 y 6 ocurre exactamente lo mismo con la otra pierna. Así, el ciclo se divide en dos mitades simétricas.
@@ -30,15 +30,15 @@ Seis frames es un buen punto de partida: suficientes para que el movimiento se l
 **Los brazos.** Los brazos siempre avanzan junto a la pierna contraria. Cuando la pierna derecha va delante, el brazo izquierdo va delante, y al revés. Es lo que haces tú al andar para mantener el equilibrio (compruébalo por el pasillo). Si lo inviertes, el personaje parece un robot.
 
 <figure markdown>
-![Brazos y piernas contrarios en el ciclo de andar](../assets/ut2/walk-brazos-piernas.svg)
-<figcaption>Frames 1 y 4: cuando la pierna cercana va delante, el brazo cercano va detrás, y al revés.</figcaption>
+![Brazos y piernas contrarios en el ciclo de andar](../assets/ut2/walk-brazos-piernas.png){ loading=lazy }
+<figcaption>Frames 1 y 4: cuando la pierna cercana va delante, el brazo cercano va detrás, y al revés. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 **Copiar y modificar.** Aquí viene la parte buena: como las dos mitades son simétricas, no tienes que dibujar seis poses desde cero. El frame 4 parte del frame 1, el 5 del 2 y el 6 del 3: copias el frame y cambias qué pierna y qué brazo van delante.
 
 <figure markdown>
-![Frames equivalentes en cada mitad del ciclo](../assets/ut2/walk-copiar.svg)
-<figcaption>Los frames del mismo color son equivalentes (A y A′, B y B′, C y C′): se copian y se intercambian las extremidades.</figcaption>
+![Frames equivalentes en cada mitad del ciclo](../assets/ut2/walk-copiar.png){ loading=lazy }
+<figcaption>Los frames del mismo color son equivalentes (1 y 4, 2 y 5, 3 y 6): se copian y se intercambian las extremidades. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 **La altura.** Aquí está el detalle que hace que el ciclo parezca vivo. Al andar, el cuerpo sube y baja: está más bajo justo después de apoyar el pie, cuando carga el peso, y más alto cuando la pierna libre pasa junto a la de apoyo. En la receta de 6 frames:
@@ -48,8 +48,8 @@ Seis frames es un buen punto de partida: suficientes para que el movimiento se l
 - En los frames **2 y 5** reduce **2 píxeles** su altura máxima.
 
 <figure markdown>
-![Variación de altura del personaje en cada frame del ciclo](../assets/ut2/walk-alturas.svg)
-<figcaption>La línea discontinua marca la altura máxima: los frames 3 y 6 la tocan, el 1 y el 4 quedan 1 píxel por debajo y el 2 y el 5, 2 píxeles.</figcaption>
+![Variación de altura del personaje en cada frame del ciclo](../assets/ut2/walk-alturas.png){ loading=lazy }
+<figcaption>La línea discontinua marca la altura máxima: los frames 3 y 6 la tocan, el 1 y el 4 quedan 1 píxel por debajo y el 2 y el 5, 2 píxeles. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 
 Uno o dos píxeles parecen una tontería. A escala de sprite, son exactamente lo que el ojo necesita para sentir el peso del cuerpo. Quítalos y el personaje se desliza por el escenario como si fuera sobre raíles.

@@ -13,6 +13,11 @@ Por eso la silueta es lo primero que se diseña y lo primero que se comprueba.
 
 Una buena silueta responde a tres preguntas sin necesidad de color ni detalle: **quién** es el personaje, **cómo** es y **qué** hace. Un cuerpo ancho y cuadrado cuenta fuerza. Una figura estrecha, inclinada y con ropa larga cuenta algo muy distinto. Un objeto que sobresale (una espada enorme, un sombrero, una mochila) cuenta a qué se dedica.
 
+<figure markdown>
+![Siluetas de personas reconocibles por su forma y dos siluetas casi iguales](../assets/concept/silueta-lectura.png){ loading=lazy }
+<figcaption>A la izquierda, solo con la forma sabes quién es cada figura y qué está haciendo. A la derecha, dos siluetas casi iguales: la coleta y las fundas de las pistolas bastan para saber cuál es Lara Croft. Lara Croft (<i>Tomb Raider</i>) © Crystal Dynamics; resto de siluetas © de sus respectivos autores. Uso con fines educativos.</figcaption>
+</figure>
+
 Esto es especialmente importante en el diseño de juegos porque la silueta también transmite información de juego. Un enemigo tiene que distinguirse de un aliado de un vistazo; un enemigo peligroso, de uno débil. Si dos tipos de enemigo tienen la misma silueta, el jugador los confundirá en plena acción.
 
 <figure>
