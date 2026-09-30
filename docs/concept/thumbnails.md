@@ -27,11 +27,11 @@ Cualquier diseño, por complejo que sea, se puede reducir a círculos, cuadrados
 
 Pero las formas básicas también comunican. Nuestro cerebro asocia cada una con una sensación, y el diseño de personajes lo aprovecha constantemente. A esto se le llama lenguaje de formas (shape language).
 
-| Forma | Qué transmite | Uso habitual |
-|---|---|---|
-| Círculo | Amabilidad, suavidad, cercanía, inocencia | Personajes amistosos, mascotas, protagonistas jóvenes |
-| Cuadrado | Estabilidad, fuerza, fiabilidad, terquedad | Héroes robustos, tanques, figuras protectoras |
-| Triángulo | Peligro, dinamismo, agresividad, astucia | Villanos, enemigos, personajes rápidos o inestables |
+| Forma | Qué transmite | Uso habitual                                                |
+|---|---|-------------------------------------------------------------|
+| Círculo | Amabilidad, suavidad, cercanía, inocencia | Personajes amistosos, mascotas, protagonistas jóvenes       |
+| Cuadrado | Estabilidad, fuerza, fiabilidad, terquedad | Héroes o heroínas robustos/as, tanques, figuras protectoras |
+| Triángulo | Peligro, dinamismo, agresividad, astucia | Villanos, enemigos, personajes rápidos o inestables         |
 
 La gracia está en combinarlas. Un personaje construido con cuadrados pero con algún detalle triangular puede ser un protector con un lado peligroso. Una forma general redonda con un acento afilado resulta simpática pero con carácter.
 
