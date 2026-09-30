@@ -5,8 +5,8 @@ Haz la prueba con cualquier personaje famoso de videojuego: rellénalo de negro 
 Por eso la silueta es lo primero que se diseña y lo primero que se comprueba.
 
 <figure markdown>
-![Siluetas de personajes reconocibles solo por su forma](../assets/concept/silueta-lectura.svg)
-<figcaption>Solo con la forma sabes quién es cada personaje y qué hace. A la derecha, dos siluetas casi idénticas: sin detalle no hay manera de distinguirlas.</figcaption>
+![Siluetas de personajes conocidos de videojuegos, reconocibles solo por su forma](../assets/concept/silueta-personajes-videojuego.jpg){ loading=lazy }
+<figcaption>¿Cuántos reconoces? Ninguno tiene color, cara ni detalle, y aun así la mayoría se identifican al instante solo por su forma. Imagen: <a href="https://assets.anatomy4sculptors.com/2022/01/good-character-design-distinct-game-character-silhouette_1024x1024.jpg">Anatomy for Sculptors</a>. Personajes © de sus respectivos titulares; uso con fines educativos.</figcaption>
 </figure>
 
 ## Qué tiene que contar una silueta
@@ -21,6 +21,11 @@ Esto es especialmente importante en el diseño de juegos porque la silueta tambi
 </figure>
 
 Hay juegos que llevan esta idea al extremo. En *Limbo* (2010) casi todo lo que ves son siluetas negras sobre fondos grises, y aun así distingues perfectamente al protagonista, a la araña y cada elemento del escenario con el que puedes interactuar.
+
+<figure markdown>
+![Captura de Limbo con el niño y la araña gigante en silueta](../assets/concept/silueta-limbo.jpg){ loading=lazy }
+<figcaption><i>Limbo</i> (Playdead, 2010). La araña y el niño se leen sin un solo detalle interior. Imagen © Playdead; uso con fines educativos.</figcaption>
+</figure>
 
 ## Cómo diseñar desde la silueta
 
