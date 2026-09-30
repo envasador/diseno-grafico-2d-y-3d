@@ -86,7 +86,7 @@ Esta fase es el concept art del juego. Tiene entrega propia antes de empezar la 
 
 ## Producción 2D *(RA3)*
 
-Con el concept aprobado, produce el arte del juego en 2D. Antes de animar, prepara la fase de concept de la [UT2](../ut2/index.md): siluetas a tamaño de sprite, paleta y hoja de poses.
+Con el concept aprobado, produce el arte del juego en 2D. Antes de animar, prepara la fase de concept de la UT2: siluetas a tamaño de sprite, paleta y hoja de poses.
 
 Tienes que completar:
 

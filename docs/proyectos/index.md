@@ -5,8 +5,8 @@ A lo largo del curso harás tres proyectos que van acompañando a las unidades: 
 | Proyecto | Resultados de aprendizaje | Lo que produces |
 |---|---|---|
 | [Proyecto 1 · Arte 2D](proyecto-2d.md) | RA1, RA2 y RA3 | Concept art del juego, personaje animado en 2D, tileset y escenario |
-| [Proyecto 2 · Arte 3D](proyecto-3d.md) | RA1 y RA4 | Escena 3D con personaje riggeado y animado, exportada al motor |
-| [Proyecto 3 · Cinemática](proyecto-cinematica.md) | RA1 y RA5 | Cinemática de tu escena con varios planos, iluminación y cámara de juego |
+| Proyecto 2 · Arte 3D (próximamente) | RA1 y RA4 | Escena 3D con personaje riggeado y animado, exportada al motor |
+| Proyecto 3 · Cinemática (próximamente) | RA1 y RA5 | Cinemática de tu escena con varios planos, iluminación y cámara de juego |
 
 ## El concept es transversal
 

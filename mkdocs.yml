@@ -64,7 +64,8 @@ exclude_docs: |
   /ut4/
   /assets/ut2/
   /anexo-ui-ux/
-  /proyectos/
+  /proyectos/proyecto-3d.md
+  /proyectos/proyecto-cinematica.md
 
 nav:
   - Inicio: index.md
@@ -108,8 +109,8 @@ nav:
 #      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
 #      - El HUD: anexo-ui-ux/03-hud.md
 #      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
-#  - Proyectos:
-#      - proyectos/index.md
-#      - Proyecto 1 · Arte 2D: proyectos/proyecto-2d.md
+  - Proyectos:
+      - proyectos/index.md
+      - Proyecto 1 · Arte 2D: proyectos/proyecto-2d.md
 #      - Proyecto 2 · Arte 3D: proyectos/proyecto-3d.md
 #      - Proyecto 3 · Cinemática: proyectos/proyecto-cinematica.md

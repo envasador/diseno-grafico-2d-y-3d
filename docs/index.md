@@ -27,7 +27,7 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 261/2021, que establece el Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual. Tiene cinco resultados de aprendizaje (RA), que describen lo que tienes que saber hacer al terminar, y cada uno se concreta en criterios de evaluación (CE), que son lo que se comprueba en tus entregas. Despliega cada uno para ver sus criterios.
 
 ??? abstract "RA1. Desarrolla los principios del proceso creativo del arte conceptual del proyecto del videojuego."
-    Se trabaja en la pestaña Concept y se evalúa en la Fase 0 de cada proyecto.
+    Se trabaja en la fase de concept de los tres proyectos (la Fase 0), apoyándote en la pestaña Concept.
 
     - a) Se han identificado los conceptos fundamentales del arte conceptual.
     - b) Se han definido las etapas del proceso creativo.
@@ -88,4 +88,4 @@ El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 26
     - g) Se han identificado las diferencias entre iluminación dinámica y estática.
     - h) Se han utilizado diferentes configuraciones según el tipo de juego.
 
-[Empieza por Concept](concept/index.md){ .md-button .md-button--primary }
+[Empieza por Concept](concept/index.md){ .md-button .md-button--primary } [Ver proyectos](proyectos/index.md){ .md-button }
