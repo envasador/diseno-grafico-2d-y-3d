@@ -1,10 +1,10 @@
 # Proyecto 3 · Cinemática
 
-Tu escena 3D ya existe; ahora toca decidir cómo la ve el jugador. En este proyecto vas a dirigir una cinemática corta con varios planos, iluminarla para contar algo y llevarla al motor, donde además configurarás la cámara y la luz que tendría la escena durante el juego. Es el proyecto en el que la cámara y la luz dejan de ser un requisito técnico para convertirse en herramientas de narración.
+En este proyecto decides cómo ve el jugador una escena 3D: vas a dirigir una cinemática corta con varios planos, iluminarla para contar algo y llevarla al motor, donde además configurarás la cámara y la luz que tendría la escena durante el juego. Es el proyecto en el que la cámara y la luz dejan de ser un requisito técnico para convertirse en herramientas de narración.
 
 ## Objetivo
 
-Producir una cinemática de entre 20 y 45 segundos a partir de la escena del proyecto 2, con una planificación de planos, una iluminación que responda a una intención y una configuración de cámara y luz adaptada al tipo de juego dentro del motor.
+Producir una cinemática de entre 20 y 45 segundos a partir de una escena 3D, con una planificación de planos, una iluminación que responda a una intención y una configuración de cámara y luz adaptada al tipo de juego dentro del motor.
 
 ## Resultados de aprendizaje y criterios de evaluación
 
@@ -31,7 +31,7 @@ Producir una cinemática de entre 20 y 45 segundos a partir de la escena del pro
 
 ## Descripción del proyecto
 
-La cinemática puede ser la introducción de un nivel, la presentación de un personaje, el descubrimiento de un objeto o cualquier momento de tu juego que merezca contarse con cámara. Parte de la escena del proyecto 2; puedes ampliarla, añadir elementos o cambiar la hora del día si la historia lo pide.
+La cinemática puede ser la introducción de un nivel, la presentación de un personaje, el descubrimiento de un objeto o cualquier momento de tu juego que merezca contarse con cámara. El juego y la escena los eliges tú: puedes reutilizar la escena del proyecto 2 (ampliándola, añadiendo elementos o cambiando la hora del día si la historia lo pide) o construir una nueva para este proyecto.
 
 **Requisitos mínimos:**
 
@@ -54,7 +54,7 @@ La cinemática puede ser la introducción de un nivel, la presentación de un pe
 
 ## Fase 0 · Concept de la cinemática *(obligatoria, evalúa RA1)*
 
-Antes de colocar una sola cámara, prepara en tu biblia de arte el capítulo de la UT4:
+Antes de colocar una sola cámara, prepara en la biblia de arte de este proyecto el capítulo de la UT4:
 
 - **Guion breve:** qué ocurre en la cinemática, en tres o cuatro frases.
 - **Storyboard:** un [thumbnail](../concept/thumbnails.md) por plano, con el encuadre y la dirección del movimiento.

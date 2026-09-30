@@ -10,7 +10,7 @@ A lo largo del curso harás tres proyectos que van acompañando a las unidades: 
 
 ## El concept es transversal
 
-No hay un proyecto de concept aislado. Cada proyecto empieza por una **Fase 0 de concept** obligatoria, en la que preparas lo que la pestaña [Concept](../concept/index.md) describe para ese tipo de producción: en 2D, el concept art del juego y del personaje; en 3D, el turnaround y los callouts de materiales; en la cinemática, el storyboard y los color keys. Todo lo que produces en esas fases se incorpora a tu [biblia de arte](../concept/biblia-de-arte.md).
+No hay un proyecto de concept aislado. Cada proyecto empieza por una **Fase 0 de concept** obligatoria, en la que preparas lo que la pestaña [Concept](../concept/index.md) describe para ese tipo de producción: en 2D, el concept art del juego y del personaje; en 3D, el turnaround y los callouts de materiales; en la cinemática, el storyboard y los color keys. Todo lo que produces en esa fase se recoge en la [biblia de arte](../concept/biblia-de-arte.md) de ese proyecto.
 
 El **RA1** se evalúa en las tres Fases 0, cada una con los criterios que le corresponden:
 

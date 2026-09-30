@@ -12,7 +12,7 @@ Esta unidad desarrolla el **RA5**: define y configura movimientos de cámara e i
     - Un moodboard de luz con fotografía y fotogramas de cine que tengan la atmósfera que buscas.
     - Una comprobación de que tus personajes mantienen la [silueta](../concept/siluetas.md) sobre el fondo con la luz elegida.
 
-    Los keys y los encuadres finales cierran tu [biblia de arte](../concept/biblia-de-arte.md) como capítulo de la UT4.
+    Los keys y los encuadres finales se añaden a la [biblia de arte](../concept/biblia-de-arte.md) de tu proyecto como capítulo de la UT4.
 
 ## Apartados
 

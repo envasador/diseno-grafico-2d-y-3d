@@ -39,6 +39,6 @@ La siguiente tabla resume qué herramientas pesan más en cada momento del curso
 
 ## La biblia de arte y la Fase 0
 
-Todo lo que produzcas en las fases de concept se va acumulando en un único documento: la [biblia de arte](biblia-de-arte.md) de tu proyecto. Empieza siendo un moodboard y un par de páginas de estilo, y a final de curso recoge la paleta, los personajes, sus animaciones, los modelos y la iluminación. Es el mismo tipo de documento que se entrega en un estudio.
+Todo lo que produzcas en la fase de concept de un proyecto se recoge en un documento: la [biblia de arte](biblia-de-arte.md) de ese proyecto. Cada proyecto tiene la suya, con los capítulos que necesita su producción (paleta y personaje en 2D, turnaround y materiales en 3D, storyboard y luz en la cinemática). Es el mismo tipo de documento que se entrega en un estudio.
 
 Por eso todos los proyectos del curso tienen una **Fase 0 de concept** obligatoria antes de producir. En esa fase se evalúa el RA1 (desarrollar el proceso creativo del arte conceptual del proyecto), y se evalúa en cada proyecto, porque lo que se valora es que el proceso mejore de uno a otro.

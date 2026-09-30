@@ -1,6 +1,6 @@
 # Concept · La biblia de arte
 
-En un estudio, cuando una persona nueva entra al equipo de arte, no le explican el estilo del juego en una reunión. Le pasan un documento: la biblia de arte. Ahí está todo lo que necesita para producir assets que parezcan del mismo juego que los demás. En este curso vas a construir la tuya a lo largo del año, y cada unidad le añadirá un capítulo.
+En un estudio, cuando una persona nueva entra al equipo de arte, no le explican el estilo del juego en una reunión. Le pasan un documento: la biblia de arte. Ahí está todo lo que necesita para producir assets que parezcan del mismo juego que los demás. En este curso harás una para cada proyecto.
 
 ## Qué es
 
@@ -23,18 +23,16 @@ No hay un formato único, pero una biblia de arte completa suele tener estos blo
 | 3D | Presupuesto de polígonos, resolución de texturas, materiales |
 | Luz y cámara | Color keys de iluminación, tipos de luz, encuadres de referencia |
 
-## Cómo la construyes durante el curso
+## Una biblia por proyecto
 
-Tu biblia de arte crece con cada unidad. No hace falta que esté completa al principio; al contrario, cada fase de concept le añade un capítulo:
+Cada proyecto del curso parte del juego que tú elijas, así que cada uno tiene su propia biblia de arte. No hace falta que contenga todos los bloques de la tabla: recoge los que necesita esa producción, y crece a medida que avanzas por las unidades del proyecto:
 
-- **Proyecto 1, Fase 0.** Visión, moodboard, estilo, paleta y concept del personaje.
-- **UT1.** Ilustraciones y composiciones de personajes y escenarios con el estilo definido.
-- **UT2 y proyecto 1.** Model sheet y hoja de poses del personaje en 2D, lista de animaciones y tilesets.
-- **UT3 y proyecto 2.** Turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
-- **UT4 y proyecto 3.** Guion, storyboard, color keys de iluminación y encuadres de la cinemática.
+- **Proyecto 1 (UT1 y UT2).** Visión, moodboard, estilo, paleta y concept del personaje; ilustraciones y composiciones con el estilo definido; model sheet y hoja de poses en 2D, lista de animaciones y tilesets.
+- **Proyecto 2 (UT3).** Concepto de la escena, turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
+- **Proyecto 3 (UT4).** Guion, storyboard, color keys de iluminación y encuadres de la cinemática.
 
-Al final del curso tendrás un documento de portfolio que demuestra algo muy valorado en la industria: que sabes llevar un proyecto visual de principio a fin con coherencia.
+Si decides usar el mismo juego en varios proyectos, puedes seguir ampliando la misma biblia en lugar de empezar una nueva. En cualquier caso, cada una es una pieza de portfolio que demuestra algo muy valorado en la industria: que sabes documentar un proyecto visual con coherencia.
 
 ## Formato de entrega
 
-La biblia de arte se construye en Figma, en un único archivo con una página por bloque. Así puedes enlazarla en cada entrega, recibir comentarios directamente sobre ella y presentarla en clase.
+Cada biblia de arte se construye en Figma, en un archivo con una página por bloque. Así puedes enlazarla en cada entrega, recibir comentarios directamente sobre ella y presentarla en clase.

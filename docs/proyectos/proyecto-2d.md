@@ -1,6 +1,6 @@
 # Proyecto 1 · Arte 2D
 
-En este proyecto defines el aspecto visual de tu juego y lo llevas hasta un personaje jugable en 2D: diseñas el mundo y al protagonista en concept, lo ilustras en una composición de presentación y después lo produces como sprite animado, con su tileset y su escenario. Es el proyecto que pone en marcha tu biblia de arte, y todo lo que decidas aquí (estilo, paleta, personaje) será la base de los proyectos 2 y 3.
+En este proyecto defines el aspecto visual de tu juego y lo llevas hasta un personaje jugable en 2D: diseñas el mundo y al protagonista en concept, lo ilustras en una composición de presentación y después lo produces como sprite animado, con su tileset y su escenario. Todo lo que decidas aquí (estilo, paleta, personaje) queda recogido en la biblia de arte del proyecto.
 
 ## Objetivos
 

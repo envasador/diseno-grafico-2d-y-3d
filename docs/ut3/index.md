@@ -14,7 +14,7 @@ Esta unidad desarrolla el **RA4**: diseña elementos gráficos y animaciones en 
     - Una comprobación de [silueta](../concept/siluetas.md) desde varios ángulos, porque en 3D el objeto se verá desde todos.
     - Un moodboard de materiales con fotografías reales de las superficies que quieres reproducir.
 
-    Si en la UT2 diseñaste un personaje para tu mundo, puedes llevarlo a 3D manteniendo su identidad: es exactamente lo que hace un estudio cuando adapta un diseño 2D. Todo se añade a tu [biblia de arte](../concept/biblia-de-arte.md) como capítulo de la UT3.
+    Si quieres, puedes llevar a 3D un personaje que ya diseñaste en 2D manteniendo su identidad, igual que hace un estudio cuando adapta un diseño. Todo se añade a la [biblia de arte](../concept/biblia-de-arte.md) de tu proyecto como capítulo de la UT3.
 
 ## Apartados
 

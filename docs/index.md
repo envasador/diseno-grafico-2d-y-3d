@@ -11,7 +11,7 @@ A lo largo del curso harás tres proyectos (arte 2D, arte 3D y una cinemática) 
 
 ## Cómo está organizado
 
-La pestaña **Concept** es transversal: recoge el proceso creativo y las herramientas de diseño que usarás en todas las unidades. Cada unidad empieza con una fase de concept que te indica qué preparar antes de producir, y todo lo que produces se va acumulando en tu biblia de arte.
+La pestaña **Concept** es transversal: recoge el proceso creativo y las herramientas de diseño que usarás en todas las unidades. Cada unidad empieza con una fase de concept que te indica qué preparar antes de producir, y lo que produces en esa fase va a la biblia de arte del proyecto en el que estés.
 
 | Bloque | Resultado de aprendizaje | Contenido |
 |---|---|---|

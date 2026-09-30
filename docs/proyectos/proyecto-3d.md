@@ -1,6 +1,6 @@
 # Proyecto 2 · Arte 3D
 
-En este proyecto llevas tu mundo a tres dimensiones. Vas a producir una escena 3D en Blender siguiendo un pipeline profesional: planificación en concept, modelado, texturizado, rigging y animación, y exportación al motor. El resultado tiene que poder integrarse directamente en un proyecto de Unity o Godot, y será el escenario de tu cinemática en el proyecto 3.
+En este proyecto trabajas en tres dimensiones. Vas a producir una escena 3D en Blender siguiendo un pipeline profesional: planificación en concept, modelado, texturizado, rigging y animación, y exportación al motor. El resultado tiene que poder integrarse directamente en un proyecto de Unity o Godot.
 
 La escena tiene que contar algo, aunque sea sencillo. Es una escena de juego: un espacio, un personaje que lo habita y objetos que lo definen.
 
@@ -36,7 +36,7 @@ Producir una escena 3D completa en Blender, desde la planificación hasta la exp
 
 ## Descripción del proyecto
 
-Crea una escena 3D ambientada en el mundo de tu proyecto. Si puedes, lleva a 3D el personaje que diseñaste en el proyecto 1: es exactamente lo que hace un estudio cuando adapta un diseño 2D. Si tu proyecto todavía no tiene un entorno definido, puedes elegir una temática libre (medieval, futurista, terror, fantasía…).
+Crea una escena 3D del juego que elijas: el de tu equipo, el de una jam, un proyecto personal o una temática libre (medieval, futurista, terror, fantasía…). Puede ser el mismo juego del proyecto 1 o uno distinto. Si decides llevar a 3D un personaje que ya diseñaste en 2D, estarás haciendo lo mismo que un estudio cuando adapta un diseño.
 
 **Requisitos mínimos:**
 
@@ -64,7 +64,7 @@ La luz y la cámara de este proyecto son solo las necesarias para renderizar la 
 
 ## Fase 0 · Concept para 3D *(obligatoria, evalúa RA1)*
 
-Antes de abrir Blender, prepara en tu biblia de arte de Figma el capítulo de la UT3:
+Antes de abrir Blender, prepara en la biblia de arte de este proyecto (en Figma) el capítulo de la UT3:
 
 - **Concepto de la escena:** qué ocurre, dónde y quién es el personaje. Dos o tres frases bastan.
 - **Moodboard de materiales:** al menos cuatro referencias (fotografías, juegos, ilustraciones o tu propio concept art) que definan el estilo visual y las superficies que quieres conseguir.
