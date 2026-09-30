@@ -56,13 +56,15 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# Unidades ocultas: se abren poco a poco. Para publicar una unidad,
+# Secciones ocultas: se abren poco a poco. Para publicar una unidad,
 # borra su línea de exclude_docs y descomenta su bloque en nav.
 exclude_docs: |
   /ut2/
   /ut3/
   /ut4/
   /assets/ut2/
+  /anexo-ui-ux/
+  /proyectos/
 
 nav:
   - Inicio: index.md
@@ -101,14 +103,14 @@ nav:
 #  - UT4 Cámara y luz:
 #      - ut4/index.md
 #      - Iluminación: ut4/01-iluminacion.md
-  - Anexo UI/UX:
-      - anexo-ui-ux/index.md
-      - Introducción UI/UX: anexo-ui-ux/01-introduccion-ui-ux.md
-      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
-      - El HUD: anexo-ui-ux/03-hud.md
-      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
-  - Proyectos:
-      - proyectos/index.md
-      - Proyecto 1 · Arte 2D: proyectos/proyecto-2d.md
-      - Proyecto 2 · Arte 3D: proyectos/proyecto-3d.md
-      - Proyecto 3 · Cinemática: proyectos/proyecto-cinematica.md
+#  - Anexo UI/UX:
+#      - anexo-ui-ux/index.md
+#      - Introducción UI/UX: anexo-ui-ux/01-introduccion-ui-ux.md
+#      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
+#      - El HUD: anexo-ui-ux/03-hud.md
+#      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
+#  - Proyectos:
+#      - proyectos/index.md
+#      - Proyecto 1 · Arte 2D: proyectos/proyecto-2d.md
+#      - Proyecto 2 · Arte 3D: proyectos/proyecto-3d.md
+#      - Proyecto 3 · Cinemática: proyectos/proyecto-cinematica.md

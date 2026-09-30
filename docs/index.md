@@ -20,6 +20,6 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 | UT2 (próximamente) | RA3 | Gráficos y animación 2D |
 | UT3 (próximamente) | RA4 | Gráficos y animación 3D |
 | UT4 (próximamente) | RA5 | Cámara e iluminación 3D |
-| [Anexo](anexo-ui-ux/index.md) | Complementario | Diseño UI/UX para videojuegos |
+| Anexo (próximamente) | Complementario | Diseño UI/UX para videojuegos |
 
-[Empieza por Concept](concept/index.md){ .md-button .md-button--primary } [Ver proyectos](proyectos/index.md){ .md-button }
+[Empieza por Concept](concept/index.md){ .md-button .md-button--primary }
