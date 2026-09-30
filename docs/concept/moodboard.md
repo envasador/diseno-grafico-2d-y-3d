@@ -40,3 +40,10 @@ A lo largo del curso irás creando moodboards específicos en cada unidad: uno d
 Imagina un juego de exploración en una ciudad costera abandonada donde la naturaleza lo ha recuperado todo. Un moodboard sólido podría tener fotografías de pueblos pesqueros en ruinas, hormigón con salitre y óxido, vegetación creciendo por las fachadas, la luz dorada y baja del atardecer, redes y cuerdas de pesca como texturas, una paleta de azules desaturados con acentos de verde intenso y un par de fotogramas de películas con esa misma sensación de calma después del desastre.
 
 Fíjate en que casi ninguna de esas imágenes es de un videojuego. Todas juntas, sin embargo, ya definen el juego.
+
+Ahora mira uno de verdad. En este tablero conviven una consola portátil, un disco de un juego de baile, televisores de tubo, un salón recreativo, ropa, un bolso y un hacha de juguete. Son objetos muy distintos, y aun así todo parece del mismo mundo: el rosa y el magenta dominan casi todas las imágenes, se repite la estética retro de pantallas y recreativas, y aparece varias veces una chica con ese aire entre dulce y peligroso. Sin leer una sola línea ya sabes qué tono, qué paleta y qué tipo de protagonista tendría ese juego.
+
+<figure markdown>
+![Moodboard en tonos rosa y magenta con consolas, recreativas, pantallas de tubo y moda](../assets/concept/moodboard-amate-jimenez-angela.png){ loading=lazy }
+<figcaption>Moodboard de Amate Jiménez, Ángela. Imágenes recopiladas © de sus respectivos autores. Uso con fines educativos.</figcaption>
+</figure>
