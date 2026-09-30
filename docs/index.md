@@ -7,7 +7,7 @@ hide:
 
 Material del módulo Diseño Gráfico 2D y 3D del Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual del IES Rafael Alberti.
 
-A lo largo del curso harás tres proyectos (arte 2D, arte 3D y una cinemática), y los tres parten del proyecto de tu estudio: el arte que produces en este módulo es el que necesita vuestro juego. Cada unidad te da las herramientas para una de esas producciones, y todas se apoyan en el mismo proceso creativo.
+A lo largo del curso harás tres proyectos (arte 2D, arte 3D y una cinemática) que van acompañando a las unidades: cada uno pone en práctica lo que acabas de ver. Todas las unidades se apoyan en el mismo proceso creativo, que es lo que trabajas en Concept.
 
 ## Cómo está organizado
 

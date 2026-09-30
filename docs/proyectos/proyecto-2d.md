@@ -57,7 +57,7 @@ Elige una de estas líneas y justifica la elección en la presentación:
 2. Tu proyecto para la Game Off, la MiniJam, la Global Game Jam o la Málaga Jam.
 3. Un proyecto personal (un juego, una novela gráfica, una experiencia de realidad virtual…).
 
-Contextualiza el juego con todo lo que ayude a entenderlo: género, público, plataforma, mecánicas principales y tono. Cuanto más completo sea el contexto, mejor podrás justificar tus decisiones de arte. Te recomiendo que uses el mismo proyecto en los tres proyectos del curso.
+Contextualiza el juego con todo lo que ayude a entenderlo: género, público, plataforma, mecánicas principales y tono. Cuanto más completo sea el contexto, mejor podrás justificar tus decisiones de arte.
 
 ## Fase 0 · Concept art *(entrega previa con nota: RA1 y RA2)*
 

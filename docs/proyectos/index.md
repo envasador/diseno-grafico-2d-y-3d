@@ -1,6 +1,6 @@
 # Proyectos
 
-A lo largo del curso harás tres proyectos, y los tres forman parte del mismo mundo de juego. En el primero lo llevas a 2D, en el segundo a 3D y en el tercero lo pones en escena con cámaras y luz. Lo ideal es que partas siempre del mismo proyecto (el juego de tu equipo, una jam o un proyecto personal) para que tu biblia de arte crezca de principio a fin y al terminar tengas una pieza de portfolio completa.
+A lo largo del curso harás tres proyectos que van acompañando a las unidades: el primero se centra en el arte 2D, el segundo en el 3D y el tercero en la puesta en escena con cámaras y luz. Cada uno pone en práctica lo que acabas de ver, y en cada uno eliges de qué juego partes (el de tu equipo, una jam o un proyecto personal).
 
 | Proyecto | Resultados de aprendizaje | Lo que produces |
 |---|---|---|
