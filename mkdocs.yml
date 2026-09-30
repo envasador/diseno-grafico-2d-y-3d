@@ -56,6 +56,14 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+# Unidades ocultas: se abren poco a poco. Para publicar una unidad,
+# borra su línea de exclude_docs y descomenta su bloque en nav.
+exclude_docs: |
+  /ut2/
+  /ut3/
+  /ut4/
+  /assets/ut2/
+
 nav:
   - Inicio: index.md
   - Concept:
@@ -74,25 +82,25 @@ nav:
       - Affinity Designer: ut1/01-affinity-designer.md
       - Personajes y escenarios: ut1/02-dibujo-de-personajes-y-escenarios.md
       - Flujo de un personaje: ut1/03-flujo-de-un-personaje.md
-  - UT2 Arte 2D:
-      - ut2/index.md
-      - El arte 2D: ut2/01-arte-2d.md
-      - Programas para pixel art: ut2/02-programas-pixel-art.md
-      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
-      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
-      - Principios de animación: ut2/05-principios-de-animacion.md
-      - Animación de espera: ut2/06-animacion-de-espera.md
-      - Walking cycle: ut2/07-walking-cycle.md
-      - Animación de ataque: ut2/08-animacion-de-ataque.md
-      - Escenarios 2D: ut2/09-escenarios-2d.md
-  - UT3 Arte 3D:
-      - ut3/index.md
-      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
-      - Modelado básico: ut3/02-modelado-basico.md
-      - Materiales y texturas: ut3/03-materiales-y-texturas.md
-  - UT4 Cámara y luz:
-      - ut4/index.md
-      - Iluminación: ut4/01-iluminacion.md
+#  - UT2 Arte 2D:
+#      - ut2/index.md
+#      - El arte 2D: ut2/01-arte-2d.md
+#      - Programas para pixel art: ut2/02-programas-pixel-art.md
+#      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
+#      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
+#      - Principios de animación: ut2/05-principios-de-animacion.md
+#      - Animación de espera: ut2/06-animacion-de-espera.md
+#      - Walking cycle: ut2/07-walking-cycle.md
+#      - Animación de ataque: ut2/08-animacion-de-ataque.md
+#      - Escenarios 2D: ut2/09-escenarios-2d.md
+#  - UT3 Arte 3D:
+#      - ut3/index.md
+#      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
+#      - Modelado básico: ut3/02-modelado-basico.md
+#      - Materiales y texturas: ut3/03-materiales-y-texturas.md
+#  - UT4 Cámara y luz:
+#      - ut4/index.md
+#      - Iluminación: ut4/01-iluminacion.md
   - Anexo UI/UX:
       - anexo-ui-ux/index.md
       - Introducción UI/UX: anexo-ui-ux/01-introduccion-ui-ux.md

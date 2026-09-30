@@ -17,9 +17,9 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 |---|---|---|
 | [Concept](concept/index.md) | RA1 (en todo el curso) | Proceso creativo del arte conceptual y caja de herramientas |
 | [UT1](ut1/index.md) | RA2 | Ilustración digital y diseño vectorial |
-| [UT2](ut2/index.md) | RA3 | Gráficos y animación 2D |
-| [UT3](ut3/index.md) | RA4 | Gráficos y animación 3D |
-| [UT4](ut4/index.md) | RA5 | Cámara e iluminación 3D |
+| UT2 (próximamente) | RA3 | Gráficos y animación 2D |
+| UT3 (próximamente) | RA4 | Gráficos y animación 3D |
+| UT4 (próximamente) | RA5 | Cámara e iluminación 3D |
 | [Anexo](anexo-ui-ux/index.md) | Complementario | Diseño UI/UX para videojuegos |
 
 [Empieza por Concept](concept/index.md){ .md-button .md-button--primary } [Ver proyectos](proyectos/index.md){ .md-button }
