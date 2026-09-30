@@ -1,4 +1,4 @@
-# Concept · Thumbnails y lenguaje de formas
+# Concept · Thumbnails y formas
 
 Cuando tienes una idea, la tentación es abrir un lienzo grande y empezar a dibujarla bien. El problema es que dibujar bien lleva tiempo, y cuanto más tiempo le dedicas a un dibujo, más te cuesta tirarlo. Los thumbnails resuelven eso: son dibujos tan pequeños y rápidos que no te da pena descartarlos, y por eso te permiten explorar muchas más ideas.
 
