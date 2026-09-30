@@ -1557,25 +1557,25 @@
 
 
 <h1 id="ut24-tiles-y-sprite-sheets">UT2.4 Tiles y sprite sheets<a class="headerlink" href="#ut24-tiles-y-sprite-sheets" title="Permanent link">&para;</a></h1>
-<p>Abre Pyxel Edit por primera vez y lo primero que verás es una rejilla de casillas. Y la vas a seguir viendo por todas partes, porque en este programa todo gira alrededor de ella. Cada casilla es un tile, y entender para qué sirve es la llave de casi todo lo que harás en esta unidad: con tiles construyes escenarios y con tiles construyes animaciones.</p>
+<p>Abre Pyxel Edit por primera vez y lo primero que verás es una rejilla de casillas. Y la vas a seguir viendo por todas partes, porque en este programa todo gira alrededor de ella. Cada casilla es un tile, y entender para qué sirve es la llave de casi todo lo que harás en esta unidad: <strong>con tiles construyes escenarios y con tiles construyes animaciones</strong>.</p>
 <h2 id="que-es-un-tile">Qué es un tile<a class="headerlink" href="#que-es-un-tile" title="Permanent link">&para;</a></h2>
-<p>Un tile es una celda de tamaño fijo dentro de una rejilla, y en ella se dibuja. Según lo que dibujes, ese tile servirá para una de dos cosas muy distintas: formar parte de un escenario o ser un fotograma de una animación.</p>
+<p>Un tile es <strong>una celda de tamaño fijo dentro de una rejilla</strong>, y en ella se dibuja. Según lo que dibujes, ese tile servirá para una de dos cosas muy distintas: <strong>formar parte de un escenario o ser un fotograma de una animación</strong>.</p>
 <h2 id="tiles-para-crear-tilesets">Tiles para crear tilesets<a class="headerlink" href="#tiles-para-crear-tilesets" title="Permanent link">&para;</a></h2>
-<p>Un tileset es un documento donde dibujas piezas de escenario como si fueran las piezas de un Lego: suelo, pared, esquina, borde, un trozo de agua. Cada pieza ocupa una celda de la rejilla, un tile. Después, en el motor o en un editor de niveles, esas piezas se colocan una junto a otra para construir mapas completos.</p>
+<p>Un <strong>tileset</strong> es un documento donde dibujas piezas de escenario <strong>como si fueran las piezas de un Lego</strong>: suelo, pared, esquina, borde, un trozo de agua. Cada pieza ocupa una celda de la rejilla, un tile. Después, en el motor o en un editor de niveles, esas piezas se colocan una junto a otra para construir mapas completos.</p>
 <figure>
 <p><img alt="Tileset y el escenario montado con sus piezas" loading="lazy" src="../../assets/ut2/tileset.png" /></p>
 <figcaption>Cada pieza del tileset ocupa un tile. Combinándolas se construye el escenario. Tileset © de su autor. Uso con fines educativos.</figcaption>
 </figure>
-<p>La ventaja es enorme: con unas pocas decenas de tiles bien diseñados montas niveles gigantes, el juego ocupa menos memoria y cambiar un nivel es tan fácil como mover piezas. ¿La pega? Que los tiles tienen que encajar entre sí sin que se noten las costuras, y eso tiene su truco. Lo verás con calma en <a href="../09-escenarios-2d/">escenarios 2D</a>.</p>
+<p>La ventaja es enorme: <strong>con unas pocas decenas de tiles bien diseñados montas niveles gigantes</strong>, el juego ocupa menos memoria y cambiar un nivel es tan fácil como mover piezas. ¿La pega? Que los tiles <strong>tienen que encajar entre sí sin que se noten las costuras</strong>, y eso tiene su truco. Lo verás con calma en <a href="../09-escenarios-2d/">escenarios 2D</a>.</p>
 <h2 id="tiles-para-crear-animaciones">Tiles para crear animaciones<a class="headerlink" href="#tiles-para-crear-animaciones" title="Permanent link">&para;</a></h2>
-<p>En animación, un tile funciona igual que un fotograma (frame) en cine, o que cada hoja de esos cuadernos que pasabas rápido con el pulgar para ver moverse un dibujo. Cada celda contiene una pose del personaje, y al reproducirlas seguidas aparece el movimiento.</p>
+<p>En animación, un tile <strong>funciona igual que un fotograma (frame)</strong> en cine, o que cada hoja de esos cuadernos que pasabas rápido con el pulgar para ver moverse un dibujo. Cada celda contiene una pose del personaje, y al reproducirlas seguidas aparece el movimiento.</p>
 <figure>
 <p><img alt="Un tile equivale a un frame de una película" loading="lazy" src="../../assets/ut2/tile-frame.png" /></p>
 <figcaption>Tile = frame. Cada fila de la rejilla guarda una animación distinta del mismo personaje. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p>Mientras trabajas, el programa te deja previsualizar esos frames en bucle, y puedes exportar el resultado como un GIF animado para enseñarlo. Para el motor del juego, en cambio, lo que se exporta es un sprite sheet.</p>
+<p>Mientras trabajas, el programa te deja previsualizar esos frames en bucle, y puedes exportar el resultado como un <strong>GIF animado</strong> para enseñarlo. Para el motor del juego, en cambio, lo que se exporta es un sprite sheet.</p>
 <h2 id="que-es-un-sprite-sheet">Qué es un sprite sheet<a class="headerlink" href="#que-es-un-sprite-sheet" title="Permanent link">&para;</a></h2>
-<p>Un sprite sheet es una única imagen (normalmente un PNG con transparencia) que contiene todos los frames de una animación, o de varias, colocados en una rejilla. El motor carga esa imagen una sola vez y va mostrando cada trozo en orden, como quien pasa diapositivas. Es mucho más eficiente que cargar un archivo por frame.</p>
+<p>Un sprite sheet es <strong>una única imagen</strong> (normalmente un PNG con transparencia) que contiene <strong>todos los frames de una animación, o de varias</strong>, colocados en una rejilla. El motor <strong>carga esa imagen una sola vez</strong> y va mostrando cada trozo en orden, como quien pasa diapositivas. Es mucho más eficiente que cargar un archivo por frame.</p>
 <figure>
 <p><img alt="Frames de una animación exportados como sprite sheet" loading="lazy" src="../../assets/ut2/spritesheet.png" /></p>
 <figcaption>Al exportar todos los frames de una animación obtienes un sprite sheet en PNG. Sprites de <i>Scott Pilgrim vs. the World: The Game</i> © Ubisoft. Uso con fines educativos.</figcaption>
@@ -1586,13 +1586,13 @@
 <figcaption>Todos los tiles o frames de una animación comparten el mismo tamaño. Sprites de <i>Scott Pilgrim vs. the World: The Game</i> © Ubisoft. Uso con fines educativos.</figcaption>
 </figure>
 <h2 id="por-que-potencias-de-dos">Por qué potencias de dos<a class="headerlink" href="#por-que-potencias-de-dos" title="Permanent link">&para;</a></h2>
-<p>Las dimensiones más recomendadas para tiles y frames son potencias de dos: 16, 32, 64, 128, 256, 512, 1024. El motivo es técnico. Las tarjetas gráficas gestionan las texturas de forma más eficiente cuando sus dimensiones son potencias de dos, y los motores y herramientas de empaquetado (Unity, Godot, TexturePacker) están optimizados para esos tamaños. Además, las potencias de dos se dividen entre sí sin restos: un tile de 16 cabe exactamente dos veces en uno de 32, lo que hace que personajes y escenarios encajen en la misma rejilla.</p>
-<p>¿Y si tu personaje ocupa 33×21 píxeles, que no es potencia de nada? Pues eliges la potencia de dos inmediatamente superior que lo contenga (aquí, 64×64, porque 33 ya no cabe en 32) y colocas el personaje dentro dejando margen. Ese margen te hará falta cuando el personaje se mueva, extienda los brazos o blanda un arma.</p>
+<p>Las dimensiones más recomendadas para tiles y frames son potencias de dos: 16, 32, 64, 128, 256, 512, 1024. El motivo es <strong>técnico</strong>. Las tarjetas gráficas gestionan las texturas de forma más eficiente cuando sus dimensiones son potencias de dos, y los motores y herramientas de empaquetado (Unity, Godot, TexturePacker) están optimizados para esos tamaños. Además, las potencias de dos <strong>se dividen entre sí sin restos</strong>: un tile de 16 cabe exactamente dos veces en uno de 32, lo que hace que personajes y escenarios encajen en la misma rejilla.</p>
+<p>¿Y si tu personaje ocupa 33×21 píxeles, que no es potencia de nada? Pues eliges <strong>la potencia de dos inmediatamente superior que lo contenga</strong> (aquí, 64×64, porque 33 ya no cabe en 32) y colocas el personaje dentro <strong>dejando margen</strong>. Ese margen te hará falta cuando el personaje se mueva, extienda los brazos o blanda un arma.</p>
 <figure>
 <p><img alt="Adaptar un sprite de 33x21 a un frame de 64x64" loading="lazy" src="../../assets/ut2/potencia-de-dos.png" /></p>
 <figcaption>Un sprite de 33×21 no encaja en ninguna potencia de dos: se coloca dentro de un frame de 64×64. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p>Un consejo que te ahorrará rehacer trabajo: decide el tamaño del frame pensando en la pose más grande de todas las animaciones del personaje (normalmente el ataque) y usa ese tamaño para todas. Así todas sus animaciones comparten rejilla y el personaje no "salta" al cambiar de una a otra.</p>
+<p>Un consejo que te ahorrará rehacer trabajo: decide el tamaño del frame pensando en <strong>la pose más grande</strong> de todas las animaciones del personaje (normalmente el ataque) y usa ese tamaño para todas. Así todas sus animaciones comparten rejilla y el personaje no "salta" al cambiar de una a otra.</p>
 <h2 id="exportar-para-el-motor">Exportar para el motor<a class="headerlink" href="#exportar-para-el-motor" title="Permanent link">&para;</a></h2>
 <p>Antes de darle a exportar, repasa esta lista. Cada punto viene de un error que alguien cometió antes que tú:</p>
 <ul>

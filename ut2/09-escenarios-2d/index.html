@@ -1535,10 +1535,10 @@
 
 
 <h1 id="ut29-escenarios-2d">UT2.9 Escenarios 2D<a class="headerlink" href="#ut29-escenarios-2d" title="Permanent link">&para;</a></h1>
-<p>Tu personaje ya respira, anda y ataca. Enhorabuena. Pero sigue flotando en un fondo transparente, y eso es un poco triste. Necesita un mundo.</p>
-<p>En 2D ese mundo se construye de una forma muy particular: con piezas pequeñas que se repiten para formar el suelo y las paredes, y con capas que se mueven a distintas velocidades para simular profundidad. En este apartado verás cómo se planifican las dos cosas y qué decisiones de perspectiva tienes que tomar antes de dibujar la primera pieza.</p>
+<p>Tu personaje ya respira, anda y ataca. Enhorabuena. Pero sigue flotando en un fondo transparente, y eso es un poco triste. <strong>Necesita un mundo.</strong></p>
+<p>En 2D ese mundo se construye de una forma muy particular: con <strong>piezas pequeñas que se repiten</strong> para formar el suelo y las paredes, y con <strong>capas que se mueven a distintas velocidades para simular profundidad</strong>. En este apartado verás cómo se planifican las dos cosas y qué decisiones de perspectiva tienes que tomar antes de dibujar la primera pieza.</p>
 <h2 id="primero-la-perspectiva">Primero, la perspectiva<a class="headerlink" href="#primero-la-perspectiva" title="Permanent link">&para;</a></h2>
-<p>Antes de dibujar un solo tile tienes que decidir desde dónde mira la cámara, porque cambia la forma de dibujar cada elemento del escenario. En 2D hay cuatro vistas principales:</p>
+<p>Antes de dibujar un solo tile tienes que decidir <strong>desde dónde mira la cámara</strong>, porque cambia la forma de dibujar cada elemento del escenario. En 2D hay <strong>cuatro vistas principales</strong>:</p>
 <table>
 <thead>
 <tr>
@@ -1570,19 +1570,19 @@
 </tr>
 </tbody>
 </table>
-<p>Personaje y escenario tienen que compartir vista. Un personaje de perfil caminando sobre un suelo en tres cuartos rompe la ilusión al instante (y queda rarísimo).</p>
-<p>La vista isométrica tiene una particularidad en pixel art: sus líneas se construyen con una proporción de dos píxeles en horizontal por uno en vertical, que es la que produce diagonales limpias sin dientes de sierra.</p>
+<p><strong>Personaje y escenario tienen que compartir vista.</strong> Un personaje de perfil caminando sobre un suelo en tres cuartos rompe la ilusión al instante (y queda rarísimo).</p>
+<p>La vista isométrica tiene una particularidad en pixel art: sus líneas se construyen con una proporción de <strong>dos píxeles en horizontal por uno en vertical</strong>, que es la que produce diagonales limpias sin dientes de sierra.</p>
 <h2 id="tilesets-construir-con-piezas">Tilesets: construir con piezas<a class="headerlink" href="#tilesets-construir-con-piezas" title="Permanent link">&para;</a></h2>
-<p>Ya viste en <a href="../04-tiles-y-sprite-sheets/">tiles y sprite sheets</a> que un tileset es un conjunto de piezas de escenario dibujadas en una rejilla. Diseñar uno bueno tiene tres retos.</p>
-<p>El primero es que <strong>las piezas encajen</strong>. Un tile de suelo tiene que poder repetirse a izquierda y derecha sin que se vea la costura. Para comprobarlo, colócalo en una rejilla de tres por tres copias y busca cualquier línea o patrón que delate la repetición.</p>
-<p>El segundo es <strong>cubrir todos los casos</strong>. Un bloque de tierra necesita pieza central, bordes superior e inferior, laterales, cuatro esquinas exteriores y cuatro interiores. Si falta alguna, el diseñador de niveles no podrá cerrar ciertas formas. Los motores tienen sistemas de autotiling (las reglas de tiles en Unity, los terrains de Godot) que eligen automáticamente la pieza correcta según sus vecinas, pero necesitan que todas estén dibujadas.</p>
-<p>El tercero es <strong>evitar la monotonía</strong>. Si el mismo tile de hierba se repite doscientas veces, el ojo pilla el patrón enseguida y el escenario empieza a parecer papel pintado. Dibuja dos o tres variantes de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.</p>
+<p>Ya viste en <a href="../04-tiles-y-sprite-sheets/">tiles y sprite sheets</a> que un tileset es un conjunto de piezas de escenario dibujadas en una rejilla. Diseñar uno bueno <strong>tiene tres retos</strong>.</p>
+<p>El primero es que <strong>las piezas encajen</strong>. Un tile de suelo tiene que poder repetirse a izquierda y derecha sin que se vea la costura. Para comprobarlo, colócalo en una rejilla de <strong>tres por tres copias</strong> y busca cualquier línea o patrón que delate la repetición.</p>
+<p>El segundo es <strong>cubrir todos los casos</strong>. Un bloque de tierra necesita pieza central, bordes superior e inferior, laterales, cuatro esquinas exteriores y cuatro interiores. Si falta alguna, el diseñador de niveles no podrá cerrar ciertas formas. Los motores tienen sistemas de <strong>autotiling</strong> (las reglas de tiles en Unity, los terrains de Godot) que eligen automáticamente la pieza correcta según sus vecinas, pero necesitan que todas estén dibujadas.</p>
+<p>El tercero es <strong>evitar la monotonía</strong>. Si el mismo tile de hierba se repite doscientas veces, el ojo pilla el patrón enseguida y el escenario empieza a parecer papel pintado. Dibuja <strong>dos o tres variantes</strong> de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.</p>
 <h2 id="montar-el-nivel">Montar el nivel<a class="headerlink" href="#montar-el-nivel" title="Permanent link">&para;</a></h2>
-<p>Los tiles se colocan con un editor de mapas. Puedes usar <strong>Tiled</strong>, un editor gratuito que exporta mapas a casi cualquier motor, o los editores integrados: <strong>Tilemap</strong> en Unity y <strong>TileMapLayer</strong> en Godot. En todos, el flujo es parecido: cargas el tileset, defines el tamaño del tile y pintas el nivel con las piezas como si fueran pinceles.</p>
-<p>Organiza el mapa en capas separadas. Una capa para el suelo y las paredes con las que el personaje colisiona, otra para la decoración que queda detrás, otra para la que queda delante. Esa separación facilita que programación configure las colisiones y te permite cambiar la decoración sin tocar lo jugable.</p>
+<p>Los tiles se colocan con un <strong>editor de mapas</strong>. Puedes usar <strong>Tiled</strong>, un editor gratuito que exporta mapas a casi cualquier motor, o los editores integrados: <strong>Tilemap</strong> en Unity y <strong>TileMapLayer</strong> en Godot. En todos, el flujo es parecido: cargas el tileset, defines el tamaño del tile y pintas el nivel con las piezas como si fueran pinceles.</p>
+<p>Organiza el mapa en <strong>capas separadas</strong>. Una capa para el suelo y las paredes con las que el personaje colisiona, otra para la decoración que queda detrás, otra para la que queda delante. Esa separación facilita que programación configure las colisiones y te permite cambiar la decoración sin tocar lo jugable.</p>
 <h2 id="fondos-y-parallax">Fondos y parallax<a class="headerlink" href="#fondos-y-parallax" title="Permanent link">&para;</a></h2>
-<p>Lo que queda detrás del nivel jugable (el cielo, las montañas, la ciudad lejana) no suele construirse con tiles. Se pinta como ilustraciones grandes, a menudo en un programa de ilustración, divididas en capas según su distancia.</p>
-<p>El <strong>parallax scrolling</strong> aprovecha esas capas: cuando la cámara se mueve, cada capa se desplaza a una velocidad distinta. Las lejanas se mueven muy despacio y las cercanas más deprisa, exactamente como cuando miras por la ventanilla del tren: los postes pasan volando y las montañas casi no se mueven. Con tres o cuatro capas ya se consigue una sensación de profundidad muy convincente.</p>
+<p>Lo que queda detrás del nivel jugable (el cielo, las montañas, la ciudad lejana) no suele construirse con tiles. Se pinta como <strong>ilustraciones grandes</strong>, a menudo en un programa de ilustración, divididas en capas según su distancia.</p>
+<p>El <strong>parallax scrolling</strong> aprovecha esas capas: cuando la cámara se mueve, <strong>cada capa se desplaza a una velocidad distinta</strong>. Las lejanas se mueven muy despacio y las cercanas más deprisa, exactamente como cuando miras por la ventanilla del tren: los postes pasan volando y las montañas casi no se mueven. <strong>Con tres o cuatro capas</strong> ya se consigue una sensación de profundidad muy convincente.</p>
 <p>Al pintar las capas de parallax ten en cuenta tres cosas:</p>
 <ul>
 <li><strong>Perspectiva atmosférica.</strong> Cuanto más lejos está una capa, menos contraste, menos saturación y más se acerca al color del cielo.</li>
@@ -1590,7 +1590,7 @@
 <li><strong>Jerarquía con lo jugable.</strong> El fondo está para acompañar, y nunca debe competir con el primer plano. Si el jugador duda de si una plataforma es suelo o decoración, el fondo tiene demasiado contraste.</li>
 </ul>
 <h2 id="la-fase-de-concept-del-escenario">La fase de concept del escenario<a class="headerlink" href="#la-fase-de-concept-del-escenario" title="Permanent link">&para;</a></h2>
-<p>Los escenarios también pasan por concept antes de producirse. Unos <a href="../../concept/thumbnails/">thumbnails</a> de composición te ayudan a decidir cuántas capas de profundidad tendrá la escena, un <a href="../../concept/color/#color-keys-y-color-script">color key</a> fija la paleta y la atmósfera, y una <a href="../../concept/hojas-de-produccion/#hojas-de-props-y-de-entornos">hoja de entornos</a> con las piezas del tileset y el personaje al lado para comparar escala evita sorpresas al montar el nivel.</p>
+<p>Los escenarios <strong>también pasan por concept</strong> antes de producirse. Unos <a href="../../concept/thumbnails/">thumbnails</a> de composición te ayudan a decidir cuántas capas de profundidad tendrá la escena, un <a href="../../concept/color/#color-keys-y-color-script">color key</a> fija la paleta y la atmósfera, y una <a href="../../concept/hojas-de-produccion/#hojas-de-props-y-de-entornos">hoja de entornos</a> con las piezas del tileset y el personaje al lado para comparar escala evita sorpresas al montar el nivel.</p>
 
 
 

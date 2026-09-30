@@ -1513,32 +1513,32 @@
 
 
 <h1 id="ut27-walking-cycle">UT2.7 Walking cycle<a class="headerlink" href="#ut27-walking-cycle" title="Permanent link">&para;</a></h1>
-<p>Andas todos los días y seguro que nunca te has parado a pensar cómo lo haces. Hasta que intentas animarlo. Ahí descubres que andar es un lío: las piernas se alternan, los brazos van al revés que ellas, el cuerpo sube y baja y todo tiene que repetirse sin que se note el corte.</p>
-<p>Tranquilidad. En pixel art hay una receta sencilla que funciona, y a partir de ella puedes añadirle a tu personaje toda la personalidad que quieras.</p>
+<p>Andas todos los días y seguro que nunca te has parado a pensar cómo lo haces. Hasta que intentas animarlo. Ahí descubres que <strong>andar es un lío</strong>: las piernas se alternan, los brazos van al revés que ellas, el cuerpo sube y baja y todo tiene que repetirse sin que se note el corte.</p>
+<p>Tranquilidad. En pixel art <strong>hay una receta sencilla que funciona</strong>, y a partir de ella puedes añadirle a tu personaje toda la personalidad que quieras.</p>
 <h2 id="que-es-un-walking-cycle">Qué es un walking cycle<a class="headerlink" href="#que-es-un-walking-cycle" title="Permanent link">&para;</a></h2>
-<p>El walking cycle (ciclo de andar) es la animación que reproduce un personaje cuando se desplaza andando. Es un ciclo porque se repite en bucle: el último frame enlaza con el primero. Muchos personajes también tienen un running cycle (ciclo de correr), que sigue la misma lógica con poses más extremas y un timing más rápido.</p>
-<p>Un detalle importante: en la mayoría de juegos 2D el personaje anda "en el sitio" dentro de su frame, y es el motor el que lo desplaza por el escenario. Tu trabajo es que el movimiento de las piernas cuadre con esa velocidad; si no cuadra, el personaje parecerá que va sobre patines.</p>
+<p>El walking cycle (ciclo de andar) es la animación que reproduce un personaje cuando se desplaza andando. Es un ciclo porque <strong>se repite en bucle</strong>: el último frame enlaza con el primero. Muchos personajes también tienen un <strong>running cycle (ciclo de correr)</strong>, que sigue la misma lógica con poses más extremas y un timing más rápido.</p>
+<p>Un detalle importante: en la mayoría de juegos 2D el personaje anda <strong>"en el sitio"</strong> dentro de su frame, y <strong>es el motor el que lo desplaza por el escenario</strong>. Tu trabajo es que el movimiento de las piernas cuadre con esa velocidad; si no cuadra, el personaje <strong>parecerá que va sobre patines</strong>.</p>
 <h2 id="cuantos-frames">Cuántos frames<a class="headerlink" href="#cuantos-frames" title="Permanent link">&para;</a></h2>
-<p>Hay walking cycles de 2, 3, 6, 12, 24 frames o más. Todo depende de la fluidez que quieras y del tiempo que tengas. Dos frames dan un andar muy retro, de máquina recreativa de bar; doce o más dan un movimiento suave, casi de película de animación.</p>
-<p>El número de frames no es lo único que importa. El ciclo es una gran oportunidad para dar personalidad al personaje y para comunicar su peso y su velocidad: un gigante pesado apoya con fuerza y se hunde en cada paso, un personaje ligero apenas toca el suelo, uno sigiloso anda encogido. Antes de animar, revisa tu <a href="../../concept/hojas-de-produccion/#hojas-de-expresiones-y-de-poses">hoja de poses</a> y decide cómo anda tu personaje.</p>
+<p>Hay walking cycles de 2, 3, 6, 12, 24 frames o más. <strong>Todo depende de la fluidez que quieras y del tiempo que tengas.</strong> Dos frames dan un andar muy retro, de máquina recreativa de bar; doce o más dan un movimiento suave, casi de película de animación.</p>
+<p>El número de frames no es lo único que importa. El ciclo es una gran oportunidad para dar personalidad al personaje y para <strong>comunicar su peso y su velocidad</strong>: un gigante pesado apoya con fuerza y se hunde en cada paso, un personaje ligero apenas toca el suelo, uno sigiloso anda encogido. Antes de animar, revisa tu <a href="../../concept/hojas-de-produccion/#hojas-de-expresiones-y-de-poses">hoja de poses</a> y decide cómo anda tu personaje.</p>
 <h2 id="la-receta-de-6-frames">La receta de 6 frames<a class="headerlink" href="#la-receta-de-6-frames" title="Permanent link">&para;</a></h2>
-<p>Seis frames es un buen punto de partida: suficientes para que el movimiento se lea claro y pocos para que puedas producirlos sin morir en el intento. Esta es la receta.</p>
+<p>Seis frames es un <strong>buen punto de partida</strong>: suficientes para que el movimiento se lea claro y pocos para que puedas producirlos sin morir en el intento. Esta es la receta.</p>
 <figure>
 <p><img alt="Base de 6 frames para el walking cycle" loading="lazy" src="../../assets/ut2/walk-6-frames.png" /></p>
 <figcaption>La base: 6 frames en total. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p><strong>Las piernas.</strong> Durante los frames 1, 2 y 3, una pierna está apoyada en el suelo y se desplaza hacia atrás, empujando el cuerpo hacia delante. Durante los frames 4, 5 y 6 ocurre exactamente lo mismo con la otra pierna. Así, el ciclo se divide en dos mitades simétricas.</p>
-<p><strong>Los brazos.</strong> Los brazos siempre avanzan junto a la pierna contraria. Cuando la pierna derecha va delante, el brazo izquierdo va delante, y al revés. Es lo que haces tú al andar para mantener el equilibrio (compruébalo por el pasillo). Si lo inviertes, el personaje parece un robot.</p>
+<p><strong>Las piernas.</strong> Durante los frames 1, 2 y 3, una pierna está apoyada en el suelo y se desplaza hacia atrás, empujando el cuerpo hacia delante. Durante los frames 4, 5 y 6 ocurre exactamente lo mismo con la otra pierna. Así, el ciclo se divide en <strong>dos mitades simétricas</strong>.</p>
+<p><strong>Los brazos.</strong> Los brazos <strong>siempre avanzan junto a la pierna contraria</strong>. Cuando la pierna derecha va delante, el brazo izquierdo va delante, y al revés. Es lo que haces tú al andar para mantener el equilibrio (compruébalo por el pasillo). Si lo inviertes, el personaje parece un robot.</p>
 <figure>
 <p><img alt="Brazos y piernas contrarios en el ciclo de andar" loading="lazy" src="../../assets/ut2/walk-brazos-piernas.png" /></p>
 <figcaption>Frames 1 y 4: cuando la pierna cercana va delante, el brazo cercano va detrás, y al revés. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p><strong>Copiar y modificar.</strong> Aquí viene la parte buena: como las dos mitades son simétricas, no tienes que dibujar seis poses desde cero. El frame 4 parte del frame 1, el 5 del 2 y el 6 del 3: copias el frame y cambias qué pierna y qué brazo van delante.</p>
+<p><strong>Copiar y modificar.</strong> Aquí viene la parte buena: como las dos mitades son simétricas, <strong>no tienes que dibujar seis poses desde cero</strong>. El frame 4 parte del frame 1, el 5 del 2 y el 6 del 3: copias el frame y cambias qué pierna y qué brazo van delante.</p>
 <figure>
 <p><img alt="Frames equivalentes en cada mitad del ciclo" loading="lazy" src="../../assets/ut2/walk-copiar.png" /></p>
 <figcaption>Los frames del mismo color son equivalentes (1 y 4, 2 y 5, 3 y 6): se copian y se intercambian las extremidades. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p><strong>La altura.</strong> Aquí está el detalle que hace que el ciclo parezca vivo. Al andar, el cuerpo sube y baja: está más bajo justo después de apoyar el pie, cuando carga el peso, y más alto cuando la pierna libre pasa junto a la de apoyo. En la receta de 6 frames:</p>
+<p><strong>La altura.</strong> Aquí está el detalle que hace que el ciclo parezca vivo. Al andar, <strong>el cuerpo sube y baja</strong>: está más bajo justo después de apoyar el pie, cuando carga el peso, y más alto cuando la pierna libre pasa junto a la de apoyo. En la receta de 6 frames:</p>
 <ul>
 <li>En los frames <strong>3 y 6</strong> el personaje alcanza su altura máxima.</li>
 <li>En los frames <strong>1 y 4</strong> reduce <strong>1 píxel</strong> su altura máxima.</li>
@@ -1548,7 +1548,7 @@
 <p><img alt="Variación de altura del personaje en cada frame del ciclo" loading="lazy" src="../../assets/ut2/walk-alturas.png" /></p>
 <figcaption>La línea discontinua marca la altura máxima: los frames 3 y 6 la tocan, el 1 y el 4 quedan 1 píxel por debajo y el 2 y el 5, 2 píxeles. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
-<p>Uno o dos píxeles parecen una tontería. A escala de sprite, son exactamente lo que el ojo necesita para sentir el peso del cuerpo. Quítalos y el personaje se desliza por el escenario como si fuera sobre raíles.</p>
+<p>Uno o dos píxeles parecen una tontería. A escala de sprite, son <strong>exactamente lo que el ojo necesita para sentir el peso del cuerpo</strong>. Quítalos y el personaje se desliza por el escenario como si fuera sobre raíles.</p>
 <table>
 <thead>
 <tr>
@@ -1576,7 +1576,7 @@
 </tbody>
 </table>
 <h2 id="comprobar-el-ciclo">Comprobar el ciclo<a class="headerlink" href="#comprobar-el-ciclo" title="Permanent link">&para;</a></h2>
-<p>Reproduce la animación en bucle, déjala correr un rato y fíjate en tres cosas. Que no haya un salto visible entre el frame 6 y el 1. Que los pies no parezcan resbalar cuando están apoyados. Y que el personaje mantenga su volumen en todos los frames: un brazo que crece o una cabeza que cambia de forma se notan muchísimo en bucle.</p>
+<p>Reproduce la animación en bucle, déjala correr un rato y <strong>fíjate en tres cosas</strong>. Que no haya un salto visible entre el frame 6 y el 1. Que los pies no parezcan resbalar cuando están apoyados. Y que el personaje <strong>mantenga su volumen en todos los frames</strong>: un brazo que crece o una cabeza que cambia de forma se notan muchísimo en bucle.</p>
 
 
 

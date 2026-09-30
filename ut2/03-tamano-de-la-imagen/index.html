@@ -1492,20 +1492,20 @@
 
 <h1 id="ut23-tamano-de-la-imagen">UT2.3 Tamaño de la imagen<a class="headerlink" href="#ut23-tamano-de-la-imagen" title="Permanent link">&para;</a></h1>
 <p>Lo primero que te pregunta un programa de pixel art al crear un archivo es el tamaño del lienzo. Parece un trámite, lo rellenas con lo primero que se te ocurre y a dibujar. Error.</p>
-<p>En pixel art el tamaño no se cambia después. Si dibujas un personaje a 16×16 y a mitad de camino decides que lo querías a 32×32, no puedes estirarlo: toca volver a dibujarlo. Ese número decide cuánto detalle cabe, cuánto trabajo te va a llevar y cómo va a encajar el asset con el resto del juego.</p>
+<p>En pixel art <strong>el tamaño no se cambia después</strong>. Si dibujas un personaje a 16×16 y a mitad de camino decides que lo querías a 32×32, no puedes estirarlo: <strong>toca volver a dibujarlo</strong>. Ese número decide <strong>cuánto detalle cabe, cuánto trabajo te va a llevar y cómo va a encajar el asset</strong> con el resto del juego.</p>
 <h2 id="mas-pixeles-mas-detalle-y-mas-trabajo">Más píxeles, más detalle (y más trabajo)<a class="headerlink" href="#mas-pixeles-mas-detalle-y-mas-trabajo" title="Permanent link">&para;</a></h2>
-<p>Con pocos píxeles tienes que sintetizar: una cara son dos puntos para los ojos y poco más, y cada píxel pesa muchísimo. Con más píxeles caben pliegues de ropa, expresiones con matices y sombreados complejos. ¿Cuál es mejor? Ninguno. Son estilos distintos, y cada juego pide el suyo.</p>
+<p>Con pocos píxeles tienes que <strong>sintetizar</strong>: una cara son dos puntos para los ojos y poco más, y cada píxel pesa muchísimo. Con más píxeles caben pliegues de ropa, expresiones con matices y sombreados complejos. ¿Cuál es mejor? Ninguno. <strong>Son estilos distintos, y cada juego pide el suyo.</strong></p>
 <figure>
 <p><img alt="Personajes dibujados con más o menos píxeles" loading="lazy" src="../../assets/ut2/tamano-estilos.png" /></p>
 <figcaption>El mismo tipo de personaje con más o menos píxeles: cuanta más resolución, más detalle cabe. Imagen de <a href="http://collet66.blog52.fc2.com/">Syosa</a>. Uso con fines educativos.</figcaption>
 </figure>
-<p>Lo que sí hay que tener claro es la factura. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, cuatro veces más. Y ahora multiplica eso por cada frame de cada animación. La regla práctica es sencilla: a más dimensión, más píxeles, y a más píxeles, más horas de pulido.</p>
+<p>Lo que sí hay que tener claro es la factura. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, <strong>cuatro veces más</strong>. Y ahora multiplica eso por cada frame de cada animación. La regla práctica es sencilla: <strong>a más dimensión, más píxeles, y a más píxeles, más horas de pulido</strong>.</p>
 <figure>
 <p><img alt="Una espada a 16x16 y a 32x32 píxeles" loading="lazy" src="../../assets/ut2/tamano-16-32.png" /></p>
 <figcaption>Duplicar el lado multiplica por cuatro el número de píxeles que tienes que resolver. Sprites © de sus respectivos autores. Uso con fines educativos.</figcaption>
 </figure>
 <h2 id="dimensiones-recomendadas">Dimensiones recomendadas<a class="headerlink" href="#dimensiones-recomendadas" title="Permanent link">&para;</a></h2>
-<p>En videojuegos se trabaja casi siempre con dimensiones cuadradas que son potencias de dos: 16, 32, 64, 128, 256, 512 y 1024 píxeles de lado. Son los tamaños que mejor gestionan los motores (Unity, Godot) y las herramientas de empaquetado de texturas como TexturePacker. Verás por qué con más detalle en el apartado de <a href="../04-tiles-y-sprite-sheets/">tiles y sprite sheets</a>.</p>
+<p>En videojuegos se trabaja casi siempre con dimensiones cuadradas que son <strong>potencias de dos</strong>: 16, 32, 64, 128, 256, 512 y 1024 píxeles de lado. Son los tamaños que mejor gestionan los motores (Unity, Godot) y las herramientas de empaquetado de texturas como TexturePacker. Verás por qué con más detalle en el apartado de <a href="../04-tiles-y-sprite-sheets/">tiles y sprite sheets</a>.</p>
 <figure>
 <p><img alt="Comparación de tamaños de 32x32 a 1024x1024" loading="lazy" src="../../assets/ut2/tamano-potencias.png" /></p>
 <figcaption>Las dimensiones más comunes para pixel art en videojuegos. Uso con fines educativos.</figcaption>
@@ -1541,10 +1541,10 @@
 </tr>
 </tbody>
 </table>
-<p>Fíjate en que <em>Celeste</em> y <em>The Last Night</em> son pixel art y aun así están en extremos opuestos. <em>Celeste</em> usa un personaje diminuto porque la lectura rápida en un plataformas exigente es lo más importante. <em>The Last Night</em> busca una atmósfera cinematográfica y trabaja con mucha más resolución y efectos de iluminación modernos.</p>
+<p>Fíjate en que <em>Celeste</em> y <em>The Last Night</em> son pixel art y aun así están en extremos opuestos. <em>Celeste</em> usa un personaje diminuto porque <strong>la lectura rápida</strong> en un plataformas exigente es lo más importante. <em>The Last Night</em> busca una atmósfera cinematográfica y trabaja con mucha más resolución y efectos de iluminación modernos.</p>
 <h2 id="como-decidir-tu-tamano">Cómo decidir tu tamaño<a class="headerlink" href="#como-decidir-tu-tamano" title="Permanent link">&para;</a></h2>
-<p>Antes de crear el archivo, hazte tres preguntas. La primera es cómo se va a ver en pantalla: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es cuántos frames vas a dibujar: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es qué tamaño tienen los tiles del mundo, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).</p>
-<p>Y un consejo que te va a salvar más de una vez: prueba siempre a tamaño real. Con el zoom al 800 % todo parece precioso, y es mentira. Lo que importa es cómo se ve al 100 % o al 200 %, que es como lo va a ver el jugador.</p>
+<p>Antes de crear el archivo, <strong>hazte tres preguntas</strong>. La primera es <strong>cómo se va a ver en pantalla</strong>: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es <strong>cuántos frames vas a dibujar</strong>: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es <strong>qué tamaño tienen los tiles del mundo</strong>, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).</p>
+<p>Y un consejo que te va a salvar más de una vez: <strong>prueba siempre a tamaño real</strong>. Con el zoom al 800 % todo parece precioso, y es mentira. Lo que importa es cómo se ve al 100 % o al 200 %, <strong>que es como lo va a ver el jugador</strong>.</p>
 
 
 

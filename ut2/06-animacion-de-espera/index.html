@@ -1491,28 +1491,28 @@
 
 
 <h1 id="ut26-animacion-de-espera">UT2.6 Animación de espera<a class="headerlink" href="#ut26-animacion-de-espera" title="Permanent link">&para;</a></h1>
-<p>Suelta el mando en mitad de una partida. El personaje sigue ahí, respirando, balanceándose, parpadeando. Y si tardas un rato en volver, a lo mejor se sienta, mira el reloj o se pone a jugar con su arma. Esa animación, que parece un detalle sin importancia, es la que más veces va a ver el jugador en todo el juego. Piénsalo: ¿cuánto tiempo pasa tu personaje quieto mientras lees un diálogo, miras el mapa o decides por dónde tirar?</p>
+<p>Suelta el mando en mitad de una partida. El personaje sigue ahí, respirando, balanceándose, parpadeando. Y si tardas un rato en volver, a lo mejor se sienta, mira el reloj o se pone a jugar con su arma. Esa animación, que parece un detalle sin importancia, es <strong>la que más veces va a ver el jugador en todo el juego</strong>. Piénsalo: ¿cuánto tiempo pasa tu personaje quieto mientras lees un diálogo, miras el mapa o decides por dónde tirar?</p>
 <h2 id="que-es-y-para-que-sirve">Qué es y para qué sirve<a class="headerlink" href="#que-es-y-para-que-sirve" title="Permanent link">&para;</a></h2>
-<p>La animación de espera es la que reproduce un personaje cuando el jugador no lo está moviendo. Su función es informar de que el personaje sigue vivo y activo, a la espera de que vuelvas a coger el mando. Un personaje completamente estático parece un error. O peor, que el juego se ha colgado.</p>
+<p>La animación de espera es la que reproduce un personaje <strong>cuando el jugador no lo está moviendo</strong>. Su función es <strong>informar de que el personaje sigue vivo y activo</strong>, a la espera de que vuelvas a coger el mando. <strong>Un personaje completamente estático parece un error.</strong> O peor, que el juego se ha colgado.</p>
 <p>Se divide en dos estados que se suceden en el tiempo: <strong>idle</strong> (parada) y <strong>waiting</strong> (espera).</p>
 <figure>
 <p><img alt="Animación de parada y animación de espera" loading="lazy" src="../../assets/ut2/idle-waiting.png" /></p>
 <figcaption>Primero el idle, en bucle. Si el jugador tarda, el waiting. Sonic © SEGA. Uso con fines educativos.</figcaption>
 </figure>
 <h2 id="idle-la-animacion-de-parada">Idle: la animación de parada<a class="headerlink" href="#idle-la-animacion-de-parada" title="Permanent link">&para;</a></h2>
-<p>El idle es normalmente una respiración exagerada, sin que el personaje se mueva del sitio. El pecho sube y baja, los hombros acompañan y, muchas veces, todo el cuerpo da un pequeño bote.</p>
-<p>Es la animación más sencilla de hacer y la mejor para estrenarte, porque trabaja con muy pocos cambios. Unas pautas para que salga bien a la primera:</p>
+<p>El idle es normalmente <strong>una respiración exagerada</strong>, sin que el personaje se mueva del sitio. El pecho sube y baja, los hombros acompañan y, muchas veces, todo el cuerpo da un pequeño bote.</p>
+<p>Es la animación más sencilla de hacer y <strong>la mejor para estrenarte</strong>, porque trabaja con muy pocos cambios. Unas pautas para que salga bien a la primera:</p>
 <ul>
 <li><strong>Pocos frames.</strong> Entre dos y seis suelen bastar. Muchos juegos clásicos resuelven el idle con dos.</li>
 <li><strong>Cambios mínimos.</strong> A menudo basta con bajar uno o dos píxeles la cabeza y el torso y dejar las piernas quietas. Si lo mueves todo, parecerá que el personaje está en una discoteca.</li>
 <li><strong>Bucle perfecto.</strong> El último frame tiene que enlazar con el primero sin salto, porque esta animación se repite indefinidamente.</li>
 <li><strong>Timing tranquilo.</strong> Una respiración es lenta. Da más duración a los frames de los extremos (pecho arriba, pecho abajo).</li>
 </ul>
-<p>El idle también transmite personalidad y estado. Un guerrero en guardia respira con la espada preparada; un personaje cansado deja caer los hombros; uno nervioso se balancea más rápido. Echa un ojo a tu hoja de poses del concept y pregúntate: si nadie le dice qué hacer, ¿cómo se queda tu personaje?</p>
+<p>El idle también <strong>transmite personalidad y estado</strong>. Un guerrero en guardia respira con la espada preparada; un personaje cansado deja caer los hombros; uno nervioso se balancea más rápido. Echa un ojo a tu hoja de poses del concept y pregúntate: si nadie le dice qué hacer, ¿cómo se queda tu personaje?</p>
 <h2 id="waiting-la-animacion-de-espera">Waiting: la animación de espera<a class="headerlink" href="#waiting-la-animacion-de-espera" title="Permanent link">&para;</a></h2>
-<p>El waiting se reproduce después del idle, cuando el jugador lleva un rato sin tocar nada. En esta animación el personaje cambia de postura o de gesto, generalmente para decirte que estás tardando en volver a jugar.</p>
-<p>Tampoco tiene que ser un gesto de impaciencia. Hay mil opciones: sentarse, bostezar, sacar un libro, hacer malabares con una piedra, mirar a la cámara con cara de "¿hola?". Es una de las mejores oportunidades que tienes para dar personalidad, porque no depende de ninguna mecánica y puedes contar lo que quieras del personaje. Aprovéchala.</p>
-<p>Técnicamente suele tener tres partes: una transición desde el idle, la acción de espera (que puede estar en bucle) y, a veces, una transición de vuelta. Cuando el jugador toca un control, el juego corta el waiting y pasa a la animación que corresponda.</p>
+<p>El waiting se reproduce después del idle, <strong>cuando el jugador lleva un rato sin tocar nada</strong>. En esta animación el personaje <strong>cambia de postura o de gesto</strong>, generalmente para decirte que estás tardando en volver a jugar.</p>
+<p>Tampoco tiene que ser un gesto de impaciencia. Hay mil opciones: sentarse, bostezar, sacar un libro, hacer malabares con una piedra, mirar a la cámara con cara de "¿hola?". Es una de las mejores oportunidades que tienes para <strong>dar personalidad</strong>, porque no depende de ninguna mecánica y puedes contar lo que quieras del personaje. Aprovéchala.</p>
+<p>Técnicamente suele tener <strong>tres partes</strong>: una transición desde el idle, la acción de espera (que puede estar en bucle) y, a veces, una transición de vuelta. Cuando el jugador toca un control, <strong>el juego corta el waiting</strong> y pasa a la animación que corresponda.</p>
 <table>
 <thead>
 <tr>
