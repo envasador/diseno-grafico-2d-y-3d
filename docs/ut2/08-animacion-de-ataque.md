@@ -1,10 +1,10 @@
 # UT2.8 Animación de ataque
 
-El ataque es la animación en la que más se nota si un juego se siente bien o mal. Cuando pulsas el botón esperas una respuesta inmediata, y cuando el golpe impacta quieres sentirlo. Si el ataque tarda en salir, parece que el control no responde; si no tiene fuerza, el combate resulta blando. Todo eso se decide en muy pocos frames.
+¿Has jugado a algo en el que pegar "se siente bien"? Pulsas el botón, el golpe sale al instante y cuando impacta casi lo notas en las manos. Y al revés: seguro que también has jugado a algo en el que atacar es como dar golpes con un churro de piscina. Buena parte de esa diferencia se decide en la animación de ataque, y en muy pocos frames.
 
 ## Qué es
 
-La animación de ataque es la que permite al jugador atacar con su personaje. Suele hacer uso de sus armas (cuchillos, espadas, pistolas, bates, hachas) o simplemente de sus puños. Hay infinitos ataques posibles, y el límite está en tu imaginación y en lo que tu personaje es: el ataque de un mago y el de un bárbaro no tienen nada que ver.
+La animación de ataque es la que permite al jugador atacar con su personaje. Suele hacer uso de sus armas (cuchillos, espadas, pistolas, bates, hachas) o simplemente de sus puños. Hay infinitos ataques posibles, y el límite lo ponen tu imaginación y lo que tu personaje es: el ataque de un mago y el de un bárbaro no se parecen en nada.
 
 ## Los cuatro estados de un ataque
 
@@ -19,9 +19,9 @@ Un ataque se puede dividir en estados, que son momentos diferentes dentro de una
 
 Es la preparación: el personaje recoge el brazo o echa el arma hacia atrás antes de golpear. La anticipación le dice al ojo que algo va a pasar y hace que el golpe posterior parezca más fuerte.
 
-En el personaje del jugador tienes que usarla con cuidado. Puede no existir, y como máximo debería durar un frame, porque cada frame de anticipación es tiempo en el que el jugador ha pulsado el botón y todavía no ha pasado nada: más de uno se percibe como retardo en el control.
+En el personaje del jugador, con cuidado. Puede no existir, y como mucho debería durar un frame. ¿Por qué? Porque cada frame de anticipación es tiempo en el que el jugador ya ha pulsado el botón y todavía no ha pasado nada. Pon más de uno y te dirán que el control "va lento".
 
-En los **enemigos** es al revés. Ahí interesa una anticipación larga y clara, de varios frames, porque es la señal que avisa al jugador de que viene un ataque y le da tiempo a esquivarlo. Buena parte de la dificultad justa de un juego de acción está en esas anticipaciones.
+En los **enemigos** es justo al revés. Ahí interesa una anticipación larga y clara, de varios frames, porque es la señal que avisa al jugador de que viene un ataque y le da tiempo a esquivarlo. Cuando un jefe final te parece difícil pero justo, muchas veces es porque sus anticipaciones están muy bien hechas.
 
 ### Golpe
 
@@ -45,7 +45,7 @@ Puede no existir. Su función es suavizar la vuelta a otra animación distinta (
 
 ## Easing: suavidad al principio y al final
 
-El easing controla cómo acelera y frena un movimiento. En la vida real nada arranca ni se detiene de golpe: los objetos aceleran al empezar a moverse y frenan antes de pararse.
+El easing controla cómo acelera y frena un movimiento. Piensa en un coche: nunca pasa de 0 a 100 en un instante ni frena en seco sin que salgas disparado. En la vida real nada arranca ni se detiene de golpe.
 
 El **ease in** (suavidad al principio) hace que el movimiento arranque despacio y vaya acelerando. El **ease out** (suavidad al final) hace que llegue rápido y frene poco a poco. El **ease in-out** combina los dos. En la práctica se consigue con el espaciado entre frames: frames muy juntos donde el movimiento es lento y muy separados donde es rápido, igual que la pelota que viste en el [timing](05-principios-de-animacion.md#timing).
 
@@ -54,7 +54,7 @@ El **ease in** (suavidad al principio) hace que el movimiento arranque despacio 
 <figcaption>Ease in: suavidad al principio. Ease out: suavidad al final.</figcaption>
 </figure>
 
-En un ataque, el golpe tiene que ser instantáneo, así que no lleva ease in. Donde el easing marca la diferencia es después del impacto. Con **ease out**, el arma frena en dos o tres frames y el golpe resulta pesado y contundente. Sin él, el arma se detiene en seco y el movimiento parece mecánico.
+En un ataque, el golpe tiene que ser instantáneo, así que no lleva ease in. Donde el easing marca la diferencia es después del impacto. Con **ease out**, el arma frena en dos o tres frames y el golpe resulta pesado y contundente. Sin él, el arma se para en seco y el movimiento parece de robot de cocina.
 
 <figure markdown>
 ![Golpe con ease out y golpe sin ease out](../assets/ut2/easy-out.svg)

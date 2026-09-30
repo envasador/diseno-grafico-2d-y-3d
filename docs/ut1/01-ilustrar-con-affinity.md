@@ -76,7 +76,3 @@ Y guarda siempre el `.af`. Lo exportado es el resultado; el `.af` es tu trabajo,
 Affinity tiene dos tipos de texto. El **texto artístico** es para títulos y palabras sueltas que vas a retorcer; el **texto de marco** es para párrafos dentro de una caja.
 
 El logotipo de un juego suele nacer así: eliges una tipografía, ajustas el espacio entre letras hasta que respira bien y, cuando la composición está decidida, lo conviertes en curvas (Ctrl+Intro). A partir de ahí cada letra es una forma más y puedes deformarla, cortarla o añadirle lo que quieras. Eso sí, deja de ser texto editable, así que guarda antes una copia. Y mira la licencia de la tipografía: si el juego se va a publicar, necesitas una que permita uso comercial.
-
-## Lo que te llevas de este apartado
-
-Affinity junta vectorial y píxel en un mismo documento: construyes con formas que puedes cambiar siempre y rematas con pincel al final. Las capas con nombre, los recortes y las máscaras te dejan cambiar de opinión sin rehacer nada. Y al exportar, olvídate de los ppp y piensa en los píxeles y en el formato que pide el destino.

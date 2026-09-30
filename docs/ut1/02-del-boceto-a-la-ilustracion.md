@@ -76,7 +76,3 @@ Tres ejercicios cortos para soltar la mano con el programa antes de meterte con 
 - Coge un objeto de tu mesa (una grapadora, una taza, unos auriculares) y redibújalo en Affinity solo con formas básicas y operaciones booleanas. La pluma, prohibida. Verás cómo empiezas a ver las masas antes que el detalle.
 - Dibuja el mismo personaje sencillo con tres cabezas de altura y con siete. ¿Qué te cuenta cada versión? ¿Cuál encajaría con el juego que tienes en mente?
 - Compón un escenario pequeño en tres planos usando solo tres grises (claro, medio y oscuro) y decide dónde va el punto de interés. Si se entiende en gris, funcionará en color.
-
-## Lo que te llevas de este apartado
-
-Una buena ilustración se decide antes de abrir el programa: formas simples, una proporción elegida a propósito y un escenario con el horizonte y los planos claros. En Affinity ese orden se traduce en boceto, formas, color plano y luz, cada cosa en su capa para poder cambiarla cuando haga falta.

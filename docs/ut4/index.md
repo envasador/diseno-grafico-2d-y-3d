@@ -1,6 +1,6 @@
 # UT4 Cámara e iluminación 3D
 
-Coloca el mismo modelo en dos escenas: en una, con una luz blanca frontal y la cámara a la altura de los ojos; en la otra, con un contraluz cálido y la cámara baja mirando hacia arriba. El modelo no ha cambiado y, sin embargo, en la segunda parece un héroe. La luz y la cámara deciden qué ve el jugador, qué siente al verlo y, en un juego, también cuánto le cuesta al ordenador dibujarlo.
+Coloca el mismo modelo en dos escenas: en una, con una luz blanca frontal y la cámara a la altura de los ojos; en la otra, con un contraluz cálido y la cámara baja mirando hacia arriba. El modelo es exactamente el mismo y, sin embargo, en la segunda parece un héroe. Esa es la magia (y la responsabilidad) de esta unidad: la luz y la cámara deciden qué ve el jugador, qué siente al verlo y, en un juego, también cuánto sufre el ordenador para dibujarlo.
 
 Esta unidad desarrolla el **RA5**: define y configura movimientos de cámara e iluminación 3D aplicando los parámetros técnicos establecidos.
 
@@ -18,4 +18,4 @@ Esta unidad desarrolla el **RA5**: define y configura movimientos de cámara e i
 
 | Apartado | Contenido |
 |---|---|
-| [UT4.1 Iluminación](01-iluminacion.md) | Tipos de luz, propiedades, iluminación de tres puntos, sombras y oclusión ambiental |
+| [UT4.1 Iluminación](01-iluminacion.md) | Tipos de luz, propiedades, tres puntos, sombras, oclusión ambiental, HDRI y luz estática y dinámica |

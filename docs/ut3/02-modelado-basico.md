@@ -1,119 +1,83 @@
 # UT3.2 Modelado básico
 
-En esta sección, aprenderás los fundamentos del modelado 3D en Blender. Empezaremos con formas simples y progresaremos hacia técnicas más avanzadas.
+¿Recuerdas lo de construir con formas simples de la UT1? Pues en 3D se hace literalmente. Casi cualquier modelo de un juego empieza siendo un cubo, un cilindro o una esfera que vas estirando, cortando y empujando hasta que se parece a lo que tienes en el turnaround. Es más parecido a trabajar con plastilina que a dibujar.
 
-## 2.1 Primitivas y cómo transformarlas
+## De qué está hecho un modelo 3D
 
-Las primitivas son las formas básicas que Blender proporciona de serie, como cubos, esferas, cilindros, planos, etc. Son el punto de partida para la mayoría de los modelos.
+Un modelo 3D es una **malla**: un montón de puntos en el espacio (**vértices**) unidos por líneas (**aristas**) que forman superficies (**caras**). Todo lo que hagas al modelar es mover, crear o borrar esas tres cosas.
 
-Para añadir una primitiva a tu escena:
+En juegos hay una cuarta idea que no puedes olvidar: cada cara cuesta. El motor tiene que dibujar todas las caras de todos los objetos muchas veces por segundo, así que un modelo con más caras de las necesarias es un modelo que hace ir el juego más lento. Por eso en videojuegos se habla de **presupuesto de polígonos**, y por eso aquí la elegancia está en conseguir la forma con las caras justas.
 
-1. En la vista 3D, haz clic derecho para abrir el menú Add.
-2. Elige Mesh y luego selecciona la primitiva que quieras.
+## Primitivas y transformaciones básicas
 
-Una vez que tienes un objeto en tu escena, puedes transformarlo de varias maneras:
+Las primitivas son las formas de serie de Blender (cubo, esfera, cilindro, cono, plano...). Se añaden con Mayús + A, en el menú Mesh.
 
-- Mover (Grab): Presiona G, luego mueve el mouse.
-- Escalar: Presiona S, luego mueve el mouse.
-- Rotar: Presiona R, luego mueve el mouse.
+Una vez en la escena, las tres transformaciones básicas son de una letra:
 
-Consejo: Puedes restringir estas transformaciones a un eje específico presionando X, Y o Z después del atajo de teclado. Por ejemplo, G, then Z moverá el objeto solo a lo largo del eje Z.
+| Tecla | Acción |
+|---|---|
+| G | Mover |
+| R | Rotar |
+| S | Escalar |
 
-## 2.2 Modos de edición (objeto, vértices, aristas, caras)
+Pulsa la tecla, mueve el ratón y haz clic para confirmar (o clic derecho para cancelar). Si después de la letra pulsas X, Y o Z, la transformación queda limitada a ese eje. Y si además escribes un número, se aplica exacto: G, Z, 2 sube el objeto dos metros. Parece un lío, pero en cuanto lo pruebes verás que es rapidísimo.
 
-Blender tiene dos modos principales en los que trabajarás: Modo Objeto y Modo Edición.
+## Modo Objeto y modo Edición
 
-- Modo Objeto: Aquí es donde transformas objetos enteros.
-- Modo Edición: Aquí es donde modificas la geometría de un objeto a nivel de vértices, aristas y caras.
+Blender tiene dos modos principales, y confundirlos es el error número uno de las primeras semanas:
 
-Puedes cambiar entre estos modos presionando la tecla Tab o utilizando el menú desplegable en la esquina superior izquierda de la vista 3D.
+- En **modo Objeto** trabajas con objetos completos: los colocas, los giras, los escalas.
+- En **modo Edición** trabajas dentro del objeto, con sus vértices, aristas y caras.
 
-En el Modo Edición, puedes seleccionar entre tres modos de selección:
+Cambias de uno a otro con Tab. Dentro del modo Edición, las teclas 1, 2 y 3 (las de arriba del teclado) eligen si seleccionas vértices, aristas o caras.
 
-1. Modo Vértice: Selecciona vértices individuales.
-2. Modo Arista: Selecciona aristas enteras.
-3. Modo Cara: Selecciona caras enteras.
+¿Te ha pasado que escalas algo y "no se escala"? O que mueves una cara y se mueve todo el objeto? Mira en qué modo estás. Casi siempre es eso.
 
-Puedes cambiar entre estos modos haciendo clic en los botones correspondientes en la barra de herramientas o utilizando los atajos de teclado Ctrl + Tab.
+## Seleccionar con cabeza
 
-Práctica: Añade un cubo a tu escena, entra en el Modo Edición y practica cambiar entre los diferentes modos de selección y seleccionando diferentes partes de la geometría.
+En modo Edición, seleccionar bien es la mitad del trabajo. Además del clic normal (y Mayús + clic para añadir a la selección), estas tres te van a salvar la vida:
 
-## 2.3 Herramientas de selección y transformación
+- **Alt + clic** sobre una arista selecciona el **bucle** completo que da la vuelta al objeto.
+- **Ctrl + Alt + clic** selecciona el **anillo** de aristas paralelas.
+- **Ctrl + teclado numérico +/−** amplía o reduce la selección a lo que está alrededor.
 
-En el Modo Edición, tienes acceso a varias herramientas de selección y transformación más allá de las básicas que ya hemos visto.
+## Las herramientas que más vas a usar
 
-Algunas herramientas de selección útiles:
+Con cuatro herramientas se modela una cantidad sorprendente de cosas:
 
-- Seleccionar anillo (Alt + clic izquierdo): Selecciona un bucle continuo de aristas alrededor del objeto.
-- Seleccionar bucle (Alt + clic izquierdo): Selecciona un bucle continuo de caras o aristas a lo largo del objeto.
-- Seleccionar más/menos (Ctrl + NumPad+/-): Expande o contrae tu selección a elementos adyacentes.
+| Herramienta | Atajo | Qué hace |
+|---|---|---|
+| Extruir | E | Saca geometría nueva a partir de lo seleccionado, como estirar plastilina |
+| Inset | I | Crea una cara más pequeña dentro de otra, perfecta antes de extruir |
+| Corte en bucle | Ctrl + R | Añade un bucle de aristas alrededor del objeto para tener más detalle donde lo necesitas |
+| Bisel | Ctrl + B | Redondea aristas vivas para que atrapen la luz |
 
-Y algunas herramientas de transformación útiles:
+Un ejemplo para que veas cómo se combinan: coge un cubo, selecciona la cara de arriba, haz un inset y extruye hacia abajo. Acabas de hacer una caja abierta. Unos cuantos cortes en bucle y un par de extrusiones más, y es un cofre.
 
-- Rotar alrededor del cursor 3D (R, R): Rota la selección alrededor de la ubicación del cursor 3D.
-- Escalar a lo largo de la normal (Alt + S): Escala la selección a lo largo de sus normales locales.
-- Doblar (Shift + W): Dobla la selección de varias maneras.
+## Modificadores: trabajar sin destruir
 
-Consejo: Muchas de estas herramientas también están disponibles en el menú Mesh en la barra de menú en la parte superior de la ventana de Blender.
+Los **modificadores** hacen algo sobre tu malla sin cambiarla de verdad, igual que las capas de ajuste en Affinity. Se añaden en la pestaña de la llave inglesa del panel Propiedades, y puedes apagarlos, reordenarlos o quitarlos cuando quieras. Tres que vas a usar mucho:
 
-Práctica: Utiliza las herramientas de selección para seleccionar diferentes partes de un cubo y experimentar con las diferentes herramientas de transformación en ellas.
+- **Mirror**: modelas media cara del personaje y el modificador genera la otra mitad reflejada. La mitad de trabajo, simetría perfecta.
+- **Subdivision Surface**: subdivide y suaviza la malla para que parezca orgánica. Muy útil, pero multiplica las caras, así que en juegos se usa con mucha cabeza.
+- **Bevel**: bisela las aristas sin tener que hacerlo a mano.
 
-Esto concluye la segunda sección sobre modelado básico. En la siguiente, cubriremos técnicas más avanzadas como la extrusión y la subdivisión.
+## Suavizado
 
-## 2.4 Extrusión, escalado, rotación
+Por defecto, Blender enseña los objetos facetados, con cada cara plana bien visible. Con clic derecho en modo Objeto tienes **Shade Smooth**, que suaviza el sombreado de toda la superficie, y **Shade Auto Smooth**, que suaviza solo donde el ángulo entre caras es pequeño y deja vivas las aristas marcadas. Para la mayoría de props de juego, la segunda es la buena: un barril queda redondo por el costado y con el borde de la tapa nítido.
 
-La extrusión es una técnica fundamental en el modelado 3D que te permite crear geometría nueva a partir de una selección existente. Funciona "extendiendo" la selección en una nueva dirección.
+Ojo, que esto es solo sombreado: el objeto sigue teniendo las mismas caras. Es un truco visual, y de los baratos, que es lo que nos gusta en juegos.
 
-Para extruir:
+## Antes de dar un modelo por terminado
 
-1. En el Modo Edición, selecciona la cara, arista o vértice que quieres extruir.
-2. Presiona E para extruir.
-3. Mueve el mouse para colocar la nueva geometría.
-4. Haz clic izquierdo para confirmar la posición.
+Hay tres comprobaciones que evitan muchísimos problemas cuando el modelo llega al motor:
 
-Después de extruir, a menudo querrás escalar o rotar la nueva geometría:
+- **Aplica la escala** (Ctrl + A > Scale) si has escalado el objeto en modo Objeto. Si no, las texturas, la física y la exportación pueden comportarse de forma rara.
+- **Revisa las normales**, que indican hacia dónde "mira" cada cara. Si alguna está al revés, en el motor esa cara se verá transparente.
+- **Borra lo que no se ve**. Una cara que siempre queda pegada al suelo o dentro de otro objeto es presupuesto de polígonos tirado a la basura.
 
-- Para escalar, presiona S y mueve el mouse. Puedes restringir el escalado a un eje presionando X, Y o Z.
-- Para rotar, presiona R y mueve el mouse. Puedes restringir la rotación a un eje presionando X, Y o Z.
+## Para practicar
 
-Consejo: Si quieres extruir múltiples veces en una fila, puedes presionar E múltiples veces después de la extrusión inicial. Cada presión extruirá la geometría aún más.
-
-Práctica: Toma el cubo del ejercicio anterior y utiliza la extrusión, el escalado y la rotación para modelar una forma más compleja, como una casa simple o una letra del alfabeto.
-
-## 2.5 Suavizado y subdivisión de superficies
-
-Por defecto, los objetos en Blender tienen superficies nítidas y facetadas. Para crear formas más suaves y orgánicas, puedes usar el suavizado y la subdivisión de superficies.
-
-Suavizado:
-
-1. En el Modo Objeto, selecciona el objeto que quieres suavizar.
-2. En el panel Propiedades (normalmente a la derecha), ve a la pestaña Objeto Data (icono de triángulo).
-3. Bajo Normals, haz clic en Auto Smooth.
-
-Subdivisión de superficies:
-
-1. Con el objeto aún seleccionado, ve al panel Modifier en el editor de Propiedades.
-2. Haz clic en Add Modifier y selecciona Subdivision Surface.
-3. Ajusta los valores de View y Render para controlar la cantidad de subdivisión.
-
-Consejo: La subdivisión de superficies puede aumentar rápidamente la complejidad de tu malla y ralentizar el rendimiento. Utilízala con moderación y trata de mantener tu geometría lo más simple posible para tu uso previsto.
-
-Práctica: Aplica el suavizado y la subdivisión de superficies a tu modelo de la casa o letra del ejercicio anterior. Experimenta con diferentes niveles de subdivisión para ver cómo afecta a la superficie de tu objeto.
-
-## Práctica: Modelar un prop sencillo para el proyecto
-
-Ahora que has aprendido los fundamentos del modelado en Blender, es hora de aplicar estos conocimientos a tu proyecto del curso.
-
-Tarea: Modela un prop sencillo que podrías necesitar en tu proyecto, como una caja, una roca, un árbol, un arma, o una pieza de mobiliario.
-
-Pasos:
-
-1. Empieza con una primitiva que se acerque a la forma general que necesitas.
-2. Utiliza las herramientas de selección y transformación para darle a tu objeto su forma básica.
-3. Utiliza la extrusión para añadir detalles como protuberancias, hendiduras o adornos.
-4. Aplica el suavizado y la subdivisión de superficies si es necesario para tu estilo deseado.
-5. Itera y refina tu modelo hasta que estés satisfecho con la forma general.
-
-Recuerda, el objetivo en esta etapa es capturar la forma general de tu prop, no preocuparse por los pequeños detalles. ¡Mantén las cosas simples y diviértete practicando estas nuevas habilidades!
-
-En la siguiente sección, cubriremos cómo añadir materiales y texturas a tus modelos para darles color y detalle visual. ¡Sigue practicando tu modelado mientras tanto!
+- Modela una taza partiendo de un cilindro, usando solo inset, extrusión y cortes en bucle. El asa, con una extrusión que vas girando.
+- Modela una espada con el modificador Mirror activado, de forma que solo construyas la mitad.
+- Coge cualquiera de los dos modelos e intenta dejarlo con la mitad de caras sin que cambie su silueta. Es el mejor ejercicio que existe para entender el presupuesto de polígonos.

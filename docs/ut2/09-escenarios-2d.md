@@ -1,6 +1,8 @@
 # UT2.9 Escenarios 2D
 
-Tu personaje ya respira, anda y ataca, pero todavía flota en un fondo transparente. Necesita un mundo, y en 2D ese mundo se construye de una forma muy particular: con piezas pequeñas que se repiten para formar el suelo y las paredes, y con capas que se mueven a distintas velocidades para simular profundidad. En este apartado verás cómo se planifican los dos, y qué decisiones de perspectiva tienes que tomar antes de dibujar la primera pieza.
+Tu personaje ya respira, anda y ataca. Enhorabuena. Pero sigue flotando en un fondo transparente, y eso es un poco triste. Necesita un mundo.
+
+En 2D ese mundo se construye de una forma muy particular: con piezas pequeñas que se repiten para formar el suelo y las paredes, y con capas que se mueven a distintas velocidades para simular profundidad. En este apartado verás cómo se planifican las dos cosas y qué decisiones de perspectiva tienes que tomar antes de dibujar la primera pieza.
 
 ## Primero, la perspectiva
 
@@ -13,7 +15,7 @@ Antes de dibujar un solo tile tienes que decidir desde dónde mira la cámara, p
 | Tres cuartos (3/4) | Desde arriba y ligeramente de frente: ves el techo y la fachada | *Stardew Valley*, *The Legend of Zelda: A Link to the Past* |
 | Isométrica | En diagonal, con ángulos fijos, sin punto de fuga | *Hades*, *Into the Breach* |
 
-Personaje y escenario tienen que compartir vista. Un personaje dibujado de perfil sobre un suelo en tres cuartos rompe la ilusión al instante.
+Personaje y escenario tienen que compartir vista. Un personaje de perfil caminando sobre un suelo en tres cuartos rompe la ilusión al instante (y queda rarísimo).
 
 La vista isométrica tiene una particularidad en pixel art: sus líneas se construyen con una proporción de dos píxeles en horizontal por uno en vertical, que es la que produce diagonales limpias sin dientes de sierra.
 
@@ -25,7 +27,7 @@ El primero es que **las piezas encajen**. Un tile de suelo tiene que poder repet
 
 El segundo es **cubrir todos los casos**. Un bloque de tierra necesita pieza central, bordes superior e inferior, laterales, cuatro esquinas exteriores y cuatro interiores. Si falta alguna, el diseñador de niveles no podrá cerrar ciertas formas. Los motores tienen sistemas de autotiling (las reglas de tiles en Unity, los terrains de Godot) que eligen automáticamente la pieza correcta según sus vecinas, pero necesitan que todas estén dibujadas.
 
-El tercero es **evitar la monotonía**. Si el mismo tile de hierba se repite doscientas veces, el ojo detecta el patrón enseguida. Dibuja dos o tres variantes de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.
+El tercero es **evitar la monotonía**. Si el mismo tile de hierba se repite doscientas veces, el ojo pilla el patrón enseguida y el escenario empieza a parecer papel pintado. Dibuja dos o tres variantes de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.
 
 ## Montar el nivel
 
@@ -37,13 +39,13 @@ Organiza el mapa en capas separadas. Una capa para el suelo y las paredes con la
 
 Lo que queda detrás del nivel jugable (el cielo, las montañas, la ciudad lejana) no suele construirse con tiles. Se pinta como ilustraciones grandes, a menudo en un programa de ilustración, divididas en capas según su distancia.
 
-El **parallax scrolling** aprovecha esas capas: cuando la cámara se mueve, cada capa se desplaza a una velocidad distinta. Las lejanas se mueven muy despacio y las cercanas más deprisa, exactamente como cuando miras por la ventanilla de un tren. Con tres o cuatro capas ya se consigue una sensación de profundidad muy convincente.
+El **parallax scrolling** aprovecha esas capas: cuando la cámara se mueve, cada capa se desplaza a una velocidad distinta. Las lejanas se mueven muy despacio y las cercanas más deprisa, exactamente como cuando miras por la ventanilla del tren: los postes pasan volando y las montañas casi no se mueven. Con tres o cuatro capas ya se consigue una sensación de profundidad muy convincente.
 
 Al pintar las capas de parallax ten en cuenta tres cosas:
 
 - **Perspectiva atmosférica.** Cuanto más lejos está una capa, menos contraste, menos saturación y más se acerca al color del cielo.
 - **Continuidad horizontal.** Las capas que se repiten al desplazarse tienen que enlazar por los lados sin costura, igual que los tiles.
-- **Jerarquía con lo jugable.** El fondo nunca debe competir con el primer plano. Si el jugador duda de si una plataforma es suelo o decoración, el fondo tiene demasiado contraste.
+- **Jerarquía con lo jugable.** El fondo está para acompañar, y nunca debe competir con el primer plano. Si el jugador duda de si una plataforma es suelo o decoración, el fondo tiene demasiado contraste.
 
 ## La fase de concept del escenario
 
