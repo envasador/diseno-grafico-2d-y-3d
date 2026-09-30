@@ -1,8 +1,8 @@
 # UT2 Gráficos y animación 2D
 
-En esta unidad das el salto de diseñar un personaje a hacerlo funcionar dentro de un juego. Un sprite tiene que respetar un tamaño concreto, encajar en una rejilla, exportarse en un formato que el motor entienda y, sobre todo, moverse: respirar cuando el jugador suelta el mando, andar cuando se desplaza y atacar cuando pulsa un botón. Todo eso con muy pocos píxeles, donde cada uno cuenta.
+Hasta ahora tu personaje era un dibujo bonito. En esta unidad le toca ponerse a trabajar. Un sprite tiene que respetar un tamaño concreto, encajar en una rejilla, exportarse en un formato que el motor entienda y, sobre todo, moverse: respirar cuando el jugador suelta el mando, andar cuando se desplaza y atacar cuando pulsa un botón. Y todo eso con tan pocos píxeles que cada uno cuenta.
 
-Trabajaremos sobre todo con pixel art, porque es el estilo 2D que mejor enseña a tomar decisiones: con tan poca resolución no hay forma de esconder un problema de forma, de color o de timing.
+Vamos a trabajar sobre todo con pixel art. ¿Por qué? Porque es el estilo 2D que mejor enseña a tomar decisiones. Con tan poca resolución no hay dónde esconderse: si falla la forma, el color o el timing, se ve.
 
 Esta unidad desarrolla el **RA3**: diseña elementos gráficos y animaciones en 2D teniendo en cuenta las características de los personajes.
 

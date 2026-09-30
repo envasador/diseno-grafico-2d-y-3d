@@ -1,17 +1,19 @@
 # UT2.3 Tamaño de la imagen
 
-Lo primero que te pide un programa de pixel art al crear un archivo es el tamaño del lienzo, y es una decisión mucho más importante de lo que parece. En pixel art el tamaño no se cambia después: si dibujas un personaje a 16×16 y luego decides que lo querías a 32×32, no puedes estirarlo, tienes que volver a dibujarlo. El tamaño fija cuánto detalle cabe, cuánto trabajo te va a llevar y cómo encaja el asset con el resto del juego.
+Lo primero que te pregunta un programa de pixel art al crear un archivo es el tamaño del lienzo. Parece un trámite, lo rellenas con lo primero que se te ocurre y a dibujar. Error.
+
+En pixel art el tamaño no se cambia después. Si dibujas un personaje a 16×16 y a mitad de camino decides que lo querías a 32×32, no puedes estirarlo: toca volver a dibujarlo. Ese número decide cuánto detalle cabe, cuánto trabajo te va a llevar y cómo va a encajar el asset con el resto del juego.
 
 ## Más píxeles, más detalle (y más trabajo)
 
-Con pocos píxeles tienes que sintetizar: una cara son dos puntos para los ojos y poco más, y cada píxel tiene un peso enorme. Con más píxeles puedes dibujar pliegues de ropa, expresiones matizadas y sombreados complejos. Ningún extremo es mejor que el otro; son estilos distintos.
+Con pocos píxeles tienes que sintetizar: una cara son dos puntos para los ojos y poco más, y cada píxel pesa muchísimo. Con más píxeles caben pliegues de ropa, expresiones con matices y sombreados complejos. ¿Cuál es mejor? Ninguno. Son estilos distintos, y cada juego pide el suyo.
 
 <figure markdown>
 ![La misma poción dibujada a tres resoluciones](../assets/ut2/tamano-estilos.svg)
 <figcaption>La misma poción a 8, 16 y 32 píxeles: cuanta más resolución, más detalle cabe.</figcaption>
 </figure>
 
-La contrapartida es el trabajo. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, cuatro veces más. Y ese multiplicador se aplica a cada frame de cada animación. Por eso la regla práctica es clara: a más dimensión, más píxeles, y a más píxeles, más trabajo de pulido.
+Lo que sí hay que tener claro es la factura. Una espada de 16×16 tiene 256 píxeles; la misma espada a 32×32 tiene 1024, cuatro veces más. Y ahora multiplica eso por cada frame de cada animación. La regla práctica es sencilla: a más dimensión, más píxeles, y a más píxeles, más horas de pulido.
 
 <figure markdown>
 ![Una espada a 16x16 y a 32x32 píxeles](../assets/ut2/tamano-16-32.svg)
@@ -38,6 +40,6 @@ Fíjate en que *Celeste* y *The Last Night* son pixel art y aun así están en e
 
 ## Cómo decidir tu tamaño
 
-Hazte tres preguntas antes de crear el archivo. La primera es cómo se va a ver en pantalla: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es cuántos frames vas a dibujar: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es qué tamaño tienen los tiles del mundo, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).
+Antes de crear el archivo, hazte tres preguntas. La primera es cómo se va a ver en pantalla: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es cuántos frames vas a dibujar: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es qué tamaño tienen los tiles del mundo, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).
 
-Prueba siempre a tamaño real. Trabajar con el zoom al 800 % te engaña; lo que importa es cómo se ve al 100 % o al 200 %, que es como lo verá el jugador.
+Y un consejo que te va a salvar más de una vez: prueba siempre a tamaño real. Con el zoom al 800 % todo parece precioso, y es mentira. Lo que importa es cómo se ve al 100 % o al 200 %, que es como lo va a ver el jugador.

@@ -1,14 +1,16 @@
 # UT2.2 Programas para pixel art
 
-Técnicamente puedes hacer pixel art con cualquier programa que permita pintar un píxel, incluido el Paint de Windows. En la práctica, trabajar con una herramienta pensada para ello te ahorra muchísimo tiempo: rejillas de tiles, previsualización de animación en tiempo real, paletas indexadas y exportación directa a sprite sheet. La pregunta útil es qué herramienta encaja con cada parte del trabajo.
+Técnicamente puedes hacer pixel art con cualquier programa que te deje pintar un píxel. Sí, incluido el Paint de Windows. Otra cosa es que quieras sufrir. Un programa pensado para pixel art te da rejillas de tiles, previsualización de la animación en tiempo real, paletas indexadas y exportación directa a sprite sheet, y eso se traduce en horas ahorradas.
+
+Así que la pregunta interesante es otra: qué herramienta encaja con cada parte del trabajo.
 
 ## Programas de escritorio
 
-**Aseprite** es el estándar en pixel art para videojuegos. Está pensado exclusivamente para esto, organiza el trabajo en capas y grupos, tiene una línea de tiempo muy cómoda para animar, previsualización en bucle, onion skin (ver los frames anterior y siguiente en transparencia) y exporta sprite sheets con un clic. Funciona en Windows, macOS y Linux. Es de pago, aunque su código está disponible y se puede compilar gratuitamente; también existe LibreSprite, una versión libre basada en una versión antigua.
+**Aseprite** es el estándar del pixel art para videojuegos, el que vas a ver en casi todos los tutoriales. Está pensado exclusivamente para esto, organiza el trabajo en capas y grupos, tiene una línea de tiempo muy cómoda para animar, previsualización en bucle, onion skin (ver los frames anterior y siguiente en transparencia) y exporta sprite sheets con un clic. Funciona en Windows, macOS y Linux. Es de pago, aunque su código está disponible y se puede compilar gratuitamente; también existe LibreSprite, una versión libre basada en una versión antigua.
 
 **Pyxel Edit** es más sencillo e intuitivo, y destaca en un punto concreto: el trabajo con tiles. Todo en él gira alrededor de la rejilla, así que es muy cómodo para construir tilesets y para animar en una tira de frames. Es barato y tiene una versión gratuita antigua. Sus limitaciones son que no agrupa capas y que no está disponible para Linux.
 
-**Photoshop** puede hacer pixel art si configuras bien el lápiz y desactivas el suavizado, y seguramente ya sabes usarlo. Soporta archivos grandes, capas, grupos y efectos avanzados. A cambio es más complejo, más caro y no está pensado para pixel art, así que tareas como animar o exportar sprite sheets son más engorrosas.
+**Photoshop** también sirve si configuras bien el lápiz y desactivas el suavizado, y tiene la ventaja de que seguramente ya sabes usarlo. Soporta archivos grandes, capas, grupos y efectos avanzados. A cambio es más complejo, más caro y no está pensado para pixel art, así que tareas como animar o exportar sprite sheets son más engorrosas.
 
 Hay alternativas gratuitas que merece la pena conocer: **Pixelorama** (libre y multiplataforma, muy completo) y **Piskel** (funciona en el navegador, ideal para empezar o para pruebas rápidas).
 
@@ -22,11 +24,11 @@ Hay alternativas gratuitas que merece la pena conocer: **Pixelorama** (libre y m
 
 ## Aplicaciones móviles
 
-Existen aplicaciones como **Pixel Studio**, **Pixly** o **Pixel Station** que te permiten pixelar desde el móvil o la tableta. Son más completas de lo que parece y en su mayoría gratuitas, así que están muy bien para practicar o bocetar en cualquier sitio. Para un trabajo profesional resultan incómodas, así que úsalas como cuaderno de bocetos y termina en escritorio.
+Existen aplicaciones como **Pixel Studio**, **Pixly** o **Pixel Station** que te permiten pixelar desde el móvil o la tableta. Son más completas de lo que parece y casi todas gratuitas, así que están genial para practicar en el autobús o bocetar una idea antes de que se te olvide. Para un trabajo serio se hacen incómodas: úsalas como cuaderno de bocetos y termina en el ordenador.
 
 ## Un flujo habitual
 
-En un proyecto real cada tarea se hace con el programa que mejor la resuelve. Un flujo muy común es este:
+En un proyecto real nadie se casa con un único programa: cada tarea se hace con el que mejor la resuelve. Un flujo muy común es este:
 
 1. **Personajes y objetos** en un editor de pixel art (Pyxel Edit o Aseprite), donde controlas cada píxel.
 2. **Animaciones y tilesets** en el mismo editor, aprovechando su línea de tiempo y su rejilla.
