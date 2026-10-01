@@ -10,9 +10,9 @@ Por eso muchos artistas resuelven **primero la imagen en grises** (lo viste en l
 
 ## La paleta
 
-La paleta es el **conjunto limitado de colores** con el que trabaja un proyecto. Limitarla es precisamente **lo que le da coherencia**: si cada artista elige sus colores libremente, el juego se fragmenta.
+La paleta es el **conjunto limitado de colores** con el que trabaja un proyecto. Limitarla es precisamente **lo que le da coherencia**. Si cada artista elige sus colores libremente, acabas con un juego en el que cada nivel parece hecho por un estudio distinto.
 
-Al construirla piensa en tres cosas. La **armonía**: colores que funcionan juntos (análogos, complementarios, tríadas). La **temperatura**: los cálidos se acercan al espectador y transmiten energía o confort; los fríos se alejan y transmiten calma, distancia o amenaza. Y la **saturación**: los colores muy saturados atraen la mirada, así que resérvalos para lo importante.
+Al construirla piensa en tres cosas. La **armonía**: colores que funcionan juntos (análogos, complementarios, tríadas). La **temperatura**: los cálidos se acercan al espectador y transmiten energía o confort; los fríos se alejan y transmiten calma, distancia o amenaza. Y la **saturación**: los colores muy saturados atraen la mirada, así que resérvalos para lo importante. Si todo grita, no se oye nada.
 
 En pixel art la paleta es todavía más importante, porque trabajas con muy pocos colores y cada uno se nota. Es habitual **partir de paletas ya probadas** (Lospec tiene un catálogo enorme) y adaptarlas al proyecto.
 
@@ -20,7 +20,7 @@ En pixel art la paleta es todavía más importante, porque trabajas con muy poco
 
 En un juego el color **también da información**. Guía la mirada hacia lo que importa (el objeto interactivo, la salida, el punto débil del enemigo). Diferencia facciones y tipos de enemigo. Comunica estado: daño, veneno, poder activo. Y separa planos: lo jugable suele tener más contraste y saturación que el fondo.
 
-Cuidado con **depender solo del color para transmitir información crítica**. Una parte de los jugadores tiene algún tipo de daltonismo, así que **refuerza lo importante también con forma, valor o iconografía**.
+Cuidado con **depender solo del color para transmitir información crítica**. Alrededor de un 8 % de los hombres tiene algún tipo de daltonismo (en una clase como la tuya es muy probable que haya alguien), así que **refuerza lo importante también con forma, valor o iconografía**.
 
 ## La luz dentro del concept
 

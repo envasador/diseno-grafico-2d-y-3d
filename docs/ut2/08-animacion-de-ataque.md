@@ -1,6 +1,6 @@
 # UT2.8 Animación de ataque
 
-¿Has jugado a algo en el que pegar "se siente bien"? Pulsas el botón, el golpe sale al instante y cuando impacta casi lo notas en las manos. Y al revés: seguro que también has jugado a algo en el que atacar es como dar golpes con un churro de piscina. Buena parte de esa diferencia se decide en la animación de ataque, y **en muy pocos frames**.
+¿Has jugado a algo en el que pegar "se siente bien"? Pulsas el botón, el golpe sale al instante y cuando impacta casi lo notas en las manos. Y al revés: seguro que también has jugado a algo en el que pegas tres espadazos a un enemigo y parece que ni se ha enterado. Buena parte de esa diferencia se decide en la animación de ataque, y **en muy pocos frames**.
 
 ## Qué es
 
@@ -54,7 +54,7 @@ El **ease in** (suavidad al principio) hace que el movimiento arranque despacio 
 <figcaption>Ease in: suavidad al principio. Ease out: suavidad al final. Uso con fines educativos.</figcaption>
 </figure>
 
-En un ataque, el golpe tiene que ser instantáneo, así que **no lleva ease in**. Donde el easing marca la diferencia es después del impacto. Con **ease out**, el arma frena en dos o tres frames y **el golpe resulta pesado y contundente**. Sin él, el arma se para en seco y el movimiento parece de robot de cocina.
+En un ataque, el golpe tiene que ser instantáneo, así que **no lleva ease in**. Donde el easing marca la diferencia es después del impacto. Con **ease out**, el arma frena en dos o tres frames y **el golpe resulta pesado y contundente**. Sin él, el arma se para en seco y el movimiento parece mecánico.
 
 <figure markdown>
 ![Golpe con ease out y golpe sin ease out](../assets/ut2/easy-out.png){ loading=lazy }

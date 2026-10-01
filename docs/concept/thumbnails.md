@@ -10,7 +10,7 @@ Se usan para todo. Para un personaje, pruebas poses y proporciones. Para un esce
 
 ## Cómo se trabaja
 
-Divide una hoja en una cuadrícula de rectángulos pequeños y llénala. Trabaja con **dos o tres valores de gris** (claro, medio, oscuro) y sin línea fina. Pon un **límite de tiempo** por thumbnail y respétalo. Al terminar la hoja, **marca los tres que mejor funcionan** y explica en una frase por qué.
+Divide una hoja en una cuadrícula de rectángulos pequeños y llénala. Trabaja con **dos o tres valores de gris** (claro, medio, oscuro) y sin línea fina. Pon un **límite de tiempo** por thumbnail y respétalo. Si llevas cinco minutos con uno, cuidado: le estás cogiendo cariño, y eso es justo lo que querías evitar. Al terminar la hoja, **marca los tres que mejor funcionan** y explica en una frase por qué.
 
 Unas pautas que te ahorran tiempo:
 

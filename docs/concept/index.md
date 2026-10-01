@@ -1,20 +1,20 @@
 # Concept
 
-Antes de que exista un solo sprite, un modelo o una luz en tu escena, alguien ha tenido que decidir cómo se ve el juego. Esa decisión se toma en el concept: el trabajo visual que **convierte una idea escrita en imágenes** que todo el equipo puede mirar, discutir y seguir. Un programador, una animadora y un modelador 3D leen el mismo documento de diseño y cada uno se imagina un juego distinto; cuando les enseñas un concept, por fin ven el mismo.
+Antes de que exista un solo sprite, un modelo o una luz en tu escena, alguien ha tenido que decidir cómo se ve el juego. Esa decisión se toma en el concept: el trabajo visual que **convierte una idea escrita en imágenes** que todo el equipo puede mirar, discutir y seguir. Dale el mismo documento de diseño a una programadora, a un animador y a una modeladora 3D, y cada uno se imaginará un juego distinto. Enséñales un concept y, por fin, estarán hablando del mismo.
 
 En este curso el concept tiene su propia pestaña porque **lo vas a usar todo el año**. Cada vez que empieces algo nuevo (un personaje en pixel art, un prop en Blender, la iluminación de una escena) pasarás primero por una fase de concept. Cambia lo que produces en cada momento, pero **la forma de pensar es siempre la misma**: primero entiendes qué te piden, luego buscas referencias, exploras muchas opciones rápidas, eliges, refinas y dejas un documento que otra persona podría usar para producir el asset sin preguntarte nada.
 
 ## Qué resuelve el concept
 
-El motivo más práctico es **el dinero y el tiempo**. Cambiar un boceto cuesta minutos; cambiar un modelo 3D texturizado y con rig cuesta días. Todo lo que descubras en la fase de concept (que la silueta no se lee, que la paleta choca con el escenario, que el arma no cabe en el sprite) es un problema que no tendrás que arreglar en producción.
+El motivo más práctico es **el dinero y el tiempo**. Cambiar un boceto cuesta minutos; cambiar un modelo 3D texturizado y con rig cuesta días. Todo lo que descubras en la fase de concept (que la silueta no se lee, que la paleta choca con el escenario, que el arma no cabe en el sprite) es un problema que no tendrás que arreglar en producción. Y nadie quiere ser la persona que descubre, a dos semanas de la entrega, que el protagonista no se distingue del fondo.
 
-El segundo motivo es la **coherencia**. Un juego lo hacen muchas manos a lo largo de mucho tiempo. Si nadie fija antes qué paleta, qué proporciones y qué nivel de detalle tiene el mundo, cada asset acaba tirando hacia un lado. El concept deja esas decisiones por escrito y en imagen, y se convierte en la referencia a la que todo el equipo vuelve.
+El segundo motivo es la **coherencia**. Un juego lo hacen muchas manos a lo largo de mucho tiempo. Si nadie fija antes qué paleta, qué proporciones y qué nivel de detalle tiene el mundo, cada asset acaba tirando hacia un lado. Sin esas decisiones, el juego acaba pareciendo un collage de cinco juegos distintos. El concept las deja por escrito y en imagen, y se convierte en la referencia a la que todo el equipo vuelve.
 
 El tercero es la **comunicación**. Un buen concept responde preguntas antes de que alguien las haga: cómo es el personaje por detrás, de qué material está hecha la armadura, qué color tiene la luz de la antorcha. Por eso el resultado final de esta fase son **documentos pensados para producción**, que van más allá de ilustraciones bonitas.
 
 ## Qué abarca
 
-El concept cubre prácticamente todo lo visual de un juego. Los **personajes** son lo más reconocible: quién es cada uno, cómo se mueve, qué lleva encima y qué cuenta su aspecto de su historia. Los **entornos** definen dónde ocurre todo y cuánta atmósfera tiene el mundo. Los **props** (armas, objetos, mobiliario, vehículos) tienen que encajar en el mismo estilo aunque sean pequeños. La **interfaz** también parte de aquí, porque una barra de vida tiene que parecer del mismo juego que el personaje. Y los **efectos visuales** (un hechizo, una explosión, el humo de una chimenea) necesitan concept igual que lo demás, aunque sean elementos en movimiento.
+El concept cubre prácticamente todo lo visual de un juego. Los **personajes** son lo más reconocible: quién es cada uno, cómo se mueve, qué lleva encima y qué cuenta su aspecto de su historia. Los **entornos** definen dónde ocurre todo y cuánta atmósfera tiene el mundo. Los **props** (armas, objetos, mobiliario, vehículos) tienen que encajar en el mismo estilo aunque sean pequeños. La **interfaz** también parte de aquí, porque una barra de vida tiene que parecer del mismo juego que el personaje. Y los **efectos visuales** (un hechizo, una explosión, el humo de una chimenea) necesitan concept igual que lo demás, aunque sean elementos en movimiento. Resumiendo: si se ve en pantalla, alguien lo ha pasado antes por concept (o debería haberlo hecho).
 
 ## Cómo aparece en cada unidad
 

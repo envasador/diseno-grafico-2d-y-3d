@@ -30,7 +30,7 @@ Mientras trabajas, el programa te deja previsualizar esos frames en bucle, y pue
 
 ## Qué es un sprite sheet
 
-Un sprite sheet es **una única imagen** (normalmente un PNG con transparencia) que contiene **todos los frames de una animación, o de varias**, colocados en una rejilla. El motor **carga esa imagen una sola vez** y va mostrando cada trozo en orden, como quien pasa diapositivas. Es mucho más eficiente que cargar un archivo por frame.
+Un sprite sheet es **una única imagen** (normalmente un PNG con transparencia) que contiene **todos los frames de una animación, o de varias**, colocados en una rejilla. El motor **carga esa imagen una sola vez** y va mostrando cada trozo en orden. Es mucho más eficiente que cargar un archivo por frame.
 
 <figure markdown>
 ![Frames de una animación exportados como sprite sheet](../assets/ut2/spritesheet.png){ loading=lazy }

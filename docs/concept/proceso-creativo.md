@@ -2,9 +2,9 @@
 
 Hay una imagen del concept artist que conviene borrar cuanto antes: alguien con auriculares, un café y mucho talento que se sienta delante de la tableta y dibuja el diseño definitivo a la primera. Esa persona no existe. O existe, y su diseño se rehace tres veces en producción, y nadie la invita a la siguiente reunión.
 
-En un estudio el concept es **un proceso ordenado**. Empieza leyendo un encargo y termina con unos documentos que otra persona puede usar sin llamarte por teléfono. Por el camino hay inspiración, claro que sí. Pero lo que hace que un diseño funcione es **haber recorrido todas las fases sin saltarte ninguna**, igual que un bizcocho sale bien porque alguien se acordó de precalentar el horno.
+En un estudio el concept es **un proceso ordenado**. Empieza leyendo un encargo y termina con unos documentos que otra persona puede usar sin llamarte por teléfono. Por el camino hay inspiración, claro que sí. Pero lo que hace que un diseño funcione es **haber recorrido todas las fases sin saltarte ninguna**. Las fases que te saltas vuelven más tarde, en forma de correcciones, y siempre en la peor semana posible.
 
-Vas a repetir este proceso en todas las unidades del curso. Al final saldrá un sprite, un modelo o una escena iluminada, y las fases serán las mismas. Pasa como con la tortilla: cambias la cebolla por calabacín y sigues necesitando huevos.
+Vas a repetir este proceso en todas las unidades del curso. Al final saldrá un sprite, un modelo o una escena iluminada, y las fases serán las mismas. La primera vez te parecerá lento. A la tercera lo harás sin mirar los apuntes, y empezarás a reconocer en las revisiones de clase qué diseño se ha saltado alguna.
 
 ## El brief: qué te están pidiendo
 
@@ -18,7 +18,7 @@ Si el encargo es un personaje, apunta además su papel en la historia, su person
 
 Nadie diseña desde cero. Nadie. Tampoco la gente que parece que sí. Antes de dibujar, buscas material: fotografías reales, otros juegos, películas, ilustración, arquitectura, texturas. Lo que buscas al recopilar es **ampliar tu vocabulario visual**. Con veinte referencias buenas tienes veinte palabras más para hablar. Con dos, vas a decir lo mismo que todo el mundo.
 
-Las referencias se ordenan en un **[moodboard](moodboard.md)**, que fija la atmósfera y el estilo. Y aquí va una verdad del oficio: la búsqueda y el moodboard ocurren a la vez. Encuentras una imagen, la pegas, la miras al lado de las demás y te das cuenta de lo que te falta. Vuelves a buscar. Es como hacer la compra sin lista, pero con método.
+Las referencias se ordenan en un **[moodboard](moodboard.md)**, que fija la atmósfera y el estilo. Y aquí va una verdad del oficio: la búsqueda y el moodboard ocurren a la vez. Encuentras una imagen, la pegas, la miras al lado de las demás y te das cuenta de lo que te falta. Vuelves a buscar. Si tu moodboard está terminado a los diez minutos, sospecha: casi seguro que te has quedado en las primeras imágenes que te enseñó el buscador, que son las mismas que ha visto todo el mundo.
 
 ## Exploración: muchas ideas rápidas
 

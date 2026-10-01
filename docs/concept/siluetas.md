@@ -43,8 +43,8 @@ Unos criterios para decidir cuál funciona:
 - **Proporciones claras.** Tiene que haber contraste entre partes grandes y pequeñas; si todo es del mismo tamaño, la forma se vuelve aburrida.
 - **Espacios negativos.** El hueco entre el brazo y el cuerpo, o entre las piernas, ayuda a entender la pose. Si los brazos se pegan al cuerpo, la silueta pierde información.
 - **Un elemento característico.** Un rasgo que nadie más tenga en el juego: un peinado, un arma, una capa, una forma de cabeza.
-- **Pose con intención.** Una pose neutra, de frente y con los brazos caídos, cuenta muy poco. Una pose con actitud cuenta mucho más.
+- **Pose con intención.** Una pose neutra, de frente y con los brazos caídos, cuenta muy poco: es la pose de un maniquí esperando a que alguien lo diseñe. Una pose con actitud cuenta mucho más.
 
 ## La silueta en cada unidad
 
-En la **UT2** la silueta es crítica, porque a 32×32 píxeles es casi lo único que el jugador percibe; además, cada frame de una animación tiene que seguir leyéndose. En la **UT3** comprobarás la silueta de tus modelos desde varios ángulos y a distancia de cámara de juego. En la **UT4** la iluminación puede reforzarla con contraluces o destruirla si el personaje se funde con el fondo.
+En la **UT2** la silueta es crítica, porque a 32×32 píxeles es casi lo único que el jugador percibe; además, cada frame de una animación tiene que seguir leyéndose. En la **UT3** comprobarás la silueta de tus modelos desde varios ángulos y a distancia de cámara de juego. En la **UT4** la iluminación puede reforzarla con contraluces o destruirla si el personaje se funde con el fondo. Y el jugador no te va a avisar: simplemente perderá de vista a su personaje y pensará que el juego es confuso.

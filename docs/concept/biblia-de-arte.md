@@ -6,7 +6,7 @@ En un estudio, cuando una persona nueva entra al equipo de arte, no le explican 
 
 La biblia de arte (también llamada guía de estilo o art bible) es **el documento de referencia visual de un proyecto**. Recoge las decisiones de concept ya tomadas: el estilo, la paleta, las reglas de proporción, los personajes con sus hojas, los entornos, los materiales y la iluminación. Es un **documento vivo** que se actualiza a medida que el proyecto avanza.
 
-Su valor está en que **convierte decisiones en reglas**. "Los personajes miden cuatro cabezas", "las sombras se pintan con el azul oscuro de la paleta", "los objetos interactivos tienen un contorno de un píxel más claro". **Cualquier persona que lea esas reglas puede aplicarlas.**
+Su valor está en que **convierte decisiones en reglas**. "Los personajes miden cuatro cabezas", "las sombras se pintan con el azul oscuro de la paleta", "los objetos interactivos tienen un contorno de un píxel más claro". **Cualquier persona que lea esas reglas puede aplicarlas.** Y eso te incluye a ti dentro de tres meses, cuando ya no te acuerdes de por qué las sombras eran azules.
 
 ## Qué contiene
 

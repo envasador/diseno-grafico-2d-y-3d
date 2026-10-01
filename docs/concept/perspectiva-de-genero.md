@@ -21,7 +21,7 @@ La perspectiva de género se integra en las **mismas fases** del [proceso creati
 
 **En las referencias.** Busca fuera del propio videojuego: personas reales de oficios, edades y cuerpos diversos. Un moodboard de soldadoras, pescadores veteranas o bomberos te dará soluciones que no aparecen en ningún otro juego.
 
-**En la exploración.** Cuando hagas tus siluetas, **varía también tipos de cuerpo, edades y formas de estar**. Muchas de tus mejores siluetas saldrán de salir del cuerpo "por defecto".
+**En la exploración.** Cuando hagas tus siluetas, **varía también tipos de cuerpo, edades y formas de estar**. Muchas de tus mejores siluetas aparecerán justo cuando te alejes del cuerpo "por defecto".
 
 **En el desarrollo.** Diseña **la ropa y el equipo según lo que el personaje hace, y la pose según lo que siente**. **Pregúntate si el diseño tendría sentido si cambiaras el género del personaje.**
 

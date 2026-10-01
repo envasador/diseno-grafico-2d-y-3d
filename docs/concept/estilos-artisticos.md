@@ -2,7 +2,7 @@
 
 Piensa en *Celeste*, *Hollow Knight* y *The Last of Us*. Los tres son juegos sobre personajes en situaciones difíciles, y aun así no podrían parecerse menos. El estilo artístico es **la firma visual de un juego**: decide cómo se ve, pero también cómo se siente, **cuánto cuesta producirlo y cómo va a envejecer**.
 
-Elegir estilo es una de las primeras decisiones del concept, y conviene tomarla **con criterio** y no solo por gusto personal.
+Elegir estilo es una de las primeras decisiones del concept, y conviene tomarla **con la cabeza fría**: el estilo que más te gusta y el estilo que tu equipo puede producir en seis semanas no siempre coinciden.
 
 ## Estilos de representación
 

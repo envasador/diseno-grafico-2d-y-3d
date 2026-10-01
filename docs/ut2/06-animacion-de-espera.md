@@ -20,7 +20,7 @@ El idle es normalmente **una respiración exagerada**, sin que el personaje se m
 Es la animación más sencilla de hacer y **la mejor para estrenarte**, porque trabaja con muy pocos cambios. Unas pautas para que salga bien a la primera:
 
 - **Pocos frames.** Entre dos y seis suelen bastar. Muchos juegos clásicos resuelven el idle con dos.
-- **Cambios mínimos.** A menudo basta con bajar uno o dos píxeles la cabeza y el torso y dejar las piernas quietas. Si lo mueves todo, parecerá que el personaje está en una discoteca.
+- **Cambios mínimos.** A menudo basta con bajar uno o dos píxeles la cabeza y el torso y dejar las piernas quietas. Si lo mueves todo, parecerá que el personaje baila en lugar de respirar.
 - **Bucle perfecto.** El último frame tiene que enlazar con el primero sin salto, porque esta animación se repite indefinidamente.
 - **Timing tranquilo.** Una respiración es lenta. Da más duración a los frames de los extremos (pecho arriba, pecho abajo).
 

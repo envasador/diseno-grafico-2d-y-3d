@@ -4,7 +4,7 @@ Tu personaje está aprobado y te encanta la ilustración que has hecho de él. A
 
 ## Turnaround
 
-El **turnaround** muestra al personaje (o al objeto) desde varios ángulos, normalmente **de frente, perfil y espalda**, a veces también en tres cuartos. Todas las vistas se dibujan a la **misma escala** y alineadas con líneas horizontales que marcan puntos clave: la parte superior de la cabeza, los hombros, la cintura, las rodillas, los pies. Así se comprueba que **las proporciones son coherentes en todas las vistas**.
+El **turnaround** muestra al personaje (o al objeto) desde varios ángulos, normalmente **de frente, perfil y espalda**, a veces también en tres cuartos. Todas las vistas se dibujan a la **misma escala** y alineadas con líneas horizontales que marcan puntos clave: la parte superior de la cabeza, los hombros, la cintura, las rodillas, los pies. Así se comprueba que **las proporciones son coherentes en todas las vistas**. Si las rodillas del perfil quedan más altas que las de la vista frontal, alguien en 3D va a pasar una tarde muy confusa.
 
 Se dibuja en **pose neutra**. Para personajes que se van a modelar y riggear en 3D se usa la **T-pose** (brazos en cruz) o la **A-pose** (brazos a unos 45 grados), porque facilitan el rigging posterior.
 
@@ -12,7 +12,7 @@ En la **UT3** el turnaround se convierte en tus **vistas ortográficas**: las im
 
 ## Model sheet
 
-El **model sheet** agrupa todo lo que hace falta para dibujar o reproducir un personaje **de forma consistente**. Suele incluir el turnaround, las proporciones medidas en cabezas, la paleta con los valores exactos de color y notas sobre los rasgos que no pueden cambiar (la forma de los ojos, el número de puntas del pelo). Es la hoja que usa cualquier persona del equipo que tenga que dibujar al personaje sin haberlo diseñado.
+El **model sheet** agrupa todo lo que hace falta para dibujar o reproducir un personaje **de forma consistente**. Suele incluir el turnaround, las proporciones medidas en cabezas, la paleta con los valores exactos de color y notas sobre los rasgos que no pueden cambiar (la forma de los ojos, el número de puntas del pelo). Es la hoja que usa cualquier persona del equipo que tenga que dibujar al personaje sin haberlo diseñado. Parece un exceso de celo hasta que ves al mismo personaje con tres peinados distintos en tres pantallas del juego.
 
 ## Hojas de expresiones y de poses
 

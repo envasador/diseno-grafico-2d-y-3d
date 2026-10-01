@@ -10,11 +10,11 @@ Es **la primera tarea visual después de leer el brief**, antes del primer bocet
 
 ## Cómo se construye uno útil
 
-La primera regla es **buscar sensaciones antes que soluciones**. Si tu personaje es un caballero cansado, las mejores referencias probablemente no sean otros caballeros de videojuego: pueden ser fotografías de veteranos de guerra, armaduras reales abolladas, la luz de un atardecer de invierno. Si solo recopilas diseños ya resueltos, acabarás copiándolos.
+La primera regla es **buscar sensaciones antes que soluciones**. Si tu personaje es un caballero cansado, las mejores referencias probablemente no sean otros caballeros de videojuego: pueden ser fotografías de veteranos de guerra, armaduras reales abolladas, la luz de un atardecer de invierno. Si buscas "caballero videojuego", encontrarás los mismos cien caballeros que ha encontrado todo el mundo, y tu diseño se parecerá a todos ellos. Si solo recopilas diseños ya resueltos, acabarás copiándolos.
 
 La segunda es **mezclar tipos de imagen**. Un moodboard con solo capturas de juegos se queda corto. Combina fotografía real (materiales, luz, arquitectura, ropa), arte de otros medios (cine, cómic, ilustración) y muestras de color y textura.
 
-La tercera es **seleccionar**. Un tablero con doscientas imágenes no comunica nada. Quédate con las que mejor representan la idea y quita las que se contradicen entre sí. **Todas las imágenes tienen que parecer del mismo mundo.**
+La tercera es **seleccionar**. Un tablero con doscientas imágenes no comunica nada; eso es una carpeta de descargas. Quédate con las que mejor representan la idea y quita las que se contradicen entre sí. **Todas las imágenes tienen que parecer del mismo mundo.**
 
 La cuarta es **organizar**. Agrupa por temas (personajes, entorno, luz, materiales, paleta) para que quien lo mire entienda qué aporta cada zona.
 
@@ -22,7 +22,7 @@ Y la última es tratarlo como un **documento vivo**. El moodboard evoluciona con
 
 ## Tipos de moodboard
 
-En un proyecto rara vez hay uno solo. El **general** recoge la visión global del juego. Los **específicos** se centran en un personaje, una zona o un aspecto concreto, como la iluminación. Y a veces es muy útil un tablero de **lo que no queremos**, que deja claro qué referencias parecidas hay que evitar para que nadie tire hacia ahí.
+En un proyecto rara vez hay uno solo. El **general** recoge la visión global del juego. Los **específicos** se centran en un personaje, una zona o un aspecto concreto, como la iluminación. Y a veces es muy útil un tablero de **lo que no queremos**, que deja claro qué referencias parecidas hay que evitar para que nadie tire hacia ahí. Parece raro, pero ahorra discusiones muy largas.
 
 A lo largo del curso irás creando **moodboards específicos en cada unidad**: uno de animación y movimiento en la UT2, uno de materiales en la UT3 y uno de luz en la UT4.
 
