@@ -18,7 +18,7 @@ El número de frames no es lo único que importa. El ciclo es una gran oportunid
 
 ## La receta de 6 frames
 
-Seis frames es un **buen punto de partida**: suficientes para que el movimiento se lea claro y pocos para que puedas producirlos sin morir en el intento. Esta es la receta.
+Seis frames es un **buen punto de partida**: suficientes para que el movimiento se lea claro y pocos para que lleguen a tiempo a la entrega. Esta es la receta.
 
 <figure markdown>
 ![Base de 6 frames para el walking cycle](../assets/ut2/walk-6-frames.png){ loading=lazy }

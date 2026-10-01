@@ -45,7 +45,7 @@ Puede no existir. Su función es **suavizar la vuelta a otra animación distinta
 
 ## Easing: suavidad al principio y al final
 
-El easing controla **cómo acelera y frena un movimiento**. Piensa en un coche: nunca pasa de 0 a 100 en un instante ni frena en seco sin que salgas disparado. En la vida real **nada arranca ni se detiene de golpe**.
+El easing controla **cómo acelera y frena un movimiento**. Fíjate en el salto de cualquier plataformas que se sienta bien: el personaje sale disparado, se queda un instante flotando arriba y cae cada vez más deprisa. En la vida real **nada arranca ni se detiene de golpe**, y los juegos que se sienten bien lo imitan.
 
 El **ease in** (suavidad al principio) hace que el movimiento arranque despacio y vaya acelerando. El **ease out** (suavidad al final) hace que llegue rápido y frene poco a poco. El **ease in-out** combina los dos. En la práctica se consigue con **el espaciado entre frames**: frames muy juntos donde el movimiento es lento y muy separados donde es rápido, igual que la pelota que viste en el [timing](05-principios-de-animacion.md#timing).
 

@@ -8,7 +8,7 @@ Un tile es **una celda de tamaño fijo dentro de una rejilla**, y en ella se dib
 
 ## Tiles para crear tilesets
 
-Un **tileset** es un documento donde dibujas piezas de escenario **como si fueran las piezas de un Lego**: suelo, pared, esquina, borde, un trozo de agua. Cada pieza ocupa una celda de la rejilla, un tile. Después, en el motor o en un editor de niveles, esas piezas se colocan una junto a otra para construir mapas completos.
+Un **tileset** es un documento donde dibujas **piezas sueltas de escenario**: suelo, pared, esquina, borde, un trozo de agua. Cada pieza ocupa una celda de la rejilla, un tile. Después, en el motor o en un editor de niveles, esas piezas se colocan una junto a otra para construir mapas completos. Es el truco con el que los juegos de NES metían mundos enteros en cartuchos con menos memoria que una foto de tu móvil.
 
 <figure markdown>
 ![Tileset y el escenario montado con sus piezas](../assets/ut2/tileset.png){ loading=lazy }

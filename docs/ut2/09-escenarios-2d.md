@@ -27,7 +27,7 @@ El primero es que **las piezas encajen**. Un tile de suelo tiene que poder repet
 
 El segundo es **cubrir todos los casos**. Un bloque de tierra necesita pieza central, bordes superior e inferior, laterales, cuatro esquinas exteriores y cuatro interiores. Si falta alguna, el diseñador de niveles no podrá cerrar ciertas formas. Los motores tienen sistemas de **autotiling** (las reglas de tiles en Unity, los terrains de Godot) que eligen automáticamente la pieza correcta según sus vecinas, pero necesitan que todas estén dibujadas.
 
-El tercero es **evitar la monotonía**. Si el mismo tile de hierba se repite doscientas veces, el ojo pilla el patrón enseguida y el escenario empieza a parecer papel pintado. Dibuja **dos o tres variantes** de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.
+El tercero es **evitar la monotonía**. Si el mismo tile de hierba se repite doscientas veces, el ojo pilla el patrón enseguida y el jugador nota el copia y pega aunque no sepa decir por qué. Dibuja **dos o tres variantes** de las piezas más frecuentes (una con una piedra, otra con una flor) y mézclalas.
 
 ## Montar el nivel
 

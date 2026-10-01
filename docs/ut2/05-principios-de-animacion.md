@@ -45,7 +45,7 @@ En la pelota, fíjate en el espaciado: cerca de la parte alta los frames están 
 
 El **squash** (aplastamiento) y el **stretch** (estiramiento) son deformaciones que aplicas a la forma de un objeto mientras se mueve. La pelota se estira cuando cae deprisa y se aplasta al chocar con el suelo. Sirven para expresar flexibilidad, velocidad e impacto, y hacen que los elementos animados dejen de parecer rígidos.
 
-Hay una regla que no puedes saltarte: **el volumen se conserva**. Si la pelota se aplasta en vertical, se ensancha en horizontal, como un globo de agua cuando lo apoyas en la mesa. Si solo la achatas, parecerá que encoge.
+Hay una regla que no puedes saltarte: **el volumen se conserva**. Si la pelota se aplasta en vertical, se ensancha en horizontal. Si solo la achatas, parecerá que encoge, y el ojo lo detecta enseguida aunque nadie sepa explicar qué falla.
 
 <figure markdown>
 ![Squash al tocar el suelo y stretch durante la caída](../assets/ut2/squash-stretch.png){ loading=lazy }
