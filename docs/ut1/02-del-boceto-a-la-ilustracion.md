@@ -10,7 +10,7 @@ Cualquier cosa que dibujes (un personaje, un árbol, una nave espacial) se puede
 
 Un dragón, por ejemplo, es un cilindro que se va estrechando (cuello y cola), una esfera (la cabeza) y dos triángulos (las alas). Cuando esas masas funcionan, **el detalle casi se coloca solo**.
 
-Además, esta forma de trabajar le va como anillo al dedo al vectorial, porque esas formas básicas son literalmente las primeras capas de tu archivo. Y enlaza con dos herramientas de concept que ya conoces: las [siluetas](../concept/siluetas.md), para comprobar si el personaje se reconoce en negro, y el [lenguaje de formas](../concept/thumbnails.md), que decide qué transmite (círculos amables, cuadrados sólidos, triángulos peligrosos).
+Además, esta forma de trabajar encaja de maravilla con el vectorial, porque esas formas básicas son literalmente las primeras capas de tu archivo. Y enlaza con dos herramientas de concept que ya conoces: las [siluetas](../concept/siluetas.md), para comprobar si el personaje se reconoce en negro, y el [lenguaje de formas](../concept/thumbnails.md), que decide qué transmite (círculos amables, cuadrados sólidos, triángulos peligrosos).
 
 ## Proporciones
 
@@ -26,13 +26,13 @@ Un detalle para cuando llegues a la UT2: si tu personaje va a acabar convertido 
 
 ## Pose y expresión
 
-Un personaje de juego se pasa la vida corriendo, saltando y pegando, así que **su diseño tiene que aguantar en movimiento**. Aquí la herramienta estrella es la **línea de acción**: una curva que atraviesa el cuerpo de la cabeza a los pies y marca hacia dónde va la pose. Si esa línea es recta, el personaje parece un palo de escoba. Si tiene una curva clara, **transmite energía**. Dibújala primero y construye la figura encima con formas simples, marcando hombros, codos, caderas y rodillas con círculos.
+Un personaje de juego se pasa la vida corriendo, saltando y pegando, así que **su diseño tiene que aguantar en movimiento**. Aquí la herramienta estrella es la **línea de acción**: una curva que atraviesa el cuerpo de la cabeza a los pies y marca hacia dónde va la pose. Si esa línea es recta, el personaje parece estar esperando el autobús, aunque en teoría esté dando un salto mortal. Si tiene una curva clara, **transmite energía**. Dibújala primero y construye la figura encima con formas simples, marcando hombros, codos, caderas y rodillas con círculos.
 
 Con la expresión pasa lo mismo: **simplifica**. **Cejas, ojos y boca cuentan casi toda la emoción.** La mejor prueba de que la cara de tu personaje funciona es dibujarle cinco o seis expresiones distintas; tienes el formato en [hojas de expresiones y de poses](../concept/hojas-de-produccion.md#hojas-de-expresiones-y-de-poses).
 
 ## Escenarios: perspectiva y planos
 
-En un escenario, lo primero que decides es dónde va la **línea del horizonte**, porque **está a la altura de los ojos de quien mira**. Lo que queda por encima lo ves desde abajo, y lo que queda por debajo, desde arriba. Coloca el horizonte bajo y todo parecerá enorme; súbelo y estarás mirando la escena como un dron.
+En un escenario, lo primero que decides es dónde va la **línea del horizonte**, porque **está a la altura de los ojos de quien mira**. Lo que queda por encima lo ves desde abajo, y lo que queda por debajo, desde arriba. Coloca el horizonte bajo y todo parecerá enorme; súbelo y verás la escena desde arriba, como en un juego de estrategia.
 
 A partir de ahí, las líneas que se alejan van a parar a **puntos de fuga**:
 

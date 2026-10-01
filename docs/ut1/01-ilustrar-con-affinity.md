@@ -10,7 +10,7 @@ Affinity reparte sus herramientas en **estudios**. En esta unidad vas a vivir en
 
 Lo bueno es que los dos trabajan sobre el **mismo documento**. Puedes construir un personaje con formas vectoriales, saltar al estudio Pixel y pintarle las sombras con un pincel sin cambiar de archivo ni exportar nada.
 
-Si vienes de las versiones anteriores (Affinity Designer o Affinity Photo), los **estudios** son lo que allí se llamaban "personas". Los archivos nuevos se guardan como `.af`. El programa abre sin problema los antiguos `.afdesign`, pero al revés no funciona: si le pasas un `.af` a alguien con la versión vieja, **no podrá abrirlo**.
+Si vienes de las versiones anteriores (Affinity Designer o Affinity Photo), los **estudios** son lo que allí se llamaban "personas". Los archivos nuevos se guardan como `.af`. El programa abre sin problema los antiguos `.afdesign`, pero al revés no funciona: si le pasas un `.af` a alguien con la versión vieja, **no podrá abrirlo**. Y suele descubrirse la noche antes de la entrega.
 
 ## Vectorial o píxel
 
@@ -28,7 +28,7 @@ Una forma vectorial es una **receta matemática**: "un círculo de este radio, c
 
 ## Capas: el botón de cambiar de opinión
 
-Te lo digo por experiencia: vas a cambiar de opinión. Muchas veces. Y las capas son lo que hace que **cambiar de opinión cueste un clic** y no una tarde entera. Si el cuerpo, la cabeza y el arma de tu personaje están cada uno en su capa, puedes probar otra cabeza sin tocar lo demás.
+Vas a cambiar de opinión. Muchas veces. Y cuando no seas tú, será quien revise tu trabajo. Y las capas son lo que hace que **cambiar de opinión cueste un clic** y no una tarde entera. Si el cuerpo, la cabeza y el arma de tu personaje están cada uno en su capa, puedes probar otra cabeza sin tocar lo demás.
 
 Coge desde el primer día tres costumbres que te van a ahorrar muchos disgustos: **ponle nombre a cada capa**, agrupa las que van juntas (Ctrl+G, o Cmd+G en Mac) y **oculta en lugar de borrar**. "Capa 47" no te dice nada dentro de dos semanas.
 
@@ -53,13 +53,13 @@ El tercero es dibujar el trazo tú mismo. Con la **Pluma** (P) colocas los nodos
 
 Con la herramienta Mover (V) coges objetos completos, y con Nodo (A), trocitos de su contorno. Cuando el archivo empieza a llenarse de capas, lo más fiable es **seleccionar desde el panel de Capas**: ahí aciertas siempre, aunque haya tres objetos uno encima de otro.
 
-¿Has decidido que el rojo de tu personaje era demasiado chillón? Desde el menú Seleccionar puedes elegir de golpe **todos los objetos que tienen el mismo relleno** y cambiarlos a la vez. Eso es lo que se agradece haber trabajado en vectorial.
+¿Has decidido que el rojo de tu personaje era demasiado chillón? Desde el menú Seleccionar puedes elegir de golpe **todos los objetos que tienen el mismo relleno** y cambiarlos a la vez. En ese momento agradecerás haber trabajado en vectorial; en píxel te tocaría repintarlo todo a mano.
 
 En el estudio Pixel las selecciones funcionan como en cualquier programa de pintura (rectangulares, a mano alzada o por color) y sirven para decirle al pincel dónde puede pintar y dónde no.
 
 ## Exportar para cada destino
 
-**Lo que exportas depende de adónde va la imagen.** Y aquí hay un mito que conviene desmontar cuanto antes: los famosos ppp (dpi). Para pantalla **lo único que cuenta son los píxeles de ancho y de alto**; **los ppp solo importan si vas a imprimir**. Una ilustración de 1920 × 1080 px se ve exactamente igual en el motor tanto si la guardas a 72 como a 300 ppp.
+**Lo que exportas depende de adónde va la imagen.** Y aquí hay un mito que conviene desmontar cuanto antes: los famosos ppp (dpi). Para pantalla **lo único que cuenta son los píxeles de ancho y de alto**; **los ppp solo importan si vas a imprimir**. Una ilustración de 1920 × 1080 px se ve exactamente igual en el motor tanto si la guardas a 72 como a 300 ppp. Así que si alguien te pide "la imagen a 300 ppp para el juego", lo que de verdad necesita saber es cuántos píxeles mide.
 
 | Formato | Úsalo para |
 |---|---|
@@ -75,4 +75,4 @@ Y **guarda siempre el `.af`**. Lo exportado es el resultado; el `.af` es tu trab
 
 Affinity tiene dos tipos de texto. El **texto artístico** es para títulos y palabras sueltas que vas a retorcer; el **texto de marco** es para párrafos dentro de una caja.
 
-El logotipo de un juego suele nacer así: eliges una tipografía, ajustas el espacio entre letras hasta que respira bien y, cuando la composición está decidida, lo conviertes en curvas (Ctrl+Intro). A partir de ahí cada letra es una forma más y puedes deformarla, cortarla o añadirle lo que quieras. Eso sí, deja de ser texto editable, así que **guarda antes una copia**. Y mira la licencia de la tipografía: si el juego se va a publicar, necesitas una que permita **uso comercial**.
+El logotipo de un juego suele nacer así: eliges una tipografía, ajustas el espacio entre letras hasta que respira bien y, cuando la composición está decidida, lo conviertes en curvas (Ctrl+Intro). A partir de ahí cada letra es una forma más y puedes deformarla, cortarla o añadirle lo que quieras. Eso sí, deja de ser texto editable, así que **guarda antes una copia**. Y mira la licencia de la tipografía: si el juego se va a publicar, necesitas una que permita **uso comercial**. Descubrir que no la permite después de publicar el tráiler es una conversación que nadie quiere tener.
