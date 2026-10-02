@@ -59,6 +59,7 @@ markdown_extensions:
 # Secciones ocultas: se abren poco a poco. Para publicar una unidad,
 # borra su línea de exclude_docs y descomenta su bloque en nav.
 exclude_docs: |
+  /assets/concept/moodboard-amate-jimenez-angela.png
   /ut1/
   /ut2/
   /proyectos/
