@@ -16,7 +16,7 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 | Bloque | Resultado de aprendizaje | Contenido |
 |---|---|---|
 | [Concept](concept/index.md) | RA1 (en todo el curso) | Proceso creativo del arte conceptual y caja de herramientas |
-| [UT1](ut1/index.md) | RA2 | Ilustración digital y diseño vectorial |
+| UT1 (próximamente) | RA2 | Ilustración digital y diseño vectorial |
 | UT2 (próximamente) | RA3 | Gráficos y animación 2D |
 | UT3 (próximamente) | RA4 | Gráficos y animación 3D |
 | UT4 (próximamente) | RA5 | Cámara e iluminación 3D |
@@ -88,4 +88,4 @@ El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 26
     - g) Se han identificado las diferencias entre iluminación dinámica y estática.
     - h) Se han utilizado diferentes configuraciones según el tipo de juego.
 
-[Empieza por Concept](concept/index.md){ .md-button .md-button--primary } [Ver proyectos](proyectos/index.md){ .md-button }
+[Empieza por Concept](concept/index.md){ .md-button .md-button--primary }
