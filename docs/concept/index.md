@@ -6,7 +6,9 @@ En este curso el concept tiene su propia pestaña porque **lo vas a usar todo el
 
 ## Qué resuelve el concept
 
-El motivo más práctico es **el dinero y el tiempo**. Cambiar un boceto cuesta minutos; cambiar un modelo 3D texturizado y con rig cuesta días. Todo lo que descubras en la fase de concept (que la silueta no se lee, que la paleta choca con el escenario, que el arma no cabe en el sprite) es un problema que no tendrás que arreglar en producción. Y nadie quiere ser la persona que descubre, a dos semanas de la entrega, que el protagonista no se distingue del fondo.
+El motivo más práctico es **tu tiempo**. Y, ya puestos, tus horas de sueño. Cambiar un boceto cuesta cinco minutos; cambiar un modelo 3D texturizado y con rig cuesta un fin de semana. Imagina pasar 20 horas modelando a tu personaje en Blender, colocarlo por fin en el escenario y descubrir que **su silueta se funde con el fondo** y no hay manera de distinguirlo. Esas 20 horas no vuelven. O imagina ser el alumno que rehace la iluminación entera la noche antes de la entrega, porque nadie probó la paleta de la escena junto a la del personaje. Todo lo que descubras en la fase de concept (que la silueta no se lee, que la paleta choca con el escenario, que el arma no cabe en el sprite) es **un problema que no tendrás que arreglar de madrugada**.
+
+Ahora lleva ese mismo error a un estudio indie pequeño, que es el sitio donde es más probable que trabajes (o el que acabes montando con tus compañeros). Ahí el error se mide en semanas, y en un equipo de cuatro personas las semanas son lo que más escasea. Si el modelador tiene que rehacer al protagonista, la animadora se queda esperando, el programador no puede probar el combate y la demo para el festival o para el publisher se retrasa. **En un estudio pequeño, un fallo de preproducción se paga en semanas de retraso**, y unas pocas semanas bastan para que un proyecto se quede sin financiación o para que un equipo pequeño acabe quemado a base de crunch. Por eso los estudios indie que sobreviven suelen ser muy disciplinados con el concept: descubrir los problemas tarde es un lujo que no se pueden permitir.
 
 El segundo motivo es la **coherencia**. Un juego lo hacen muchas manos a lo largo de mucho tiempo. Si nadie fija antes qué paleta, qué proporciones y qué nivel de detalle tiene el mundo, cada asset acaba tirando hacia un lado. Sin esas decisiones, el juego acaba pareciendo un collage de cinco juegos distintos. El concept las deja por escrito y en imagen, y se convierte en la referencia a la que todo el equipo vuelve.
 
@@ -23,22 +25,40 @@ Cada unidad del curso empieza con un bloque como este, que te dice **qué concep
 !!! concept "Fase de concept"
     Aquí verás qué documentos tienes que preparar antes de ponerte con la producción de la unidad, con enlaces a las herramientas de esta pestaña.
 
-La siguiente tabla resume qué herramientas pesan más en cada momento del curso. Todas se pueden usar en cualquier unidad; la tabla indica dónde son imprescindibles.
+## El recorrido, paso a paso
 
-| Herramienta | UT1 Ilustración | UT2 2D | UT3 3D | UT4 Cámara e iluminación |
-|---|---|---|---|---|
-| [Proceso creativo](proceso-creativo.md) | ● | ● | ● | ● |
-| [Moodboard](moodboard.md) | ● | ● | ● | ● |
-| [Siluetas](siluetas.md) | ● | ● | ● | |
-| [Thumbnails y formas](thumbnails.md) | ● | ● | ● | ● |
-| [Color](color.md) | ● | ● | ● | ● |
-| [Estilos artísticos](estilos-artisticos.md) | ● | ● | ● | |
-| [Hojas de producción](hojas-de-produccion.md) | | ● | ● | |
-| [Perspectiva de género](perspectiva-de-genero.md) | ● | ● | ● | |
-| [Biblia de arte](biblia-de-arte.md) | ● | ● | ● | ● |
+Las herramientas de esta pestaña tienen sentido en un orden concreto, porque **cada una prepara el terreno para la siguiente**. Piensa en ellas como un viaje en tres fases que repetirás en cada proyecto. El apunte de [proceso creativo](proceso-creativo.md) explica el método completo con calma; aquí tienes el mapa para saber en qué punto del camino estás.
+
+### Fase 1 · Ideación: arrancar de cero
+
+Acabas de recibir el encargo y tienes una página en blanco delante. Es el momento de **llenarte la cabeza de imágenes antes de dibujar nada**. Con el [moodboard](moodboard.md) reúnes referencias de juegos, películas, fotos y materiales reales, y en la práctica lo harás a la vez que investigas: cada referencia que encuentras te lleva a buscar otra. En esta misma fase, mientras decides quién es tu personaje y qué tiene que transmitir, aplica la [perspectiva de género](perspectiva-de-genero.md). Revisar estereotipos ahora cuesta una conversación; revisarlos cuando el personaje ya está modelado y animado cuesta rehacerlo.
+
+Sales de esta fase con un moodboard y con **una idea clara de qué tiene que comunicar tu diseño**. Todavía sin dibujos bonitos, y es exactamente lo que toca.
+
+### Fase 2 · Exploración rápida: iterar sin miedo
+
+Aquí se trata de producir **muchas opciones, pequeñas y rápidas**. Con las [siluetas](siluetas.md) pruebas formas en negro puro y compruebas cuáles se reconocen sin un solo detalle. Con los [thumbnails](thumbnails.md) exploras composiciones, proporciones y variaciones del diseño en miniatura, a una velocidad que no te deja encariñarte con ninguna. **Ningún thumbnail es sagrado**: descartar forma parte del trabajo. El primer diseño que te gusta rara vez es el mejor; suele ser, simplemente, el primero.
+
+Si a mitad de camino te quedas sin ideas, vuelve a la fase 1 a por más referencias. Es lo normal: el recorrido avanza hacia delante, pero con algún paso atrás. Sales de esta fase **eligiendo una o dos propuestas** y sabiendo por qué las eliges.
+
+### Fase 3 · Consolidación: cerrar el diseño
+
+Con la propuesta elegida, toca **tomar decisiones definitivas**. Con el [color](color.md) fijas la paleta y la luz, y compruebas que el personaje se lee sobre su escenario. Con los [estilos artísticos](estilos-artisticos.md) decides el nivel de detalle y el lenguaje visual, para que todos los assets parezcan del mismo juego. Las [hojas de producción](hojas-de-produccion.md) (turnaround, model sheet, expresiones) traducen el diseño a algo que otra persona puede producir, y pesan sobre todo en la UT2 y la UT3, cuando hay que convertir el personaje en sprite o en modelo.
+
+Todo desemboca en la [biblia de arte](biblia-de-arte.md), el documento final que recoge lo decidido en las tres fases. Sales de aquí con **un diseño cerrado y documentado**, listo para producción.
 
 ## La biblia de arte y la Fase 0
 
 Todo lo que produzcas en la fase de concept de un proyecto se recoge en un documento: la **[biblia de arte](biblia-de-arte.md)** de ese proyecto. Cada proyecto tiene la suya, con los capítulos que necesita su producción (paleta y personaje en 2D, turnaround y materiales en 3D, storyboard y luz en la cinemática). Es el mismo tipo de documento que se entrega en un estudio.
 
 Por eso todos los proyectos del curso tienen una **Fase 0 de concept** obligatoria antes de producir. En esa fase se evalúa el RA1 (desarrollar el proceso creativo del arte conceptual del proyecto), y se evalúa en cada proyecto, porque lo que se valora es **que el proceso mejore de uno a otro**.
+
+### Qué significa que tu proceso mejore
+
+"Mejorar" suena a algo que solo sabe el profesor, así que vamos a concretarlo. **Lo que se mide es el proceso, y se mide con cosas que puedes contar y comprobar.** Tu nivel de dibujo puede subir más despacio y tu nota del RA1 subir igual. Estos son los avances que se buscan de un proyecto al siguiente:
+
+- **Más exploración antes de decidir.** Si en el proyecto 2D presentaste 6 thumbnails antes de elegir, en el 3D presenta **el doble**. Y que sean variaciones de verdad (formas, proporciones o siluetas distintas), porque el mismo personaje con otro sombrero cuenta como uno.
+- **Documentos que entiende otra persona.** Haz la prueba: pasa tu hoja de producción a un compañero que no conozca tu proyecto y pídele que te diga cómo es el personaje por detrás, de qué material es cada pieza y qué proporciones tiene. Si lo responde sin preguntarte nada, **tu comunicación técnica funciona**. Si te pregunta tres cosas, ya sabes qué falta en la hoja.
+- **Decisiones justificadas.** En el primer proyecto es normal que la paleta se elija porque "quedaba bien". En los siguientes tendrás que **justificarla con la psicología del color** y con lo que pasa en el juego: por qué ese verde apagado para el mundo, por qué el rojo saturado se reserva para lo que hace daño, cómo se separa el personaje del fondo.
+
+Cada proyecto concreta estos criterios en su rúbrica, en la página de [proyectos](../proyectos/index.md). Si comparas tu Fase 0 del último proyecto con la anterior y ves más opciones exploradas, hojas que se entienden solas y decisiones con su porqué, vas por buen camino.
