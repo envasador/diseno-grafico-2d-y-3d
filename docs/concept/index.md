@@ -33,7 +33,7 @@ Las herramientas de esta pestaña se usan en un orden concreto, porque **cada un
 
 Acabas de recibir el encargo y tienes una página en blanco delante. Es el momento de **llenarte la cabeza de imágenes antes de dibujar nada**. Con el [moodboard](moodboard.md) reúnes referencias de juegos, películas, fotos y materiales reales, y en la práctica lo harás a la vez que investigas: cada referencia que encuentras te lleva a buscar otra. En esta misma fase, mientras decides quién es tu personaje y qué tiene que transmitir, aplica la [perspectiva de género](perspectiva-de-genero.md). Es mucho más fácil revisar los estereotipos ahora, hablándolo con tu equipo o con tus compañeros, que cuando el personaje ya está modelado y animado y cualquier cambio obliga a rehacerlo.
 
-Sales de esta fase con un moodboard y con **una idea clara de qué tiene que comunicar tu diseño**. Todavía no hay dibujos acabados, y en este punto es lo normal.
+Sales de esta fase con un moodboard y con **una idea clara de qué tiene que comunicar tu diseño**.
 
 ### Fase 2 · Exploración rápida: iterar sin miedo
 
@@ -43,9 +43,11 @@ Si a mitad de camino te quedas sin ideas, vuelve a la fase 1 a por más referenc
 
 ### Fase 3 · Consolidación: cerrar el diseño
 
-Con la propuesta elegida, toca **tomar decisiones definitivas**. Con el [color](color.md) fijas la paleta y la luz, y compruebas que el personaje se lee sobre su escenario. Con los [estilos artísticos](estilos-artisticos.md) decides el nivel de detalle y el lenguaje visual, para que todos los assets parezcan del mismo juego. Las [hojas de producción](hojas-de-produccion.md) (turnaround, model sheet, expresiones) traducen el diseño a algo que otra persona puede producir, y pesan sobre todo en la UT2 y la UT3, cuando hay que convertir el personaje en sprite o en modelo.
+Ya tienes tu propuesta elegida, así que toca **cerrar las decisiones que hasta ahora habías dejado en el aire**. La primera suele ser el [color](color.md). ¿Qué paleta lleva tu personaje? ¿Y qué luz tiene la escena en la que va a vivir? Pruébalo todo junto, porque un personaje que queda precioso sobre fondo blanco puede desaparecer en cuanto lo pones en su nivel. Después, con los [estilos artísticos](estilos-artisticos.md), decide cuánto detalle vas a meter y con qué lenguaje visual, para que el personaje, el escenario y hasta el último cofre parezcan sacados del mismo juego.
 
-Todo desemboca en la [biblia de arte](biblia-de-arte.md), el documento final que recoge lo decidido en las tres fases. Sales de aquí con **un diseño cerrado y documentado**, listo para producción.
+Queda una pregunta incómoda: ¿podría otra persona producir tu diseño sin tenerte al lado? Para eso están las [hojas de producción](hojas-de-produccion.md) (turnaround, model sheet, expresiones). En la UT2 y la UT3 las vas a necesitar sí o sí, porque ahí el personaje se convierte en un sprite o en un modelo 3D, y quien lo produzca (aunque seas tú mismo dos semanas después) las va a consultar a cada rato.
+
+Todo lo que has decidido en las tres fases acaba en la [biblia de arte](biblia-de-arte.md). Cuando la terminas, tienes **un diseño cerrado y documentado** y ya puedes ponerte a producir.
 
 ## La biblia de arte y la Fase 0
 
