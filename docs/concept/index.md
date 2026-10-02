@@ -25,9 +25,9 @@ Cada unidad del curso empieza con un bloque como este, que te dice **qué concep
 !!! concept "Fase de concept"
     Aquí verás qué documentos tienes que preparar antes de ponerte con la producción de la unidad, con enlaces a las herramientas de esta pestaña.
 
-## El recorrido, paso a paso
+## Las tres fases del concept
 
-Las herramientas de esta pestaña tienen sentido en un orden concreto, porque **cada una prepara el terreno para la siguiente**. Piensa en ellas como un viaje en tres fases que repetirás en cada proyecto. El apunte de [proceso creativo](proceso-creativo.md) explica el método completo con calma; aquí tienes el mapa para saber en qué punto del camino estás.
+Las herramientas de esta pestaña se usan en un orden concreto, porque **cada una prepara el terreno para la siguiente**. Ese orden se agrupa en tres fases, y las repetirás en cada proyecto. El apunte de [proceso creativo](proceso-creativo.md) explica el método completo con calma; aquí tienes qué toca hacer en cada fase y qué tienes que tener al terminarla.
 
 ### Fase 1 · Ideación: arrancar de cero
 
@@ -39,7 +39,7 @@ Sales de esta fase con un moodboard y con **una idea clara de qué tiene que com
 
 Aquí se trata de producir **muchas opciones, pequeñas y rápidas**. Con las [siluetas](siluetas.md) pruebas formas en negro puro y compruebas cuáles se reconocen sin un solo detalle. Con los [thumbnails](thumbnails.md) exploras composiciones, proporciones y variaciones del diseño en miniatura, a una velocidad que no te deja encariñarte con ninguna. **Ningún thumbnail es sagrado**: descartar forma parte del trabajo. El primer diseño que te gusta rara vez es el mejor; suele ser, simplemente, el primero.
 
-Si a mitad de camino te quedas sin ideas, vuelve a la fase 1 a por más referencias. Es lo normal: el recorrido avanza hacia delante, pero con algún paso atrás. Sales de esta fase **eligiendo una o dos propuestas** y sabiendo por qué las eliges.
+Si a mitad de camino te quedas sin ideas, vuelve a la fase 1 a por más referencias. Es lo normal: las fases van en orden, pero volver a una anterior forma parte del trabajo. Sales de esta fase **eligiendo una o dos propuestas** y sabiendo por qué las eliges.
 
 ### Fase 3 · Consolidación: cerrar el diseño
 
