@@ -10,7 +10,15 @@ Cualquier cosa que dibujes (un personaje, un árbol, una nave espacial) se puede
 
 Un dragón, por ejemplo, es un cilindro que se va estrechando (cuello y cola), una esfera (la cabeza) y dos triángulos (las alas). Cuando esas masas funcionan, **el detalle casi se coloca solo**.
 
+Para verlo en acción, Seba Guidobono dibuja en este vídeo varios personajes y objetos **partiendo solo de formas básicas** y añadiendo detalle encima, capa a capa. Fíjate en cuánto tiempo pasa con las formas antes de dibujar un solo detalle: ahí está el truco. Y después haz la prueba con algo que tengas delante (una taza, una silla, tu mochila) antes de pasar a tu personaje.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epfmqEQ4mfQ" title="El secreto para dibujar bien: las formas básicas, de Seba Guidobono" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[El secreto para dibujar bien. Las formas básicas](https://www.youtube.com/watch?v=epfmqEQ4mfQ), de Seba Guidobono. © de su autor; uso con fines educativos.*
+
 Además, esta forma de trabajar encaja de maravilla con el vectorial, porque esas formas básicas son literalmente las primeras capas de tu archivo. Y enlaza con dos herramientas de concept que ya conoces: las [siluetas](../concept/siluetas.md), para comprobar si el personaje se reconoce en negro, y el [lenguaje de formas](../concept/thumbnails.md), que decide qué transmite (círculos amables, cuadrados sólidos, triángulos peligrosos).
+
+Si te cuesta pasar de la silueta en negro al personaje dibujado, repasa el **sistema de boceto por módulos** de JS Linares que tienes en la página de [siluetas](../concept/siluetas.md#como-disenar-desde-la-silueta). La parte [de la mancha al dibujo](https://www.youtube.com/watch?v=n4E35sQ1whQ&t=623s) es justo el paso que vas a dar aquí: de masas simples a un personaje con estructura.
 
 ## Proporciones
 
@@ -32,7 +40,7 @@ Con la expresión pasa lo mismo: **simplifica**. **Cejas, ojos y boca cuentan ca
 
 ## Escenarios: perspectiva y planos
 
-En un escenario, lo primero que decides es dónde va la **línea del horizonte**, porque **está a la altura de los ojos de quien mira**. Lo que queda por encima lo ves desde abajo, y lo que queda por debajo, desde arriba. Coloca el horizonte bajo y todo parecerá enorme; súbelo y verás la escena desde arriba, como en un juego de estrategia.
+En un escenario, lo primero que decides es dónde va la **línea del horizonte**, porque **está a la altura de los ojos de quien mira**. Lo que queda por encima lo ves desde abajo, y lo que queda por debajo, desde arriba. Si colocas el horizonte bajo, todo parecerá enorme. Si lo subes, verás la escena desde arriba, como en un juego de estrategia.
 
 A partir de ahí, las líneas que se alejan van a parar a **puntos de fuga**:
 
@@ -76,3 +84,5 @@ Tres ejercicios cortos para soltar la mano con el programa antes de meterte con 
 - Coge un objeto de tu mesa (una grapadora, una taza, unos auriculares) y redibújalo en Affinity solo con formas básicas y operaciones booleanas. La pluma, prohibida. Verás cómo empiezas a ver las masas antes que el detalle.
 - Dibuja el mismo personaje sencillo con tres cabezas de altura y con siete. ¿Qué te cuenta cada versión? ¿Cuál encajaría con el juego que tienes en mente?
 - Compón un escenario pequeño en tres planos usando solo tres grises (claro, medio y oscuro) y decide dónde va el punto de interés. **Si se entiende en gris, funcionará en color.**
+
+Y si quieres seguir practicando por tu cuenta, ten a mano el canal de **[Aleks Font](https://www.youtube.com/@AleksFont)**. Alex y Aida son ilustradores profesionales y suben cada semana un tutorial sobre lo mismo que acabas de ver: **anatomía, perspectiva, color, paisaje y composición**. Cuando un dibujo se te atasque (unas manos que no salen, un escenario que no tiene profundidad), busca el tema en su canal antes de rendirte. Lo más probable es que tengan un vídeo justo sobre eso.

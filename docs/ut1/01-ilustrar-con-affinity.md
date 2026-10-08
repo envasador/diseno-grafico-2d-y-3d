@@ -4,13 +4,13 @@ Piensa en todo lo que pasa por un programa de ilustración antes de que un juego
 
 En este módulo usamos **Affinity**. Es un programa profesional, desde finales de 2025 **es gratuito** (solo te pide una cuenta de Canva) y junta en una misma aplicación el dibujo vectorial, la pintura en píxeles y la maquetación. Aquí vas a ver lo justo para moverte con soltura. El resto lo irás descubriendo cuando lo necesites, que es como mejor se aprende un programa.
 
-## Un programa, varios estudios
+## Los estudios de Affinity
 
 Affinity reparte sus herramientas en **estudios**. En esta unidad vas a vivir en dos: el estudio **Vector**, donde dibujas con formas y curvas, y el estudio **Pixel**, donde pintas con pinceles como lo harías en papel. Cambias de uno a otro con los botones de arriba de la ventana.
 
 Lo bueno es que los dos trabajan sobre el **mismo documento**. Puedes construir un personaje con formas vectoriales, saltar al estudio Pixel y pintarle las sombras con un pincel sin cambiar de archivo ni exportar nada.
 
-Si prefieres verlo antes de tocarlo, en los [vídeos de apoyo de la unidad](index.md#videos-de-apoyo) tienes uno sobre la interfaz y otro sobre los estudios y las herramientas.
+Si prefieres verlo antes de tocarlo, en los [tutoriales de Affinity](03-tutoriales-affinity.md) tienes uno sobre la interfaz y otro sobre los estudios y las herramientas.
 
 Si vienes de las versiones anteriores (Affinity Designer o Affinity Photo), los **estudios** son lo que allí se llamaban "personas". Los archivos nuevos se guardan como `.af`. El programa abre sin problema los antiguos `.afdesign`, pero al revés no funciona: si le pasas un `.af` a alguien con la versión vieja, **no podrá abrirlo**. Y suele descubrirse la noche antes de la entrega.
 
@@ -28,9 +28,9 @@ Una forma vectorial es una **receta matemática**: "un círculo de este radio, c
 | Se edita después (forma, color) | Siempre | Solo repintando |
 | Mejor para | Siluetas, piezas, logotipos, UI | Texturas, pinceladas, sombras suaves |
 
-## Capas: el botón de cambiar de opinión
+## Capas
 
-Vas a cambiar de opinión. Muchas veces. Y cuando no seas tú, será quien revise tu trabajo. Y las capas son lo que hace que **cambiar de opinión cueste un clic** y no una tarde entera. Si el cuerpo, la cabeza y el arma de tu personaje están cada uno en su capa, puedes probar otra cabeza sin tocar lo demás.
+Vas a cambiar de opinión. Muchas veces. Y cuando no seas tú, será quien revise tu trabajo. Con las capas, **cambiar de opinión cuesta un clic**. Si el cuerpo, la cabeza y el arma de tu personaje están cada uno en su capa, puedes probar otra cabeza sin tocar lo demás.
 
 Coge desde el primer día tres costumbres que te van a ahorrar muchos disgustos: **ponle nombre a cada capa**, agrupa las que van juntas (Ctrl+G, o Cmd+G en Mac) y **oculta en lugar de borrar**. "Capa 47" no te dice nada dentro de dos semanas.
 
@@ -51,19 +51,19 @@ El segundo es tocar los **nodos**. Con la herramienta Nodo (A) seleccionas los p
 
 El tercero es dibujar el trazo tú mismo. Con la **Pluma** (P) colocas los nodos uno a uno y controlas cada curva; con el **Lápiz** (N) dibujas a mano alzada y el programa lo convierte en curva. Aviso: la pluma se hace cuesta arriba los primeros días. Aguanta, porque **es la que te da los contornos más limpios**.
 
-Para ver todo esto aplicado a una ilustración de principio a fin, tienes el tutorial [Cómo ilustrar con vectores paso a paso](https://www.youtube.com/watch?v=oTfHSFRKjWw) en los vídeos de apoyo de la unidad.
+Para ver todo esto aplicado a una ilustración de principio a fin, tienes el tutorial [Cómo ilustrar con vectores paso a paso](https://www.youtube.com/watch?v=oTfHSFRKjWw) en los [tutoriales de Affinity](03-tutoriales-affinity.md).
 
 ## Seleccionar lo que quieres cambiar
 
 Con la herramienta Mover (V) coges objetos completos, y con Nodo (A), trocitos de su contorno. Cuando el archivo empieza a llenarse de capas, lo más fiable es **seleccionar desde el panel de Capas**: ahí aciertas siempre, aunque haya tres objetos uno encima de otro.
 
-¿Has decidido que el rojo de tu personaje era demasiado chillón? Desde el menú Seleccionar puedes elegir de golpe **todos los objetos que tienen el mismo relleno** y cambiarlos a la vez. En ese momento agradecerás haber trabajado en vectorial; en píxel te tocaría repintarlo todo a mano.
+¿Has decidido que el rojo de tu personaje era demasiado chillón? Desde el menú Seleccionar puedes elegir de golpe **todos los objetos que tienen el mismo relleno** y cambiarlos a la vez. En ese momento agradecerás haber trabajado en vectorial, porque en píxel te tocaría repintarlo todo a mano.
 
 En el estudio Pixel las selecciones funcionan como en cualquier programa de pintura (rectangulares, a mano alzada o por color) y sirven para decirle al pincel dónde puede pintar y dónde no.
 
 ## Exportar para cada destino
 
-**Lo que exportas depende de adónde va la imagen.** Y aquí hay un mito que conviene desmontar cuanto antes: los famosos ppp (dpi). Para pantalla **lo único que cuenta son los píxeles de ancho y de alto**; **los ppp solo importan si vas a imprimir**. Una ilustración de 1920 × 1080 px se ve exactamente igual en el motor tanto si la guardas a 72 como a 300 ppp. Así que si alguien te pide "la imagen a 300 ppp para el juego", lo que de verdad necesita saber es cuántos píxeles mide.
+**Lo que exportas depende de adónde va la imagen.** Y aquí hay un mito que conviene desmontar cuanto antes: los famosos ppp (dpi). Para pantalla **lo único que cuenta son los píxeles de ancho y de alto**. Los ppp **solo importan si vas a imprimir**. Una ilustración de 1920 × 1080 px se ve exactamente igual en el motor tanto si la guardas a 72 como a 300 ppp. Así que si alguien te pide "la imagen a 300 ppp para el juego", lo que de verdad necesita saber es cuántos píxeles mide.
 
 | Formato | Úsalo para |
 |---|---|
@@ -73,7 +73,7 @@ En el estudio Pixel las selecciones funcionan como en cualquier programa de pint
 | PSD | Pasar el archivo con capas a alguien que trabaja con Photoshop |
 | PDF | Documentos para imprimir o entregas maquetadas |
 
-Y **guarda siempre el `.af`**. Lo exportado es el resultado; el `.af` es tu trabajo, el que podrás volver a abrir y cambiar. Cuando tengas que exportar muchas piezas por separado (las partes de un personaje, todos los iconos de una interfaz), usa las **porciones** (slices): marcas cada elemento una vez y los sacas todos de golpe con el mismo formato y tamaño.
+Y **guarda siempre el `.af`**. Es el único archivo que podrás volver a abrir y cambiar con todas sus capas, así que no lo borres aunque ya tengas el PNG. Cuando tengas que exportar muchas piezas por separado (las partes de un personaje, todos los iconos de una interfaz), usa las **porciones** (slices): marcas cada elemento una vez y los sacas todos de golpe con el mismo formato y tamaño.
 
 ## Texto y logotipos
 

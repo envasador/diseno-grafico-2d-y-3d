@@ -36,6 +36,12 @@ Hay juegos que llevan esta idea al extremo. En *Limbo* (2010) casi todo lo que v
 
 El método más eficaz es **empezar directamente en negro**. En lugar de dibujar líneas, pintas manchas de forma rellena con un pincel o una herramienta de lazo, muy rápido y a tamaño pequeño. Así **no puedes esconder un problema de forma detrás de un buen detalle**.
 
+¿Y cómo se pasa de una mancha a un personaje dibujado? En este vídeo, JS Linares enseña su **sistema de boceto por módulos**: construye el personaje con manchas muy simples y, encima de esa base, levanta el dibujo. Mira sobre todo dos partes: el **boceto modular** (desde el minuto 0:52) y **de la mancha al dibujo** (desde el 10:23). Ten un folio o Affinity abierto al lado y prueba cada paso a la vez que él.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n4E35sQ1whQ" title="Sistema de dibujo con módulos, de JS Linares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[El método más fácil para dibujar y diseñar personajes. Sistema de dibujo con módulos](https://www.youtube.com/watch?v=n4E35sQ1whQ), de JS Linares. © de su autor; uso con fines educativos.*
+
 Haz muchas: una hoja entera con **veinte o treinta variaciones del mismo personaje**. Cambia proporciones, postura, accesorios y ropa. Después elige las que se leen mejor y trabaja sobre ellas; el color y el detalle se añaden **encima de una forma que ya funciona**.
 
 Unos criterios para decidir cuál funciona:
@@ -45,6 +51,14 @@ Unos criterios para decidir cuál funciona:
 - **Un elemento característico.** Un rasgo que nadie más tenga en el juego: un peinado, un arma, una capa, una forma de cabeza.
 - **Pose con intención.** Una pose neutra, de frente y con los brazos caídos, cuenta muy poco: es la pose de un maniquí esperando a que alguien lo diseñe. Una pose con actitud cuenta mucho más.
 
+Estos criterios los desarrolla muy bien Aleks Font en su guía para diseñar personajes únicos. Empieza por **la pregunta que tienes que hacerte antes de dibujar nada** (minuto 0:18), pasa por siluetas y formas (1:29) y llega a lo más útil para tu hoja: **cómo conseguir que un personaje no se parezca a ningún otro** (5:28) y cómo **repartir el detalle** para que no todo compita por la atención (9:41).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w8U8ZkeY9NI" title="Cómo diseñar personajes únicos, de Aleks Font" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[Cómo diseñar personajes únicos (guía completa)](https://www.youtube.com/watch?v=w8U8ZkeY9NI), de Aleks Font. © de su autor; uso con fines educativos.*
+
+Su [canal](https://www.youtube.com/@AleksFont) tiene muchos más tutoriales de anatomía, perspectiva, color y composición. Tenlo a mano cada vez que un dibujo se te resista.
+
 ## La silueta en cada unidad
 
-En la **UT2** la silueta es crítica, porque a 32×32 píxeles es casi lo único que el jugador percibe; además, cada frame de una animación tiene que seguir leyéndose. En la **UT3** comprobarás la silueta de tus modelos desde varios ángulos y a distancia de cámara de juego. En la **UT4** la iluminación puede reforzarla con contraluces o destruirla si el personaje se funde con el fondo. Y el jugador no te va a avisar: simplemente perderá de vista a su personaje y pensará que el juego es confuso.
+En la **UT2** la silueta es crítica. Un personaje de pixel art suele medir muy pocos píxeles (32 de ancho por 32 de alto es un tamaño habitual), y a esa escala **la forma es casi lo único que el jugador percibe**. Y no basta con que funcione quieta: cada frame de la animación tiene que seguir leyéndose. En la **UT3** comprobarás la silueta de tus modelos desde varios ángulos y a la distancia a la que los verá la cámara del juego. En la **UT4** entra la luz: un buen contraluz la recorta contra el fondo, y una mala iluminación puede fundir al personaje con el escenario. El jugador no te va a avisar. Simplemente perderá de vista a su personaje y pensará que el juego es confuso.

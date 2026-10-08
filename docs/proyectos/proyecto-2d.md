@@ -70,7 +70,7 @@ Esta fase es el concept art del juego. Tiene **entrega propia** antes de empezar
 **Personaje.** Diseña el personaje o personajes principales. Puedes elegir entre dos formas de construirlos, y en ambas el archivo tiene que mostrar el proceso **separado en capas**, con el personaje terminado en la última:
 
 1. **Por volumen y ritmos:** una capa para la estructura ("esqueleto"), otra para los volúmenes ("músculos"), otra para la definición, y así hasta el personaje final.
-2. **A partir de mancha:** desde la [silueta](../concept/siluetas.md) en masa hasta el personaje definido.
+2. **A partir de mancha:** desde la [silueta](../concept/siluetas.md) en masa hasta el personaje definido. El [sistema de boceto por módulos](https://www.youtube.com/watch?v=n4E35sQ1whQ) de JS Linares te enseña a hacerlo paso a paso.
 
 **Escenario.** Crea un escenario que contextualice al personaje, aplicando las técnicas vistas en clase o cualquier otra que conozcas.
 

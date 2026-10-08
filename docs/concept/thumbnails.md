@@ -21,9 +21,17 @@ Unas pautas que te ahorran tiempo:
 
 Puedes hacerlos en papel (rápido, sin distracciones) o en digital (fácil de duplicar y de reordenar). En digital, trabaja con el zoom muy alejado para no caer en el detalle.
 
+En este vídeo de ocho minutos, JaviSArt llena una hoja de thumbnails para un concept. Fíjate en que **no se preocupa por las proporciones ni por la simetría**: algunas miniaturas le salen raras, y precisamente de esas rarezas aparecen las formas más interesantes. El pulido llega después, en la fase siguiente, cuando ya ha elegido qué diseños merecen la pena.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Nz3Q0nKe3w" title="Diseño de miniaturas o thumbnails, de JaviSArt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[Concept Art Tutorial. Diseño de miniaturas o thumbnails](https://www.youtube.com/watch?v=8Nz3Q0nKe3w), de JaviSArt. © de su autor; uso con fines educativos.*
+
 ## Todo se construye con formas básicas
 
 Cualquier diseño, por complejo que sea, se puede reducir a **círculos, cuadrados y triángulos**. Construir desde formas básicas te da estructura, facilita mantener las proporciones y hace que el diseño sea más fácil de dibujar una y otra vez, algo imprescindible cuando luego tengas que animarlo o modelarlo.
+
+Si quieres ver cómo se construye un dibujo entero a partir de formas básicas, mira [este vídeo de Seba Guidobono](https://www.youtube.com/watch?v=epfmqEQ4mfQ). Lo trabajamos a fondo en la UT1.
 
 Pero las formas básicas también comunican. Nuestro cerebro asocia cada una con una sensación, y el diseño de personajes lo aprovecha constantemente. A esto se le llama **lenguaje de formas (shape language)**.
 

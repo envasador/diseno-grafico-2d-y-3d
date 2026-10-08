@@ -6,6 +6,18 @@ Tu personaje está aprobado y te encanta la ilustración que has hecho de él. A
 
 El **turnaround** muestra al personaje (o al objeto) desde varios ángulos, normalmente **de frente, perfil y espalda**, a veces también en tres cuartos. Todas las vistas se dibujan a la **misma escala** y alineadas con líneas horizontales que marcan puntos clave: la parte superior de la cabeza, los hombros, la cintura, las rodillas, los pies. Así se comprueba que **las proporciones son coherentes en todas las vistas**. Si las rodillas del perfil quedan más altas que las de la vista frontal, alguien en 3D va a pasar una tarde muy confusa.
 
+¿Cómo se monta en la práctica? En menos de un minuto lo tienes en este vídeo de Doncuak. Cuando hagas el tuyo, **traza primero las líneas horizontales** y dibuja cada vista apoyándote en ellas: así la cabeza, los hombros y los pies acaban a la misma altura en todas.
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/ZQ1hhWAaXi0" title="¿Cómo hacer un turnaround?, de Doncuak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[¿Cómo hacer un turnaround?](https://www.youtube.com/shorts/ZQ1hhWAaXi0), de Doncuak. © de su autor; uso con fines educativos.*
+
+Si quieres ir un paso más allá, Joshua Adeoye cuenta en cuatro minutos y medio **los trucos que se usan en la industria** para que un turnaround salga preciso y, además, atractivo. El vídeo está en inglés, pero puedes ponerle el audio doblado al español desde el icono de la rueda (Configuración > Pista de audio) o activar los subtítulos.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GuWAhysR1qY" title="How to draw character turnarounds, de Joshua Adeoye" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[How to draw character turnarounds (the easy way)](https://www.youtube.com/watch?v=GuWAhysR1qY), de Joshua Adeoye. © de su autor; uso con fines educativos.*
+
 Se dibuja en **pose neutra**. Para personajes que se van a modelar y riggear en 3D se usa la **T-pose** (brazos en cruz) o la **A-pose** (brazos a unos 45 grados), porque facilitan el rigging posterior.
 
 En la **UT3** el turnaround se convierte en tus **vistas ortográficas**: las importarás en Blender como imágenes de fondo en las vistas frontal y lateral para modelar encima.
@@ -13,6 +25,12 @@ En la **UT3** el turnaround se convierte en tus **vistas ortográficas**: las im
 ## Model sheet
 
 El **model sheet** agrupa todo lo que hace falta para dibujar o reproducir un personaje **de forma consistente**. Suele incluir el turnaround, las proporciones medidas en cabezas, la paleta con los valores exactos de color y notas sobre los rasgos que no pueden cambiar (la forma de los ojos, el número de puntas del pelo). Es la hoja que usa cualquier persona del equipo que tenga que dibujar al personaje sin haberlo diseñado. Parece un exceso de celo hasta que ves al mismo personaje con tres peinados distintos en tres pantallas del juego.
+
+Joshua Adeoye, el mismo del vídeo del turnaround, explica en unos cuatro minutos **cómo hacen los model sheets los animadores profesionales** y da consejos para que el tuyo sea más útil. Como el anterior, tiene audio doblado al español en Configuración > Pista de audio.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qO1DZCi27Xg" title="How pro animators make model sheets, de Joshua Adeoye" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*[How pro animators make model sheets](https://www.youtube.com/watch?v=qO1DZCi27Xg), de Joshua Adeoye. © de su autor; uso con fines educativos.*
 
 ## Hojas de expresiones y de poses
 
