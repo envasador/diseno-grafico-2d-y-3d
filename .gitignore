@@ -1,3 +1,7 @@
 site/
 .cache/
 __pycache__/
+
+# Material solo para el profesor (vista local)
+docs/profe/
+.venv/

@@ -10,6 +10,8 @@ Affinity reparte sus herramientas en **estudios**. En esta unidad vas a vivir en
 
 Lo bueno es que los dos trabajan sobre el **mismo documento**. Puedes construir un personaje con formas vectoriales, saltar al estudio Pixel y pintarle las sombras con un pincel sin cambiar de archivo ni exportar nada.
 
+Si prefieres verlo antes de tocarlo, en los [vídeos de apoyo de la unidad](index.md#videos-de-apoyo) tienes uno sobre la interfaz y otro sobre los estudios y las herramientas.
+
 Si vienes de las versiones anteriores (Affinity Designer o Affinity Photo), los **estudios** son lo que allí se llamaban "personas". Los archivos nuevos se guardan como `.af`. El programa abre sin problema los antiguos `.afdesign`, pero al revés no funciona: si le pasas un `.af` a alguien con la versión vieja, **no podrá abrirlo**. Y suele descubrirse la noche antes de la entrega.
 
 ## Vectorial o píxel
@@ -48,6 +50,8 @@ El primero es jugar con **operaciones booleanas** (sumar, restar, intersecar), q
 El segundo es tocar los **nodos**. Con la herramienta Nodo (A) seleccionas los puntos de una curva y sus manejadores y los mueves hasta que el contorno te convence. Si la forma todavía es una forma básica (un círculo recién dibujado), antes tendrás que **convertirla en curvas** (Ctrl+Intro, o Cmd+Return en Mac).
 
 El tercero es dibujar el trazo tú mismo. Con la **Pluma** (P) colocas los nodos uno a uno y controlas cada curva; con el **Lápiz** (N) dibujas a mano alzada y el programa lo convierte en curva. Aviso: la pluma se hace cuesta arriba los primeros días. Aguanta, porque **es la que te da los contornos más limpios**.
+
+Para ver todo esto aplicado a una ilustración de principio a fin, tienes el tutorial [Cómo ilustrar con vectores paso a paso](https://www.youtube.com/watch?v=oTfHSFRKjWw) en los vídeos de apoyo de la unidad.
 
 ## Seleccionar lo que quieres cambiar
 
