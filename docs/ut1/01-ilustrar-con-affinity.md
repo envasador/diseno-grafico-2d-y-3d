@@ -18,7 +18,7 @@ Si vienes de las versiones anteriores (Affinity Designer o Affinity Photo), los 
 
 Aquí está la decisión que vas a tomar cada vez que crees una capa, así que vale la pena entenderla bien.
 
-Una forma vectorial es una **receta matemática**: "un círculo de este radio, con este relleno". Como el programa la vuelve a calcular cada vez, puedes hacerla gigante **sin que pierda nitidez** y cambiarle la curva o el color cuando quieras. Una capa de píxeles **guarda el color de cada puntito** de la imagen. Es perfecta para texturas, trazos de pincel y sombras suaves, pero si la agrandas, se nota.
+Una forma vectorial es una **fórmula matemática**: "un círculo de este radio, con este relleno". Como el programa la vuelve a calcular cada vez, puedes hacerla gigante **sin que pierda nitidez** y cambiarle la curva o el color cuando quieras. Una capa de píxeles **guarda el color de cada puntito** de la imagen. Es perfecta para texturas, trazos de pincel y sombras suaves, pero si la agrandas, se nota.
 
 ¿Con cuál te quedas? **Con los dos.** Lo habitual en concept para juegos es **construir en vectorial todo lo que vas a cambiar muchas veces** (la silueta, las piezas del personaje, los elementos del escenario) y dejar para el final, en píxel, la textura y ese acabado pintado que le da vida.
 
