@@ -7,7 +7,7 @@ hide:
 
 Material del módulo Diseño Gráfico 2D y 3D del Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual del IES Rafael Alberti.
 
-A lo largo del curso harás **tres proyectos** (arte 2D, arte 3D y una cinemática) que van acompañando a las unidades: cada uno pone en práctica lo que acabas de ver. Todas las unidades se apoyan en el **mismo proceso creativo**, que es lo que trabajas en Concept.
+A lo largo del curso harás **cuatro proyectos**: uno dedicado al concept y tres de producción (arte 2D, arte 3D y una cinemática) que van acompañando a las unidades y ponen en práctica lo que acabas de ver. Todas las unidades se apoyan en el **mismo proceso creativo**, que es lo que trabajas en Concept.
 
 ## Cómo está organizado
 
@@ -15,8 +15,8 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 
 | Bloque | Resultado de aprendizaje | Contenido |
 |---|---|---|
-| [Concept](concept/index.md) | RA1 (en todo el curso) | Proceso creativo del arte conceptual y caja de herramientas |
-| UT1 (próximamente) | RA2 | Ilustración digital y diseño vectorial |
+| [Concept](concept/index.md) | RA1 | Proceso creativo del arte conceptual y caja de herramientas |
+| [UT1](ut1/index.md) | RA2 | Ilustración digital y diseño vectorial |
 | UT2 (próximamente) | RA3 | Gráficos y animación 2D |
 | UT3 (próximamente) | RA4 | Gráficos y animación 3D |
 | UT4 (próximamente) | RA5 | Cámara e iluminación 3D |
@@ -27,7 +27,7 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 El módulo (código 5049, 9 créditos ECTS) está definido en el Real Decreto 261/2021, que establece el Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual. Tiene **cinco resultados de aprendizaje (RA)**, que describen lo que tienes que saber hacer al terminar, y cada uno se concreta en **criterios de evaluación (CE)**, que son lo que se comprueba en tus entregas. Despliega cada uno para ver sus criterios.
 
 ??? abstract "RA1. Desarrolla los principios del proceso creativo del arte conceptual del proyecto del videojuego."
-    Se trabaja en la fase de concept de los tres proyectos (la Fase 0), apoyándote en la pestaña Concept.
+    Se evalúa en el proyecto de concept, apoyándote en la pestaña Concept. El hábito sigue en el concept breve con el que arranca cada proyecto de producción.
 
     - a) Se han identificado los conceptos fundamentales del arte conceptual.
     - b) Se han definido las etapas del proceso creativo.

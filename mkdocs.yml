@@ -61,9 +61,8 @@ markdown_extensions:
 exclude_docs: |
   /profe/
   /assets/concept/moodboard-amate-jimenez-angela.png
-  /ut1/
   /ut2/
-  /proyectos/
+  /proyectos/proyecto-2d.md
   /ut3/
   /ut4/
   /anexo-ui-ux/
@@ -83,11 +82,11 @@ nav:
       - Hojas de producción: concept/hojas-de-produccion.md
       - Perspectiva de género: concept/perspectiva-de-genero.md
       - Biblia de arte: concept/biblia-de-arte.md
-#  - UT1 Ilustración:
-#      - ut1/index.md
-#      - Ilustrar con Affinity: ut1/01-ilustrar-con-affinity.md
-#      - Del boceto a la ilustración: ut1/02-del-boceto-a-la-ilustracion.md
-#      - Tutoriales de Affinity: ut1/03-tutoriales-affinity.md
+  - UT1 Ilustración:
+      - ut1/index.md
+      - Ilustrar con Affinity: ut1/01-ilustrar-con-affinity.md
+      - Del boceto a la ilustración: ut1/02-del-boceto-a-la-ilustracion.md
+      - Tutoriales de Affinity: ut1/03-tutoriales-affinity.md
 #  - UT2 Arte 2D:
 #      - ut2/index.md
 #      - El arte 2D: ut2/01-arte-2d.md
@@ -113,8 +112,9 @@ nav:
 #      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
 #      - El HUD: anexo-ui-ux/03-hud.md
 #      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
-#  - Proyectos:
-#      - proyectos/index.md
+  - Proyectos:
+      - proyectos/index.md
+      - Proyecto 0 · Concept: proyectos/proyecto-concept.md
 #      - Proyecto 1 · Arte 2D: proyectos/proyecto-2d.md
 #      - Proyecto 2 · Arte 3D: proyectos/proyecto-3d.md
 #      - Proyecto 3 · Cinemática: proyectos/proyecto-cinematica.md

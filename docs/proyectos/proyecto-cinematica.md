@@ -8,14 +8,6 @@ Producir una cinemática de entre 20 y 45 segundos a partir de una escena 3D, co
 
 ## Resultados de aprendizaje y criterios de evaluación
 
-**RA1** Desarrolla los principios del proceso creativo del arte conceptual del proyecto del videojuego. *(Fase 0: criterios b, c y e)*
-
-| Criterio |
-|---|
-| b) Se han definido las etapas del proceso creativo. |
-| c) Se han aplicado las técnicas para el desarrollo del arte. |
-| e) Se han diseñado fondos y escenarios. |
-
 **RA5** Define y configura movimientos de cámara e iluminación 3D aplicando los parámetros técnicos establecidos.
 
 | Criterio |
@@ -52,17 +44,16 @@ La cinemática puede ser la introducción de un nivel, la presentación de un pe
 - Uso de las herramientas de cinemática del motor (Timeline y Cinemachine en Unity, AnimationPlayer con varias Camera3D en Godot) en lugar de renderizar solo desde Blender.
 - Medición del rendimiento antes y después de optimizar las luces, con capturas de las estadísticas del motor.
 
-## Fase 0 · Concept de la cinemática *(obligatoria, evalúa RA1)*
+## Concept breve *(requisito de entrada, sin nota propia)*
 
-Antes de colocar una sola cámara, prepara en la biblia de arte de este proyecto el capítulo de la UT4:
+Antes de colocar una sola cámara, prepara en la biblia de arte de este proyecto lo imprescindible para rodar con intención:
 
 - **Guion breve:** qué ocurre en la cinemática, en tres o cuatro frases.
 - **Storyboard:** un [thumbnail](../concept/thumbnails.md) por plano, con el encuadre y la dirección del movimiento.
 - **Lista de planos:** una tabla con el número de plano, el tipo (general, medio, detalle, subjetivo…), la duración aproximada y el movimiento de cámara.
-- **[Color keys](../concept/color.md#color-keys-y-color-script):** al menos dos propuestas de luz para la escena y la elegida, justificando qué emoción busca.
-- **Moodboard de luz y cámara:** fotogramas de cine o de juegos con la atmósfera y los encuadres que quieres conseguir.
+- **[Color key](../concept/color.md#color-keys-y-color-script)** de la escena, con una frase sobre la emoción que busca.
 
-Sin la Fase 0 entregada, el proyecto no se corregirá.
+El RA1 ya se evaluó en el Proyecto 0, así que este concept no lleva nota. Aun así, **sin él el proyecto no se corregirá**: es la referencia con la que se valoran tus planos y tu iluminación.
 
 ## Fase 1 · Layout y cámaras
 
@@ -102,19 +93,11 @@ Sube a Moodle antes de la fecha y hora indicadas:
 
 | Sección | Contenido |
 |---|---|
-| Concepto | Fase 0 completa: guion, storyboard, lista de planos, color keys y moodboard |
+| Concepto | Concept breve: guion, storyboard, lista de planos y color key |
 | Proceso | Animatic, capturas de la iluminación por fases y comparación con el color key |
 | Motor | Luz estática y dinámica, optimización aplicada (con capturas de estadísticas) y cámara de juego |
 | Resultado | Enlace al vídeo y fotogramas destacados |
 | Reflexión | Qué ha funcionado, qué cambiarías y qué has aprendido (5-10 líneas) |
-
-## Rúbrica RA1 *(Fase 0)*
-
-| Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
-|---|---|---|---|---|---|
-| **b)** Etapas del proceso creativo | Guion, storyboard, lista de planos y color keys encadenados con claridad; cada decisión se apoya en la anterior. | Todas las etapas presentes y bien definidas, con alguna conexión poco explicada. | Etapas presentes, pero con poca relación entre ellas. | Etapas incompletas o definidas de forma vaga. | No define el proceso. |
-| **c)** Técnicas para el desarrollo del arte | Storyboard y color keys claros y expresivos, útiles para producir la cinemática sin dudas. | Documentos correctos, con algún plano o key poco definido. | Documentos presentes, pero poco precisos. | Documentos muy básicos que no sirven como referencia. | No aplica técnicas de concept. |
-| **e)** Fondos y escenarios | Composición de los planos y atmósfera del escenario muy trabajadas y coherentes con la biblia de arte. | Planos y atmósfera coherentes, con algún encuadre mejorable. | Escenario correcto, pero con poca intención en la composición. | Composición y atmósfera sin criterio claro. | No trabaja el escenario en el concept. |
 
 ## Rúbrica RA5
 

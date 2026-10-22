@@ -27,9 +27,10 @@ No hay un formato único, pero una biblia de arte completa suele tener estos blo
 
 Cada proyecto del curso parte del juego que tú elijas, así que cada uno tiene su propia biblia de arte. No hace falta que contenga todos los bloques de la tabla: **recoge los que necesita esa producción**, y crece a medida que avanzas por las unidades del proyecto:
 
-- **Proyecto 1 (UT1 y UT2).** Visión, moodboard, estilo, paleta y concept del personaje; ilustraciones y composiciones con el estilo definido; model sheet y hoja de poses en 2D, lista de animaciones y tilesets.
-- **Proyecto 2 (UT3).** Concepto de la escena, turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
-- **Proyecto 3 (UT4).** Guion, storyboard, color keys de iluminación y encuadres de la cinemática.
+- **Proyecto 0 (Concept y UT1).** La biblia más completa: visión, moodboard, estilo, paleta y concept del personaje, con las ilustraciones y la composición de presentación.
+- **Proyecto 1 (UT2).** Concept breve: contexto, paleta, siluetas a tamaño de sprite y hoja de poses; después, lista de animaciones y tilesets.
+- **Proyecto 2 (UT3).** Concept breve: concepto de la escena, turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
+- **Proyecto 3 (UT4).** Concept breve: guion, storyboard, lista de planos y color key de iluminación.
 
 Si decides usar el mismo juego en varios proyectos, puedes seguir ampliando la misma biblia en lugar de empezar una nueva. En cualquier caso, cada una es una **pieza de portfolio** que demuestra algo muy valorado en la industria: que sabes **documentar un proyecto visual con coherencia**.
 

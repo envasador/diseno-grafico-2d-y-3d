@@ -1,40 +1,13 @@
 # Proyecto 1 · Arte 2D
 
-En este proyecto **defines el aspecto visual de tu juego y lo llevas hasta un personaje jugable en 2D**: diseñas el mundo y al protagonista en concept, lo ilustras en una composición de presentación y después lo produces como sprite animado, con su tileset y su escenario. Todo lo que decidas aquí (estilo, paleta, personaje) queda recogido en la **biblia de arte** del proyecto.
+En este proyecto **llevas un personaje hasta el juego en 2D**: lo produces como sprite animado, con un objeto interactivo, su tileset y el escenario donde se mueve. Arrancas con un concept breve que fija lo imprescindible para producir con coherencia, y a partir de ahí todo el trabajo es de producción.
 
 ## Objetivos
 
-- Definir y desarrollar el proceso creativo del arte conceptual de un videojuego.
-- Aplicar las herramientas de ilustración digital y dibujo vectorial en una composición avanzada.
 - Crear y animar personajes en 2D.
 - Bocetar, crear y mapear escenarios en 2D teniendo en cuenta la perspectiva y el estilo artístico.
 
 ## Resultados de aprendizaje y criterios de evaluación
-
-**RA1** Desarrolla los principios del proceso creativo del arte conceptual del proyecto del videojuego.
-
-| Criterio |
-|---|
-| a) Se han identificado los conceptos fundamentales del arte conceptual. |
-| b) Se han definido las etapas del proceso creativo. |
-| c) Se han aplicado las técnicas para el desarrollo del arte. |
-| d) Se han diseñado personajes y objetos. |
-| e) Se han diseñado fondos y escenarios. |
-| f) Se ha valorado qué estilo artístico usar para el juego. |
-| g) Se han identificado las técnicas de creación de personajes. |
-
-**RA2** Genera composiciones avanzadas aplicando herramientas profesionales de ilustración digital y dibujo vectorial.
-
-| Criterio |
-|---|
-| a) Se han aplicado las funcionalidades y el entorno de trabajo de las herramientas de ilustración digital y dibujo vectorial. |
-| b) Se ha manejado y aplicado el concepto de capas. |
-| c) Se han cumplimentado las diferentes técnicas de selección. |
-| d) Se han creado composiciones avanzadas. |
-| e) Se han exportado e importado imágenes en diferentes formatos. |
-| f) Se ha definido la escala y optimización de las imágenes. |
-| g) Se han generado fuentes de texto mediante imágenes. |
-| h) Se ha tenido en cuenta la perspectiva de género en el proceso creativo. |
 
 **RA3** Diseña elementos gráficos y animaciones en 2D teniendo en cuenta las características de los personajes.
 
@@ -51,42 +24,22 @@ En este proyecto **defines el aspecto visual de tu juego y lo llevas hasta un pe
 
 ## Punto de partida
 
-Elige una de estas líneas y **justifica la elección en la presentación**:
+Puedes seguir con el juego de tu [Proyecto 0](proyecto-concept.md) o elegir otro: el de tu equipo, tu proyecto para una jam (la Game Off, la MiniJam, la Global Game Jam o la Málaga Jam) o un proyecto personal. **Justifica la elección en la presentación.**
 
-1. El juego de tu equipo del curso.
-2. Tu proyecto para la Game Off, la MiniJam, la Global Game Jam o la Málaga Jam.
-3. Un proyecto personal (un juego, una novela gráfica, una experiencia de realidad virtual…).
+## Concept breve *(requisito de entrada, sin nota propia)*
 
-Contextualiza el juego con todo lo que ayude a entenderlo: **género, público, plataforma, mecánicas principales y tono**. Cuanto más completo sea el contexto, mejor podrás justificar tus decisiones de arte.
+Antes de producir, prepara en la biblia de arte de este proyecto lo mínimo para que el sprite, el tileset y el escenario parezcan del mismo juego. Si sigues con el juego del Proyecto 0, parte de su biblia y añade solo lo nuevo:
 
-## Fase 0 · Concept art *(entrega previa con nota: RA1 y RA2)*
+- **Contexto del juego** en unas líneas: género, público, plataforma, mecánicas principales y tono.
+- **Estilo y paleta** del juego, con un par de referencias que los expliquen.
+- **[Siluetas](../concept/siluetas.md) a tamaño de sprite**, para comprobar que el personaje se lee a la resolución final.
+- **Hoja de poses** con las animaciones que vas a producir.
 
-Esta fase es el concept art del juego. Tiene **entrega propia** antes de empezar la producción 2D, porque en ella se evalúan el RA1 y el RA2.
+El RA1 ya se evaluó en el Proyecto 0, así que este concept no lleva nota. Aun así, **sin él el proyecto no se corregirá**: es la referencia con la que se valora si tu producción es coherente.
 
-**Proceso creativo.** Explica el proceso artístico que vas a seguir (las [etapas del proceso creativo](../concept/proceso-creativo.md) aplicadas a tu proyecto) y cómo vas a incorporar la [perspectiva de género](../concept/perspectiva-de-genero.md).
+## Producción 2D
 
-**Moodboard y estilo.** Crea un [moodboard](../concept/moodboard.md) de inspiración y elige el [estilo artístico](../concept/estilos-artisticos.md) del juego, justificando la elección según el público, el tono y lo que puedes producir.
-
-**Personaje.** Diseña el personaje o personajes principales. Puedes elegir entre dos formas de construirlos, y en ambas el archivo tiene que mostrar el proceso **separado en capas**, con el personaje terminado en la última:
-
-1. **Por volumen y ritmos:** una capa para la estructura ("esqueleto"), otra para los volúmenes ("músculos"), otra para la definición, y así hasta el personaje final.
-2. **A partir de mancha:** desde la [silueta](../concept/siluetas.md) en masa hasta el personaje definido. El [sistema de boceto por módulos](https://www.youtube.com/watch?v=n4E35sQ1whQ) de JS Linares te enseña a hacerlo paso a paso.
-
-**Escenario.** Crea un escenario que contextualice al personaje, aplicando las técnicas vistas en clase o cualquier otra que conozcas.
-
-**Composición de presentación.** Monta una ilustración final con personaje, escenario y el título del juego, integrado con una tipografía adecuada al estilo.
-
-**Exportación.** Exporta el concept art en los formatos adecuados para tres usos:
-
-- Una web promocional.
-- Impresión.
-- El equipo de producción 2D y 3D.
-
-**Biblia de arte.** Abre tu [biblia de arte](../concept/biblia-de-arte.md) en Figma con los capítulos de visión, estilo, color y personaje.
-
-## Producción 2D *(RA3)*
-
-Con el concept aprobado, produce el arte del juego en 2D. Antes de animar, prepara la fase de concept de la UT2: **siluetas a tamaño de sprite, paleta y hoja de poses**.
+Con el concept breve listo, produce el arte del juego en 2D.
 
 Tienes que completar:
 
@@ -108,44 +61,12 @@ Puedes hacerlo **en pixel art o en arte 2D vectorial**:
 
 ## Entrega
 
-**Entrega de la Fase 0:**
-
-- Proyecto de Figma titulado *Concept Art - nombre y apellidos*, con el informe completo del proceso y todos los elementos gráficos que expliquen tanto el proceso como el resultado.
-- Archivos originales del programa de ilustración (Affinity o similar) y los exportados.
-
-**Entrega final:**
-
 - Archivos de Pyxel Edit, Aseprite o similar, y de Tiled.
 - Archivos del programa de edición y de Blender, si has trabajado en vectorial.
 - Archivos exportados (sprite sheets, tileset, fondos).
-- El mismo proyecto de Figma ampliado con la presentación de la producción 2D y el capítulo de la UT2 en la biblia de arte.
+- Proyecto de Figma con el concept breve, la presentación de la producción 2D y el capítulo de la UT2 en la biblia de arte.
 
-## Rúbrica RA1 *(Fase 0)*
-
-| Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
-|---|---|---|---|---|---|
-| **a)** Conceptos fundamentales del arte conceptual | Identifica y justifica todos los conceptos clave, con un conocimiento profundo y contextualizado. | Identifica correctamente la mayoría de los conceptos clave, con justificaciones claras. | Identifica los conceptos fundamentales, pero sin profundizar en todos ellos. | Muestra comprensión básica de los conceptos, con algunas carencias. | No identifica adecuadamente los conceptos fundamentales. |
-| **b)** Etapas del proceso creativo | Define todas las etapas con claridad y justifica su uso con ejemplos específicos del proyecto. | Define adecuadamente las etapas, con una justificación general. | Define correctamente las etapas, pero con ejemplos o justificaciones limitadas. | Las etapas están definidas de forma vaga, con falta de claridad en algunas fases. | No define correctamente las etapas del proceso creativo. |
-| **c)** Técnicas para el desarrollo del arte | Aplica técnicas avanzadas con precisión y coherencia, mostrando creatividad. | Aplica técnicas de manera correcta, con algunos elementos creativos. | Utiliza técnicas adecuadas, aunque con falta de creatividad en algunos aspectos. | Aplicación básica de técnicas, con errores en algunos procedimientos. | No aplica adecuadamente las técnicas. |
-| **d)** Diseño de personajes y objetos | Personajes y objetos originales, coherentes y cuidados en el detalle, fieles al estilo elegido. | Personajes y objetos coherentes, con detalles bien cuidados y adecuados al estilo. | Correctos, pero les falta originalidad o coherencia en algunos aspectos. | Básicos, con errores de coherencia o detalle. | No son coherentes ni adecuados para el estilo del juego. |
-| **e)** Diseño de fondos y escenarios | Fondos y escenarios de gran calidad visual, adecuados al estilo y coherentes con el diseño general. | Bien estructurados, con pocos errores de coherencia. | Correctos, pero con falta de detalles o elementos clave. | Básicos, con errores de coherencia o calidad. | No son adecuados ni coherentes con el estilo del juego. |
-| **f)** Valoración del estilo artístico | Selecciona y justifica el estilo con argumentos sólidos, considerando el público objetivo. | Selecciona adecuadamente el estilo, con una justificación general. | Selección correcta, pero con una justificación limitada o vaga. | Selección básica, sin justificación clara. | No selecciona un estilo adecuado o no lo justifica. |
-| **g)** Técnicas de creación de personajes | Identifica y aplica las técnicas más adecuadas para cada personaje, con un dominio claro. | Identifica adecuadamente las técnicas y las aplica bien en la mayoría de los casos. | Identifica técnicas apropiadas, pero con limitaciones en su aplicación. | Comprensión básica de las técnicas, con errores en su aplicación. | No identifica las técnicas adecuadas. |
-
-## Rúbrica RA2 *(Fase 0)*
-
-| Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
-|---|---|---|---|---|---|
-| **a)** Herramientas de ilustración digital y dibujo vectorial | Domina todas las funcionalidades y las aplica de forma efectiva y precisa. | Maneja adecuadamente la mayoría de las funcionalidades. | Utiliza correctamente las herramientas, con alguna imprecisión ocasional. | Uso básico, con limitaciones en algunas funcionalidades. | No utiliza adecuadamente las herramientas. |
-| **b)** Capas | Uso avanzado de capas, con elementos organizados con precisión y un flujo de trabajo optimizado. | Usa capas correctamente, con una organización adecuada en la mayoría de los casos. | Uso correcto, con errores ocasionales de organización. | Uso básico, sin una organización clara. | No utiliza capas de manera adecuada. |
-| **c)** Técnicas de selección | Domina todas las técnicas de selección y las aplica con precisión en composiciones complejas. | Aplica correctamente la mayoría de las técnicas, con precisión adecuada. | Uso correcto, con errores menores. | Uso básico, con errores que afectan a la precisión. | No aplica correctamente las técnicas de selección. |
-| **d)** Composiciones avanzadas | Composiciones complejas y de gran impacto visual que cumplen todos los requisitos. | Composiciones adecuadas, con pocos errores. | Composiciones satisfactorias, pero sin profundidad o complejidad visual. | Composiciones simples que cumplen los requisitos mínimos. | No cumplen los requisitos básicos. |
-| **e)** Exportación e importación en diferentes formatos | Exporta en todos los formatos requeridos, garantizando calidad y compatibilidad para cada uso. | Exporta correctamente en la mayoría de los formatos. | Formatos correctos, con limitaciones de calidad. | Exportación básica, con errores menores. | No exporta adecuadamente. |
-| **f)** Escala y optimización | Escala y optimización precisas para cada uso, con alta calidad en todos los soportes. | Optimización correcta en la mayoría de los casos. | Optimización aceptable, con limitaciones de calidad. | Optimización básica, con errores que afectan a la calidad. | No optimiza las imágenes. |
-| **g)** Fuentes de texto mediante imágenes | Título visualmente atractivo, coherente con el estilo del juego y bien optimizado. | Título adecuado, de buena calidad y coherente con el diseño. | Correcto, con limitaciones de calidad o de coherencia estilística. | Básico, con problemas de calidad o estilo. | No genera el título o presenta errores graves. |
-| **h)** Perspectiva de género | Integrada de forma natural y equilibrada en todas las fases del proyecto. | Considerada de manera adecuada, con algunas limitaciones. | Considerada de forma limitada o puntual. | Consideración básica, sin integración clara. | No se tiene en cuenta. |
-
-## Rúbrica RA3 *(producción 2D)*
+## Rúbrica RA3
 
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|

@@ -49,18 +49,18 @@ Queda una pregunta incómoda: ¿podría otra persona producir tu diseño sin ten
 
 Todo lo que has decidido en las tres fases acaba en la [biblia de arte](biblia-de-arte.md). Cuando la terminas, tienes **un diseño cerrado y documentado** y ya puedes ponerte a producir.
 
-## La biblia de arte y la Fase 0
+## La biblia de arte y el Proyecto 0
 
-Todo lo que produzcas en la fase de concept de un proyecto se recoge en un documento: la **[biblia de arte](biblia-de-arte.md)** de ese proyecto. Cada proyecto tiene la suya, con los capítulos que necesita su producción (paleta y personaje en 2D, turnaround y materiales en 3D, storyboard y luz en la cinemática). Es el mismo tipo de documento que se entrega en un estudio.
+Todo lo que produzcas en la fase de concept de un proyecto se recoge en un documento: la **[biblia de arte](biblia-de-arte.md)** de ese proyecto. Es el mismo tipo de documento que se entrega en un estudio.
 
-Por eso todos los proyectos del curso tienen una **Fase 0 de concept** obligatoria antes de producir. En esa fase se evalúa el RA1 (desarrollar el proceso creativo del arte conceptual del proyecto), y se evalúa en cada proyecto, porque lo que se valora es **que el proceso mejore de uno a otro**.
+El curso empieza con un proyecto dedicado solo a esto, el **[Proyecto 0 · Concept](../proyectos/proyecto-concept.md)**, donde recorres las tres fases completas y se evalúa el RA1 (desarrollar el proceso creativo del arte conceptual del proyecto). Después, cada proyecto de producción arranca con un **concept breve**: las mismas fases en versión corta, con solo los documentos que esa producción necesita (paleta y siluetas a tamaño de sprite en 2D, turnaround y materiales en 3D, storyboard y luz en la cinemática).
 
-### Qué significa que tu proceso mejore
+### Qué se valora de tu proceso
 
-"Mejorar" suena a algo que solo sabe el profesor, así que vamos a concretarlo. **Lo que se mide es el proceso, y se mide con cosas que puedes contar y comprobar.** Tu nivel de dibujo puede subir más despacio y tu nota del RA1 subir igual. Estos son los avances que se buscan de un proyecto al siguiente:
+"Buen proceso" suena a algo que solo sabe el profesor, así que vamos a concretarlo. **Lo que se mide es el proceso, y se mide con cosas que puedes contar y comprobar.** Tu nivel de dibujo puede ser modesto y tu nota del RA1 alta igualmente. Esto es lo que se busca en el Proyecto 0:
 
-- **Más exploración antes de decidir.** Si en el proyecto 2D presentaste 6 thumbnails antes de elegir, en el 3D presenta **el doble**. Y que sean variaciones de verdad (formas, proporciones o siluetas distintas), porque el mismo personaje con otro sombrero cuenta como uno.
+- **Exploración antes de decidir.** Muchos thumbnails y siluetas antes de elegir, y que sean variaciones de verdad (formas, proporciones o siluetas distintas), porque el mismo personaje con otro sombrero cuenta como uno.
 - **Documentos que entiende otra persona.** Haz la prueba: pasa tu hoja de producción a un compañero que no conozca tu proyecto y pídele que te diga cómo es el personaje por detrás, de qué material es cada pieza y qué proporciones tiene. Si lo responde sin preguntarte nada, **tu comunicación técnica funciona**. Si te pregunta tres cosas, ya sabes qué falta en la hoja.
-- **Decisiones justificadas.** En el primer proyecto es normal que la paleta se elija porque "quedaba bien". En los siguientes tendrás que **justificarla con la psicología del color** y con lo que pasa en el juego: por qué ese verde apagado para el mundo, por qué el rojo saturado se reserva para lo que hace daño, cómo se separa el personaje del fondo.
+- **Decisiones justificadas.** Una paleta elegida porque "quedaba bien" se queda corta. **Justifícala con la psicología del color** y con lo que pasa en el juego: por qué ese verde apagado para el mundo, por qué el rojo saturado se reserva para lo que hace daño, cómo se separa el personaje del fondo.
 
-Cada proyecto concreta estos criterios en su rúbrica, en la página de proyectos. Si comparas tu Fase 0 del último proyecto con la anterior y ves más opciones exploradas, hojas que se entienden solas y decisiones con su porqué, vas por buen camino.
+La rúbrica del Proyecto 0 concreta estos puntos criterio a criterio. Y aunque los concept breves de los proyectos siguientes no lleven nota, son el sitio donde se nota si el hábito se ha quedado contigo.
