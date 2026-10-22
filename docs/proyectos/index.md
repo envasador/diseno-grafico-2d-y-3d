@@ -13,7 +13,7 @@ A lo largo del curso harás **cuatro proyectos**. El primero está dedicado por 
 
 El RA1 (el proceso creativo del arte conceptual) y el RA2 (la ilustración y la composición) se evalúan **enteros en el Proyecto 0**. Ahí tienes tiempo para recorrer el proceso de la pestaña [Concept](../concept/index.md) con calma y para equivocarte, que es parte del método.
 
-Ese concept **no te obliga a seguirlo después**. En los proyectos de producción puedes continuar con el mismo juego o cambiar a otro. Lo que sí tiene cada uno es un **concept breve** de arranque, con lo imprescindible para producir con coherencia: en 2D, el contexto, la paleta, las siluetas a tamaño de sprite y la hoja de poses; en 3D, el turnaround y los callouts de materiales; en la cinemática, el storyboard y el color key. Ese concept breve va a la **[biblia de arte](../concept/biblia-de-arte.md)** del proyecto, no lleva nota propia y es requisito para que el proyecto se corrija.
+Ese concept **no te obliga a seguirlo después**. En los proyectos de producción puedes continuar con el mismo juego o cambiar a otro. Lo que sí tiene cada uno es un **concept breve** de arranque, con lo imprescindible para producir con coherencia: en 2D, el contexto, la paleta, las siluetas a tamaño de sprite y la hoja de poses; en 3D, el turnaround y las anotaciones de materiales; en la cinemática, el storyboard y el color key. Ese concept breve va a la **[biblia de arte](../concept/biblia-de-arte.md)** del proyecto, no lleva nota propia y es requisito para que el proyecto se corrija.
 
 ## Normas comunes de entrega
 

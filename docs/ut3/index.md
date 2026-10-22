@@ -10,7 +10,7 @@ Esta unidad desarrolla el **RA4**: diseña elementos gráficos y animaciones en 
     Modelar sin un concept preparado es la forma más rápida de tirar una tarde entera. Antes de abrir Blender necesitas:
 
     - Un [turnaround](../concept/hojas-de-produccion.md#turnaround) de tu personaje o prop, con vista frontal y lateral a la misma escala. Lo importarás en Blender como imagen de referencia para modelar encima.
-    - [Callouts](../concept/hojas-de-produccion.md#callouts) de materiales que indiquen qué partes son metal, tela, piel o madera y cómo de brillantes o rugosas son.
+    - [Anotaciones](../concept/hojas-de-produccion.md#anotaciones) de materiales que indiquen qué partes son metal, tela, piel o madera y cómo de brillantes o rugosas son.
     - Una comprobación de [silueta](../concept/siluetas.md) desde varios ángulos, porque en 3D el objeto se verá desde todos.
     - Un moodboard de materiales con fotografías reales de las superficies que quieres reproducir.
 

@@ -29,7 +29,7 @@ Cada proyecto del curso parte del juego que tú elijas, así que cada uno tiene 
 
 - **Proyecto 0 (Concept y UT1).** La biblia más completa: visión, moodboard, estilo, paleta y concept del personaje, con las ilustraciones y la composición de presentación.
 - **Proyecto 1 (UT2).** Concept breve: contexto, paleta, siluetas a tamaño de sprite y hoja de poses; después, lista de animaciones y tilesets.
-- **Proyecto 2 (UT3).** Concept breve: concepto de la escena, turnaround, callouts de materiales y reglas técnicas de tus modelos 3D.
+- **Proyecto 2 (UT3).** Concept breve: concepto de la escena, turnaround, anotaciones de materiales y reglas técnicas de tus modelos 3D.
 - **Proyecto 3 (UT4).** Concept breve: guion, storyboard, lista de planos y color key de iluminación.
 
 Si decides usar el mismo juego en varios proyectos, puedes seguir ampliando la misma biblia en lugar de empezar una nueva. En cualquier caso, cada una es una **pieza de portfolio** que demuestra algo muy valorado en la industria: que sabes **documentar un proyecto visual con coherencia**.

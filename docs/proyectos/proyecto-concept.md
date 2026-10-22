@@ -72,7 +72,7 @@ Eso sí, cada paso da evidencias para algunos criterios de la rúbrica, y si te 
 
 ## Lo que no se pide en este proyecto
 
-El **turnaround**, el model sheet, las hojas de expresiones y de poses y los callouts de materiales **no forman parte del Proyecto 0**. Los tienes explicados en [hojas de producción](../concept/hojas-de-produccion.md) porque los vas a necesitar más adelante: la hoja de poses en el concept breve del Proyecto 1 (2D), y el turnaround y los callouts en el del Proyecto 2 (3D), donde te servirán para modelar en Blender.
+El **turnaround**, el model sheet, las hojas de expresiones y de poses y las anotaciones de materiales **no forman parte del Proyecto 0**. Los tienes explicados en [hojas de producción](../concept/hojas-de-produccion.md) porque los vas a necesitar más adelante: la hoja de poses en el concept breve del Proyecto 1 (2D), y el turnaround y las anotaciones en el del Proyecto 2 (3D), donde te servirán para modelar en Blender.
 
 ## Entrega
 

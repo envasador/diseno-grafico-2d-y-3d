@@ -38,15 +38,15 @@ Una **hoja de expresiones** muestra la cara del personaje con sus emociones prin
 
 Una **hoja de poses** muestra al personaje en acción: corriendo, atacando, saltando, en reposo. Es especialmente importante antes de animar, porque **las poses clave de la hoja se convierten en los fotogramas clave de la animación**. En la **UT2** harás una hoja de poses de tu personaje antes de empezar el idle, el ciclo de andar y el ataque.
 
-## Callouts
+## Anotaciones
 
-Los **callouts** son notas y ampliaciones que explican lo que el dibujo general no deja claro: un detalle de la hebilla a mayor tamaño, una flecha que indica que la capa es de tela gruesa, una muestra del material metálico con su nivel de brillo. En props y en personajes con equipo complejo son imprescindibles.
+Las **anotaciones** (en inglés, *callouts*) son notas y ampliaciones que explican lo que el dibujo general no deja claro: un detalle de la hebilla a mayor tamaño, una flecha que indica que la capa es de tela gruesa, una muestra del material metálico con su nivel de brillo. En props y en personajes con equipo complejo son imprescindibles.
 
-En la **UT3** los callouts de materiales te servirán para configurar los materiales en Blender: qué parte es metal, cuál es rugosa, cuál refleja.
+En la **UT3** las anotaciones de materiales te servirán para configurar los materiales en Blender: qué parte es metal, cuál es rugosa, cuál refleja.
 
 ## Hojas de props y de entornos
 
-Los objetos siguen la misma lógica: vistas desde varios ángulos, **escala respecto al personaje** (colocar al personaje al lado del objeto evita sorpresas) y callouts de materiales. Para entornos, en lugar de turnarounds se hacen vistas generales, planos de planta y **hojas de elementos modulares** (piezas que se repiten para construir el nivel), que en 2D serán tus tiles.
+Los objetos siguen la misma lógica: vistas desde varios ángulos, **escala respecto al personaje** (colocar al personaje al lado del objeto evita sorpresas) y anotaciones de materiales. Para entornos, en lugar de turnarounds se hacen vistas generales, planos de planta y **hojas de elementos modulares** (piezas que se repiten para construir el nivel), que en 2D serán tus tiles.
 
 | Documento | Qué resuelve | Dónde lo usarás |
 |---|---|---|
@@ -54,5 +54,5 @@ Los objetos siguen la misma lógica: vistas desde varios ángulos, **escala resp
 | Model sheet | Cómo se dibuja de forma consistente | UT2 y UT3 |
 | Hoja de expresiones | Cómo expresa emociones | UT2 (retratos, animación facial) |
 | Hoja de poses | Cómo se mueve y actúa | UT2 (fotogramas clave) y UT3 (animación) |
-| Callouts | Detalles y materiales | UT3 (materiales y texturas) |
+| Anotaciones | Detalles y materiales | UT3 (materiales y texturas) |
 | Hoja de props o entornos | Escala, piezas y materiales del mundo | UT2 (tilesets) y UT3 (escena) |

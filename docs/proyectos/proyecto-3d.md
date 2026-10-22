@@ -61,7 +61,7 @@ Antes de abrir Blender, prepara en la biblia de arte de este proyecto (en Figma)
 - **Concepto de la escena:** qué ocurre, dónde y quién es el personaje. Dos o tres frases bastan.
 - **Boceto de la escena:** lo importante es tener claro qué vas a modelar y cómo se distribuye en el espacio.
 - **[Turnaround](../concept/hojas-de-produccion.md#turnaround) del personaje:** vista frontal y lateral a la misma escala, en T-pose o A-pose. Lo usarás como referencia en Blender.
-- **[Callouts](../concept/hojas-de-produccion.md#callouts) de materiales** del personaje y de los objetos secundarios, con una referencia de cada superficie.
+- **[Anotaciones](../concept/hojas-de-produccion.md#anotaciones) de materiales** del personaje y de los objetos secundarios, con una referencia de cada superficie.
 
 El RA1 ya se evaluó en el Proyecto 0, así que este concept no lleva nota. Aun así, **sin él el proyecto no se corregirá**: es la referencia con la que se valoran tus modelos y materiales.
 
@@ -80,7 +80,7 @@ Crea los modelos a partir de tu concept breve. El orden recomendado es escenario
 **Texturizado:**
 
 - UV mapping en todos los modelos antes de texturizar.
-- Materiales configurados en el Shader Editor, cuidando la rugosidad y la metalicidad además del color base. Compáralos con tus callouts.
+- Materiales configurados en el Shader Editor, cuidando la rugosidad y la metalicidad además del color base. Compáralos con tus anotaciones.
 - Las texturas pueden ser procedurales, pintadas en Texture Paint o importadas de recursos externos (indicando la fuente).
 
 ## Fase 2 · Animación
@@ -119,7 +119,7 @@ Sube a Moodle antes de la fecha y hora indicadas:
 
 | Sección | Contenido |
 |---|---|
-| Concepto | Concept breve: concepto, boceto, turnaround y callouts |
+| Concepto | Concept breve: concepto, boceto, turnaround y anotaciones |
 | Proceso | Capturas de cada fase: modelado en gris, UV map, materiales, rig y animación |
 | Resultado | Render final y capturas en el motor |
 | Reflexión | Qué ha funcionado, qué cambiarías y qué has aprendido (5-10 líneas) |
@@ -129,7 +129,7 @@ Sube a Moodle antes de la fecha y hora indicadas:
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|
 | **a)** Modelado | Topología limpia, sin errores de malla, con proporciones coherentes con el turnaround. | Topología mayoritariamente correcta, con algún error menor que no afecta al resultado. | Objetos reconocibles y funcionales, con problemas de topología visibles. | Modelado muy básico o incompleto, con errores que afectan al resultado. | No se han creado modelos 3D. |
-| **b)** Materiales | Rugosidad, metalicidad y color bien ajustados y coherentes con los callouts y el estilo. | Materiales correctos y coherentes, con algún parámetro mal ajustado. | Materiales básicos en todos los objetos, sin criterio técnico ni artístico claro. | Materiales incompletos o inconsistentes; algún objeto no tiene material. | No se han aplicado materiales. |
+| **b)** Materiales | Rugosidad, metalicidad y color bien ajustados y coherentes con las anotaciones y el estilo. | Materiales correctos y coherentes, con algún parámetro mal ajustado. | Materiales básicos en todos los objetos, sin criterio técnico ni artístico claro. | Materiales incompletos o inconsistentes; algún objeto no tiene material. | No se han aplicado materiales. |
 | **c)** Personaje y objetos | Bien definidos, reconocibles y coherentes dentro del mismo universo visual. | Reconocibles y coherentes, con alguna imprecisión en proporciones o detalle. | Personaje identificable, pero con falta de detalle o coherencia con la escena. | Personaje muy simplificado o apenas distinguible de los objetos. | No se han modelado personajes ni objetos. |
 | **d)** Distribución en escena | Objetos, luces y cámara con una disposición coherente que facilita la lectura visual y narrativa. | Distribución correcta, con algún elemento mal posicionado. | Los elementos están en escena, pero sin un criterio claro de composición. | Escena desorganizada o con elementos esenciales ausentes. | No se ha trabajado la distribución. |
 | **e)** Rigging y animaciones | Rig con jerarquía correcta; animaciones fluidas y creíbles, sin deformaciones. | Rig funcional con algún error menor que no rompe la animación. | Rig básico funcional, con deformaciones visibles en algunos movimientos. | Rig incompleto o con deformaciones que impiden valorar la animación. | No hay sistema de animación. |
