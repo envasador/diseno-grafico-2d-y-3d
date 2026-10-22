@@ -55,31 +55,29 @@ Contextualiza el juego con todo lo que ayude a entenderlo: **género, público, 
 
 ## Qué tienes que producir
 
-**Proceso creativo.** Explica el proceso artístico que vas a seguir (las [etapas del proceso creativo](../concept/proceso-creativo.md) aplicadas a tu proyecto) y cómo vas a incorporar la [perspectiva de género](../concept/perspectiva-de-genero.md).
+Estos pasos son el recorrido completo del concept, en el orden del [proceso creativo](../concept/proceso-creativo.md). **No hace falta que llegues igual de lejos en todos: haz lo que puedas en cada uno, a tu nivel.** Una silueta clara y bien justificada vale más que veinte hechas deprisa. Lo que se evalúa es tu proceso y cómo lo explicas, así que enseña lo que hayas hecho aunque no esté terminado.
 
-**Moodboard y estilo.** Crea un [moodboard](../concept/moodboard.md) de inspiración y elige el [estilo artístico](../concept/estilos-artisticos.md) del juego, justificando la elección según el público, el tono y lo que puedes producir.
+Eso sí, cada paso da evidencias para algunos criterios de la rúbrica, y si te saltas uno entero esos criterios se quedan sin nada que valorar. Por eso conviene que presentes algo en todos, aunque sea sencillo.
 
-**Personaje.** Diseña el personaje o personajes principales. Puedes elegir entre dos formas de construirlos, y en ambas el archivo tiene que mostrar el proceso **separado en capas**, con el personaje terminado en la última:
+1. **Proceso y perspectiva de género.** Cuenta en unas líneas cómo vas a recorrer las [etapas del proceso creativo](../concept/proceso-creativo.md) con tu juego y cómo tienes en cuenta la [perspectiva de género](../concept/perspectiva-de-genero.md) al diseñar a tu personaje.
+2. **Moodboard.** Reúne en Figma un [moodboard](../concept/moodboard.md) con referencias agrupadas por temas.
+3. **Estilo.** Elige el [estilo artístico](../concept/estilos-artisticos.md) del juego y explica por qué encaja con tu público, con el tono y con lo que puedes producir.
+4. **Siluetas.** Prueba varias [siluetas](../concept/siluetas.md) del personaje y elige una, explicando por qué.
+5. **Color.** Define una paleta para el juego y, si te da tiempo, pinta un [color key](../concept/color.md#color-keys-y-color-script) de una escena.
+6. **Personaje.** Desarrolla la silueta elegida hasta el personaje definido, con el proceso **separado en capas** y el personaje terminado en la última. Puedes construirlo por volumen y ritmos (estructura, volúmenes, definición) o a partir de la mancha de la silueta, como enseña el [sistema de boceto por módulos](https://www.youtube.com/watch?v=n4E35sQ1whQ) de JS Linares.
+7. **Escenario.** Ilustra un escenario sencillo que sitúe al personaje en su mundo.
+8. **Composición con título.** Junta personaje, escenario y el título del juego en una ilustración de presentación.
+9. **Exportación.** Exporta la composición para una web promocional, para impresión y para el equipo de producción, indicando qué formato eliges en cada caso y por qué ([Exportar para cada destino](../ut1/01-ilustrar-con-affinity.md#exportar-para-cada-destino)).
+10. **Biblia de arte.** Ordena lo anterior en tu [biblia de arte](../concept/biblia-de-arte.md) de Figma, con los capítulos de visión, estilo, color y personaje.
 
-1. **Por volumen y ritmos:** una capa para la estructura ("esqueleto"), otra para los volúmenes ("músculos"), otra para la definición, y así hasta el personaje final.
-2. **A partir de mancha:** desde la [silueta](../concept/siluetas.md) en masa hasta el personaje definido. El [sistema de boceto por módulos](https://www.youtube.com/watch?v=n4E35sQ1whQ) de JS Linares te enseña a hacerlo paso a paso.
+## Lo que no se pide en este proyecto
 
-**Escenario.** Crea un escenario que contextualice al personaje, aplicando las técnicas vistas en clase o cualquier otra que conozcas.
-
-**Composición de presentación.** Monta una ilustración final con personaje, escenario y el título del juego, integrado con una tipografía adecuada al estilo.
-
-**Exportación.** Exporta el concept art en los formatos adecuados para tres usos:
-
-- Una web promocional.
-- Impresión.
-- El equipo de producción 2D y 3D.
-
-**Biblia de arte.** Abre tu [biblia de arte](../concept/biblia-de-arte.md) en Figma con los capítulos de visión, estilo, color y personaje.
+El **turnaround**, el model sheet, las hojas de expresiones y de poses y los callouts de materiales **no forman parte del Proyecto 0**. Los tienes explicados en [hojas de producción](../concept/hojas-de-produccion.md) porque los vas a necesitar más adelante: la hoja de poses en el concept breve del Proyecto 1 (2D), y el turnaround y los callouts en el del Proyecto 2 (3D), donde te servirán para modelar en Blender.
 
 ## Entrega
 
-- Proyecto de Figma titulado *Concept Art - nombre y apellidos*, con el informe completo del proceso y todos los elementos gráficos que expliquen tanto el proceso como el resultado.
-- Archivos originales del programa de ilustración (Affinity o similar) y los exportados.
+- Proyecto de Figma titulado *Concept Art - nombre y apellidos*, con la biblia de arte y lo que hayas hecho de cada paso, en el mismo orden.
+- Archivos originales de Affinity (o el programa que uses) y los exportados, en la carpeta de Drive enlazada desde Figma.
 
 ## Rúbrica RA1
 
