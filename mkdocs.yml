@@ -65,7 +65,6 @@ exclude_docs: |
   /proyectos/proyecto-2d.md
   /ut3/
   /ut4/
-  /anexo-ui-ux/
   /proyectos/proyecto-3d.md
   /proyectos/proyecto-cinematica.md
 
@@ -106,12 +105,14 @@ nav:
 #  - UT4 Cámara y luz:
 #      - ut4/index.md
 #      - Iluminación: ut4/01-iluminacion.md
-#  - Anexo UI/UX:
-#      - anexo-ui-ux/index.md
-#      - Introducción UI/UX: anexo-ui-ux/01-introduccion-ui-ux.md
-#      - Leyes de UX: anexo-ui-ux/02-leyes-ux.md
-#      - El HUD: anexo-ui-ux/03-hud.md
-#      - Diseño de producto aplicado: anexo-ui-ux/04-diseno-de-producto-aplicado.md
+  - Anexo UI/UX:
+      - anexo-ui-ux/index.md
+      - La UI y la UX de un juego: anexo-ui-ux/01-ui-y-ux.md
+      - El HUD y los tipos de interfaz: anexo-ui-ux/02-hud-y-tipos-de-interfaz.md
+      - Leyes de UX: anexo-ui-ux/03-leyes-de-ux.md
+      - Retícula, safe area y escalado: anexo-ui-ux/04-reticula-safe-area-y-escalado.md
+      - Accesibilidad: anexo-ui-ux/05-accesibilidad.md
+      - De Figma al motor: anexo-ui-ux/06-de-figma-al-motor.md
   - Proyectos:
       - proyectos/index.md
       - Proyecto 0 · Concept: proyectos/proyecto-concept.md

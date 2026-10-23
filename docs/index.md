@@ -20,7 +20,7 @@ La pestaña **Concept** es transversal: recoge el proceso creativo y las herrami
 | UT2 (próximamente) | RA3 | Gráficos y animación 2D |
 | UT3 (próximamente) | RA4 | Gráficos y animación 3D |
 | UT4 (próximamente) | RA5 | Cámara e iluminación 3D |
-| Anexo (próximamente) | Complementario | Diseño UI/UX para videojuegos |
+| [Anexo](anexo-ui-ux/index.md) | Complementario | Diseño UI/UX para videojuegos |
 
 ## Resultados de aprendizaje y criterios de evaluación
 
