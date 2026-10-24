@@ -17,6 +17,7 @@ Este anexo trata de eso: de **cómo se diseñan los menús, las barras de vida, 
 | [A.4 Retícula, safe area y escalado](04-reticula-safe-area-y-escalado.md) | Cómo organizar la pantalla y conseguir que la interfaz funcione en cualquier resolución |
 | [A.5 Accesibilidad](05-accesibilidad.md) | Opciones de visión, audición, control y dificultad, el libro blanco de AEVI y Fundación ONCE y otras guías de la industria |
 | [A.6 De Figma al motor](06-de-figma-al-motor.md) | El proceso completo para diseñar la interfaz de tu juego y llevarla a Unity o Godot |
+| [A.7 Hoja de ruta](07-ruta-practica.md) | Las fases que sigue un estudio para crear una interfaz, aplicadas a tu propio juego |
 
 Puedes leerlos en orden o ir directamente al que necesites. Si solo tienes tiempo para uno, empieza por el **A.2**: después de leerlo no vas a volver a mirar la pantalla de un juego de la misma manera.
 

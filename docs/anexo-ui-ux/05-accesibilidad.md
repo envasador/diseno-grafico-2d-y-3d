@@ -31,14 +31,36 @@ No todo el mundo juega al mismo nivel, y no todo el mundo procesa la informació
 
 En el lado de la interfaz, ayuda mucho que los **tutoriales se puedan volver a consultar**, que el **objetivo actual esté siempre accesible** (para quien deja el juego una semana y vuelve sin acordarse de nada) y que los textos sean **cortos y claros**.
 
+## El libro blanco de accesibilidad de AEVI y Fundación ONCE
+
+En 2023, la Asociación Española del Videojuego (AEVI) y la Fundación ONCE publicaron el [Libro blanco de accesibilidad para desarrolladores](https://www.aevi.org.es/web/wp-content/uploads/2023/06/libro_blanco_de_accesibilidad_para_desarrolladores_digital2023_acf.pdf), una guía gratuita, en español y pensada para estudios de cualquier tamaño, del triple A al indie de dos personas. Se apoya en la norma europea de accesibilidad para productos tecnológicos (la EN 301 549), y es probablemente **la mejor puerta de entrada al tema** que tienes en tu idioma.
+
+Lo primero que propone es un cambio de mirada. En lugar de hablar de tipos de discapacidad, habla de **perfiles funcionales**, es decir, de **cómo usa cada persona la tecnología**: con visión parcial o sin visión, con audición parcial o sin audición, con dificultad moderada o severa para manipular el mando o hacer fuerza, con dificultad para la comprensión, para distinguir colores o para hablar. Da igual el motivo: alguien que juega con el volumen a cero tiene, en ese momento, el mismo perfil que alguien con audición nula.
+
+Después recoge **61 medidas de accesibilidad**, cada una en una ficha con su descripción, los perfiles a los que ayuda (y para cuáles es imprescindible) y **cómo implementarla**. Las clasifica de una a cinco estrellas según lo **difícil que es implementarlas**. La buena noticia está en el reparto: **28 de las 61 medidas son de una sola estrella**, es decir, las más sencillas. Y muchas de ellas son decisiones de diseño de interfaz:
+
+- **Iconos representativos** (una estrella): los iconos que acompañan a los textos tienen que entenderse por sí solos.
+- **Tipografía alternativa de fácil lectura** (una estrella): poder cambiar a una fuente de palo seco (sans serif) más legible, por ejemplo para personas con dislexia.
+- **Duración de las notificaciones** (una estrella): que el jugador pueda decidir cuánto tiempo se quedan los avisos en pantalla.
+- **Efectos repetidos** (una estrella): poder desactivar destellos y luces estroboscópicas.
+- **Información con códigos de color** (dos estrellas): nada importante puede depender solo del color. El ejemplo del libro es estupendo para un artista: **pociones de distinto color que además llevan objetos distintos dentro**, o texturas diferentes.
+- **Tamaño de letra** y **subtítulos** configurables (dos estrellas), con la advertencia de que el tamaño mínimo y máximo de los textos hay que decidirlo **desde la fase de diseño**, para que la maquetación aguante los dos extremos.
+- **Personalización del HUD** (tres estrellas): escala, fondo, color, parpadeo. Su consejo de implementación es puro diseño: **al plantear el HUD, contempla desde el principio todas sus variantes**.
+
+Al final incluye unas **tablas de autoevaluación** por perfil, donde marcas cada medida como "cumple", "no cumple" o "no aplica". Y si quieres ver cómo se aplica todo esto a juegos reales, el portal [Ga11y: videojuegos accesibles](https://ga11y.fundaciononce.es/) de la Fundación ONCE (se pronuncia "gali") analiza la accesibilidad de juegos comerciales con esa misma metodología.
+
+!!! example "Haz la prueba"
+    Elige un juego al que juegues y pásale la tabla de autoevaluación de un perfil del libro blanco (la de visión parcial o la de dificultad para ver colores son buenas para empezar). ¿Cuántas medidas cumple? Después mira las de una estrella que no cumple: casi todas se habrían resuelto con una decisión tomada en el diseño de la interfaz.
+
 ## Las guías de la industria
 
-Hay guías muy completas y gratuitas que usa toda la industria, y te ahorran buena parte del trabajo.
+Además del libro blanco, hay otras guías muy completas y gratuitas que usa toda la industria, y te ahorran buena parte del trabajo.
 
 | Guía | Qué tiene |
 |---|---|
+| [Libro blanco de accesibilidad para desarrolladores](https://www.aevi.org.es/web/wp-content/uploads/2023/06/libro_blanco_de_accesibilidad_para_desarrolladores_digital2023_acf.pdf) | 61 medidas en español, clasificadas por dificultad de implementación, con perfiles funcionales y tablas de autoevaluación (AEVI y Fundación ONCE) |
 | [Game Accessibility Guidelines](https://gameaccessibilityguidelines.com/) | Recomendaciones organizadas en tres niveles (básico, intermedio y avanzado), con ejemplos de juegos reales |
 | [Xbox Accessibility Guidelines](https://learn.microsoft.com/en-us/gaming/accessibility/guidelines) | Las guías de Microsoft, con medidas concretas como los tamaños mínimos de texto |
 | [Can I Play That?](https://caniplaythat.com/) | Análisis de juegos desde el punto de vista de la accesibilidad, escritos por jugadores con discapacidad |
 
-Si solo vas a mirar una, empieza por el **nivel básico de Game Accessibility Guidelines**. Casi todo lo que hay ahí cuesta poco de implementar, y a menudo basta con **tenerlo en cuenta al diseñar** para no tener que rehacer nada después.
+Si solo vas a mirar una, empieza por **el libro blanco**, que está en español y ordena las medidas de más fácil a más difícil, o por el **nivel básico de Game Accessibility Guidelines**. Casi todo lo que hay ahí cuesta poco de implementar, y a menudo basta con **tenerlo en cuenta al diseñar** para no tener que rehacer nada después.
