@@ -22,6 +22,22 @@ En la industria, **Figma** se usa sobre todo en las fases de diseño: flujos, wi
 
 Resumiendo: **Figma sirve para decidir y el motor para construir.** Todo lo que defines en Figma (jerarquía, estados, anclajes, nombres de las piezas) es justo la información que necesita quien monte la interfaz, aunque esa persona seas tú.
 
+## Qué hace cada perfil
+
+En un estudio, la interfaz pasa por tres perfiles distintos. Conviene que sepas qué hace cada uno, porque en cada fase de la ruta verás quién la lleva.
+
+| | Diseñador de UX | Artista de UI | Programador de UI |
+|---|---|---|---|
+| **Se pregunta** | ¿El jugador entiende lo que pasa y encuentra lo que busca? | ¿Se ve bien y parece del mismo juego? | ¿Funciona en el motor, con datos reales y en cualquier pantalla? |
+| **Trabaja con** | Diseño de juego, investigación y QA | Dirección de arte y UX | UX, UI art y el resto de programación |
+| **Fases donde más pesa** | Requisitos, investigación, flujos, wireframes y pruebas | Dirección visual, guía de estilo, assets y animación | Prototipo en el motor, integración y ajustes finales |
+| **Entrega** | Flujos de pantallas, wireframes, prototipos e informes de pruebas | Mockups, guía de estilo, kit de UI, iconos y referencias de movimiento | Las pantallas montadas en el motor y conectadas a los datos del juego |
+| **Herramientas** | Papel, pizarra y Figma | Figma, Photoshop, Illustrator, After Effects o Rive | Unity, Unreal o Godot y su sistema de UI |
+
+Dos matices importantes. El primero: **las fronteras son borrosas**. Ben Humphreys es programador de UI, pero empieza preguntando a diseño y dibujando wireframes en papel, que en teoría es trabajo de UX. Y las ofertas de empleo de artista de UI piden también wireframes, flujos y prototipos. En la práctica, cada perfil hace un poco del trabajo de los otros dos.
+
+El segundo: **en un estudio pequeño es una sola persona**. Humphreys cuenta que en su estudio a menudo no hay diseñador de UX ni de UI dedicado, y que ese papel lo cubren él y el director de arte. Es tu caso en los proyectos del curso: vas a llevar los tres perfiles a la vez.
+
 ## Fase 1. Requisitos: qué necesita saber el jugador
 
 **En un estudio:** antes de dibujar nada, quien diseña la interfaz se sienta con diseño de juego y pregunta. Qué información necesita el jugador, qué es prioritario, qué puede pasar a la vez (¿se puede estar envenenado y quemado al mismo tiempo?), en qué plataformas sale el juego y a qué idiomas se va a traducir. Ben Humphreys, programador de UI en Brace Yourself Games, lo resume diciendo que al principio su trabajo es "muy de texto".
