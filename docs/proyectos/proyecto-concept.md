@@ -70,10 +70,6 @@ Eso sí, cada paso da evidencias para algunos criterios de la rúbrica, y si te 
 9. **Exportación.** Exporta la composición para una web promocional, para impresión y para el equipo de producción, indicando qué formato eliges en cada caso y por qué ([Exportar para cada destino](../ut1/01-ilustrar-con-affinity.md#exportar-para-cada-destino)).
 10. **Biblia de arte.** Ordena lo anterior en tu [biblia de arte](../concept/biblia-de-arte.md) de Figma, con los capítulos de visión, estilo, color y personaje.
 
-## Lo que no se pide en este proyecto
-
-El **turnaround**, el model sheet, las hojas de expresiones y de poses y las anotaciones de materiales **no forman parte del Proyecto 0**. Los tienes explicados en [hojas de producción](../concept/hojas-de-produccion.md) porque los vas a necesitar más adelante: la hoja de poses en el concept breve del Proyecto 1 (2D), y el turnaround y las anotaciones en el del Proyecto 2 (3D), donde te servirán para modelar en Blender.
-
 ## Entrega
 
 - Proyecto de Figma titulado *Concept Art - nombre y apellidos*, con la biblia de arte y lo que hayas hecho de cada paso, en el mismo orden.
