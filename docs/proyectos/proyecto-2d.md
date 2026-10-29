@@ -68,8 +68,6 @@ Puedes hacerlo **en pixel art o en arte 2D vectorial**:
 
 ## Rúbrica RA3
 
-<div class="rubrica" markdown>
-
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|
 | **a)** Personajes 2D a partir de la descripción o boceto | Personajes de alta calidad, fieles al concept y con detalles que lo enriquecen. | Fieles al concept, con un buen nivel de detalle. | Reflejan el concept, con detalles mejorables. | Básicos, con errores de fidelidad respecto al concept. | No se han creado personajes adecuados. |
@@ -80,5 +78,3 @@ Puedes hacerlo **en pixel art o en arte 2D vectorial**:
 | **f)** Herramientas de creación de niveles | Niveles detallados y funcionales, con mapas de patrones bien aplicados. | Niveles bien estructurados. | Manejo adecuado, con errores en la organización de los patrones. | Uso básico, con problemas al aplicar los patrones. | No usa las herramientas de creación de niveles. |
 | **g)** Perspectiva | Perspectiva correcta en todos los elementos, con profundidad y coherencia visual. | Perspectiva adecuada, con pequeños errores. | Conceptos básicos, con algunas inconsistencias. | Uso limitado, con errores evidentes de profundidad. | No aplica la perspectiva. |
 | **h)** Fondos con técnicas de diseño 2D | Fondos detallados y coherentes con el estilo, con varias técnicas aplicadas con maestría. | Fondos adecuados al estilo, con técnicas bien aplicadas. | Funcionales, con falta de detalle o técnicas poco variadas. | Básicos, con errores de integración. | No diseña fondos adecuados. |
-
-</div>

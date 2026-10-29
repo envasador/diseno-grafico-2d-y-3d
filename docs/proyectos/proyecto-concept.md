@@ -77,8 +77,6 @@ Eso sí, cada paso da evidencias para algunos criterios de la rúbrica, y si te 
 
 ## Rúbrica RA1
 
-<div class="rubrica" markdown>
-
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|
 | **a)** Conceptos fundamentales del arte conceptual | Identifica y justifica todos los conceptos clave, con un conocimiento profundo y contextualizado. | Identifica correctamente la mayoría de los conceptos clave, con justificaciones claras. | Identifica los conceptos fundamentales, pero sin profundizar en todos ellos. | Muestra comprensión básica de los conceptos, con algunas carencias. | No identifica adecuadamente los conceptos fundamentales. |
@@ -88,8 +86,6 @@ Eso sí, cada paso da evidencias para algunos criterios de la rúbrica, y si te 
 | **e)** Diseño de fondos y escenarios | Fondos y escenarios de gran calidad visual, adecuados al estilo y coherentes con el diseño general. | Bien estructurados, con pocos errores de coherencia. | Correctos, pero con falta de detalles o elementos clave. | Básicos, con errores de coherencia o calidad. | No son adecuados ni coherentes con el estilo del juego. |
 | **f)** Valoración del estilo artístico | Selecciona y justifica el estilo con argumentos sólidos, considerando el público objetivo. | Selecciona adecuadamente el estilo, con una justificación general. | Selección correcta, pero con una justificación limitada o vaga. | Selección básica, sin justificación clara. | No selecciona un estilo adecuado o no lo justifica. |
 | **g)** Técnicas de creación de personajes | Identifica y aplica las técnicas más adecuadas para cada personaje, con un dominio claro. | Identifica adecuadamente las técnicas y las aplica bien en la mayoría de los casos. | Identifica técnicas apropiadas, pero con limitaciones en su aplicación. | Comprensión básica de las técnicas, con errores en su aplicación. | No identifica las técnicas adecuadas. |
-
-</div>
 
 ## Rúbrica RA2
 

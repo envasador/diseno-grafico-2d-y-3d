@@ -126,8 +126,6 @@ Sube a Moodle antes de la fecha y hora indicadas:
 
 ## Rúbrica RA4
 
-<div class="rubrica" markdown>
-
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|
 | **a)** Modelado | Topología limpia, sin errores de malla, con proporciones coherentes con el turnaround. | Topología mayoritariamente correcta, con algún error menor que no afecta al resultado. | Objetos reconocibles y funcionales, con problemas de topología visibles. | Modelado muy básico o incompleto, con errores que afectan al resultado. | No se han creado modelos 3D. |
@@ -140,5 +138,3 @@ Sube a Moodle antes de la fecha y hora indicadas:
 | **h)** UV mapping | Sin solapamientos, con buen aprovechamiento del espacio y sin distorsiones. | Correcto en casi todos los modelos, con alguna distorsión en zonas poco visibles. | Básico, con distorsiones o solapamientos en algunas partes. | Problemas graves que deforman las texturas. | No se ha hecho UV mapping. |
 | **i)** Interpolación | Transiciones fluidas, con curvas bien ajustadas (ease in y ease out). | Interpolaciones correctas, con alguna transición demasiado lineal. | Movimientos funcionales pero mecánicos. | Movimientos poco naturales o con saltos evidentes. | No se han aplicado interpolaciones. |
 | **j)** Conjunto de animaciones | Ciclo del personaje y animación de objeto diferenciados, fluidos y bien definidos. | Las dos animaciones son correctas; una podría mejorar. | Al menos una animación funcional, aunque básica. | Animación incompleta o con errores evidentes. | No se han generado animaciones. |
-
-</div>
