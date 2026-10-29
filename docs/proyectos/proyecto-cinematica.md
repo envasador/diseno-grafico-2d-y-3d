@@ -101,6 +101,8 @@ Sube a Moodle antes de la fecha y hora indicadas:
 
 ## Rúbrica RA5
 
+<div class="rubrica" markdown>
+
 | Criterio | Excelente | Notable | Adecuado | Insuficiente | No presenta |
 |---|---|---|---|---|---|
 | **a)** Conceptos fundamentales de iluminación | Luz principal, relleno y acentos bien definidos; el resultado se acerca al color key y la intención está explicada. | Esquema correcto y coherente con el color key, con alguna explicación breve. | Luces funcionales, pero con problemas de contraste o distribución. | La iluminación no aporta nada a la lectura de la escena. | No se ha configurado la iluminación. |
@@ -111,3 +113,5 @@ Sube a Moodle antes de la fecha y hora indicadas:
 | **f)** Múltiples cámaras | Tres o más planos diferenciados, con cortes bien situados y ritmo cuidado. | Tres planos bien configurados; el ritmo podría estar más trabajado. | Varios planos, pero muy similares entre sí o con cortes bruscos. | Una sola cámara o cámaras sin encuadres relevantes. | No hay cámaras. |
 | **g)** Iluminación dinámica y estática | Entorno horneado y luces dinámicas bien justificadas, con las diferencias explicadas y visibles. | Distinción implementada, con una explicación breve. | Distinción implementada, sin explicar sus diferencias. | Intento de horneado o de luces dinámicas sin resultado funcional. | No se distingue entre luz estática y dinámica. |
 | **h)** Configuraciones según el tipo de juego | Cámara de juego y luz adaptadas al género y justificadas frente a la configuración de la cinemática. | Configuración coherente con el género, con una justificación breve. | Se menciona el género, pero la configuración no lo refleja. | La configuración no guarda relación con el tipo de juego. | No se ha considerado el tipo de juego. |
+
+</div>
