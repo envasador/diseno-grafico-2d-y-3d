@@ -738,3 +738,25 @@ body,
   text-transform: none !important;
   letter-spacing: 0 !important;
 }
+
+/* ===== RÚBRICAS ===== */
+/* Letra más pequeña y tabla a todo el ancho para verla entera sin desplazar */
+.md-typeset .rubrica .md-typeset__table,
+.md-typeset .rubrica table:not([class]) {
+  display: table !important;
+  width: 100% !important;
+}
+
+.md-typeset .rubrica table:not([class]) {
+  font-size: 0.6rem !important;
+  line-height: 1.4 !important;
+}
+
+.md-typeset .rubrica table:not([class]) th {
+  font-size: 0.58rem !important;
+}
+
+.md-typeset .rubrica table:not([class]) th,
+.md-typeset .rubrica table:not([class]) td {
+  padding: 0.5em 0.7em !important;
+}
