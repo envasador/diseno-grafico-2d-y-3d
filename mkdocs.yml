@@ -61,7 +61,6 @@ markdown_extensions:
 exclude_docs: |
   /profe/
   /assets/concept/moodboard-amate-jimenez-angela.png
-  /ut2/
   /proyectos/proyecto-2d.md
   /ut3/
   /ut4/
@@ -86,17 +85,17 @@ nav:
       - Ilustrar con Affinity: ut1/01-ilustrar-con-affinity.md
       - Del boceto a la ilustración: ut1/02-del-boceto-a-la-ilustracion.md
       - Tutoriales de Affinity: ut1/03-tutoriales-affinity.md
-#  - UT2 Arte 2D:
-#      - ut2/index.md
-#      - El arte 2D: ut2/01-arte-2d.md
-#      - Programas para pixel art: ut2/02-programas-pixel-art.md
-#      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
-#      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
-#      - Principios de animación: ut2/05-principios-de-animacion.md
-#      - Animación de espera: ut2/06-animacion-de-espera.md
-#      - Walking cycle: ut2/07-walking-cycle.md
-#      - Animación de ataque: ut2/08-animacion-de-ataque.md
-#      - Escenarios 2D: ut2/09-escenarios-2d.md
+  - UT2 Arte 2D:
+      - ut2/index.md
+      - El arte 2D: ut2/01-arte-2d.md
+      - Programas para pixel art: ut2/02-programas-pixel-art.md
+      - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
+      - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
+      - Principios de animación: ut2/05-principios-de-animacion.md
+      - Animación de espera: ut2/06-animacion-de-espera.md
+      - Walking cycle: ut2/07-walking-cycle.md
+      - Animación de ataque: ut2/08-animacion-de-ataque.md
+      - Escenarios 2D: ut2/09-escenarios-2d.md
 #  - UT3 Arte 3D:
 #      - ut3/index.md
 #      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
