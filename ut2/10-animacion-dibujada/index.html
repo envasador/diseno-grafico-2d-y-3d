@@ -1,0 +1,2169 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Material didáctico del módulo Diseño Gráfico 2D y 3D del CE Desarrollo de Videojuegos y Realidad Virtual del IES Rafael Alberti.">
+      
+      
+        <meta name="author" content="Alejandro Carmona Martos">
+      
+      
+      
+        <link rel="prev" href="../09-escenarios-2d/">
+      
+      
+        <link rel="next" href="../../anexo-ui-ux/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Animación dibujada - Diseño Gráfico 2D y 3D</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Sans";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ut210-animacion-dibujada" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Diseño Gráfico 2D y 3D" class="md-header__button md-logo" aria-label="Diseño Gráfico 2D y 3D" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño Gráfico 2D y 3D
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Animación dibujada
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/envasador/diseno-grafico-2d-y-3d" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    diseno-grafico-2d-y-3d
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../concept/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Concept
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ut1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  UT1 Ilustración
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  UT2 Arte 2D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../anexo-ui-ux/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Anexo UI/UX
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../proyectos/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Proyectos
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Diseño Gráfico 2D y 3D" class="md-nav__button md-logo" aria-label="Diseño Gráfico 2D y 3D" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Diseño Gráfico 2D y 3D
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/envasador/diseno-grafico-2d-y-3d" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    diseno-grafico-2d-y-3d
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../concept/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Concept
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/proceso-creativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proceso creativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/moodboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Moodboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/siluetas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Siluetas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/thumbnails/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thumbnails y formas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/color/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Color y luz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/estilos-artisticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estilos artísticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/hojas-de-produccion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hojas de producción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/perspectiva-de-genero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perspectiva de género
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concept/biblia-de-arte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblia de arte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ut1/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UT1 Ilustración
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    UT1 Ilustración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ut1/01-ilustrar-con-affinity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ilustrar con Affinity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ut1/02-del-boceto-a-la-ilustracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Del boceto a la ilustración
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ut1/03-tutoriales-affinity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutoriales de Affinity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UT2 Arte 2D
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    UT2 Arte 2D
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-arte-2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    El arte 2D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-programas-pixel-art/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Programas para arte 2D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-tamano-de-la-imagen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tamaño de la imagen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-tiles-y-sprite-sheets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tiles y sprite sheets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-principios-de-animacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Principios de animación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-animacion-de-espera/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animación de espera
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-walking-cycle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Walking cycle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-animacion-de-ataque/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animación de ataque
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-escenarios-2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Escenarios 2D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animación dibujada
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animación dibujada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#como-esta-hecho-hollow-knight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo está hecho Hollow Knight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disenar-un-personaje-que-puedas-animar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diseñar un personaje que puedas animar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#el-proceso-de-un-frame-dibujado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso de un frame dibujado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#animar-a-unos-y-a-doses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animar a unos y a doses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-el-personaje-no-cambie-de-un-frame-a-otro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Que el personaje no cambie de un frame a otro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenarios-por-capas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escenarios por capas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-cambia-respecto-al-pixel-art" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué cambia respecto al pixel art
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../anexo-ui-ux/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexo UI/UX
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Anexo UI/UX
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/01-ui-y-ux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    La UI y la UX de un juego
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/02-hud-y-tipos-de-interfaz/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    El HUD y los tipos de interfaz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/03-leyes-de-ux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leyes de UX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/04-reticula-safe-area-y-escalado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retícula, safe area y escalado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/05-accesibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accesibilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/06-de-figma-al-motor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    De Figma al motor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anexo-ui-ux/07-ruta-practica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hoja de ruta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../proyectos/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proyectos/proyecto-concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto 0 · Concept
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#como-esta-hecho-hollow-knight" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cómo está hecho Hollow Knight
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disenar-un-personaje-que-puedas-animar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diseñar un personaje que puedas animar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#el-proceso-de-un-frame-dibujado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        El proceso de un frame dibujado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#animar-a-unos-y-a-doses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animar a unos y a doses
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-el-personaje-no-cambie-de-un-frame-a-otro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Que el personaje no cambie de un frame a otro
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenarios-por-capas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escenarios por capas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#que-cambia-respecto-al-pixel-art" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué cambia respecto al pixel art
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="ut210-animacion-dibujada">UT2.10 Animación dibujada<a class="headerlink" href="#ut210-animacion-dibujada" title="Permanent link">&para;</a></h1>
+<p>Llevas toda la unidad contando píxeles. Pero a lo mejor el juego que tienes en la cabeza se parece más a <em>Hollow Knight</em> que a <em>Celeste</em>: trazo de dibujo, formas suaves, nada de rejilla. ¿Hay que empezar de cero?</p>
+<p>Para nada. <strong>Casi todo lo que has visto sirve tal cual</strong>: las poses clave, el timing, el idle, el walking cycle, los cuatro estados del ataque, los sprite sheets y el parallax. Lo que cambia es <strong>la herramienta, el tamaño, lo que cuesta cada frame y la forma de montar el escenario</strong>. En este apartado verás esas diferencias usando <em>Hollow Knight</em> como ejemplo, porque lo hizo un equipo diminuto (casi todo el arte salió de una sola persona, Ari Gibson) y aun así es uno de los juegos dibujados más bonitos que hay.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2IfLmc9ZHt8" title="Análisis del estilo artístico de Hollow Knight, de The Superforge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>El vídeo está en inglés (puedes activar los subtítulos traducidos) y analiza <strong>cómo el estilo de <em>Hollow Knight</em> está al servicio del juego</strong>: por qué los personajes son tan simples, cómo se usa el color para separar zonas y cómo se integra todo con el sonido.</p>
+<h2 id="como-esta-hecho-hollow-knight">Cómo está hecho Hollow Knight<a class="headerlink" href="#como-esta-hecho-hollow-knight" title="Permanent link">&para;</a></h2>
+<p>Team Cherry dibujó <strong>todo el arte y la animación a mano en Photoshop</strong>, frame a frame, y lo guardó como <strong>PNG normales y corrientes</strong> que después montaba en Unity. Nada de trucos raros: los mismos sprites que vas a exportar tú. Ni siquiera la luz es real. La mayoría de brillos y penumbras son <strong>formas suaves y semitransparentes dibujadas encima</strong>, que dan la sensación de luz sin que el motor tenga que calcular nada.</p>
+<figure>
+<p><img alt="Idle de un personaje de Hollow Knight" loading="lazy" src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1619052826263-J027H0HTVKG7DP4GJZ4E/idle.gif" /></p>
+<figcaption>Un idle dibujado frame a frame: pocos dibujos, formas muy limpias y el movimiento justo para que el personaje esté vivo. © Team Cherry, imagen enlazada desde su <a href="https://www.teamcherry.com.au/introducing-hollow-knight">blog</a>. Uso con fines educativos.</figcaption>
+</figure>
+<p>En <a href="https://www.teamcherry.com.au/introducing-hollow-knight">su blog</a> cuentan que eligieron un estilo <strong>casi monocromo a propósito</strong>: al quitar detalle, cada enemigo, personaje y escenario nuevo se producía mucho más deprisa, y eso les permitió llenar el mundo de bichos distintos. Y en unos comentarios que recoge <a href="https://80.lv/articles/breakdown-hollow-knights-art-style">80 Level</a>, uno de sus desarrolladores explicaba que <strong>el número de frames de cada animación lo marcó el presupuesto</strong>, y que la mayoría de ataques son <strong>un único frame de tajo seguido de su continuación</strong>. Si vienes de la <a href="../08-animacion-de-ataque/">animación de ataque</a>, eso te suena: anticipación corta, golpe instantáneo y que el final haga el resto.</p>
+<h2 id="disenar-un-personaje-que-puedas-animar">Diseñar un personaje que puedas animar<a class="headerlink" href="#disenar-un-personaje-que-puedas-animar" title="Permanent link">&para;</a></h2>
+<p>En pixel art el tamaño te obliga a simplificar. Dibujando no hay nada que te frene, y ahí está la trampa: <strong>cada detalle que añades al diseño lo vas a redibujar en cada frame de cada animación</strong>. Esa capa con cinco pliegues y tres hebillas que tan bien quedaba en la ilustración se convierte, multiplicada por cuarenta frames, en tu peor enemigo.</p>
+<p>Fíjate en <a href="https://hollowknight.wiki/w/File:Hornet_(Hollow_Knight).png">Hornet</a> o en el propio protagonista: <strong>silueta muy marcada, colores planos y casi ningún detalle interior</strong>. Se reconocen en un vistazo, en movimiento y a tamaño pequeño, que es justo lo que trabajaste en las <a href="../../concept/siluetas/">siluetas</a> del concept.</p>
+<figure>
+<p><img alt="Bichos infectados de Hollow Knight" loading="lazy" src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1619052813236-DNRUCQVI9NGCJYSGIR5R/infected_bugs.gif" /></p>
+<figcaption>Enemigos distintos con el mismo lenguaje de formas sencillas: así se puede producir mucha variedad sin morir en el intento. © Team Cherry, imagen enlazada desde su <a href="https://www.teamcherry.com.au/introducing-hollow-knight">blog</a>. Uso con fines educativos.</figcaption>
+</figure>
+<p>Haz la prueba con tu personaje: <strong>tápale los ojos al diseño y mira solo la mancha</strong>. Si se entiende qué es y hacia dónde mira, se puede animar. Si necesita sus detalles para leerse, simplifícalo antes de dibujar el primer frame.</p>
+<h2 id="el-proceso-de-un-frame-dibujado">El proceso de un frame dibujado<a class="headerlink" href="#el-proceso-de-un-frame-dibujado" title="Permanent link">&para;</a></h2>
+<p>Un frame de pixel art lo vas puliendo píxel a píxel. Un frame dibujado <strong>pasa por varias fases</strong>, y lo importante es el orden en que las recorres:</p>
+<ol>
+<li><strong>Rough.</strong> Un boceto rápido y suelto de la pose, sin preocuparte por la línea.</li>
+<li><strong>Limpieza.</strong> Repasas el rough con una línea limpia en una capa nueva (o directamente con manchas de color, si tu estilo no lleva contorno).</li>
+<li><strong>Color plano.</strong> Rellenas cada zona con su color base.</li>
+<li><strong>Luz y sombra.</strong> Solo lo justo. En un estilo como el de <em>Hollow Knight</em>, casi nada.</li>
+</ol>
+<p>El truco está en <strong>animar la acción completa en rough antes de limpiar un solo frame</strong>. Igual que con los <a href="../05-principios-de-animacion/#fotogramas-clave">fotogramas clave</a>, reproduces los borradores, compruebas que la acción y el timing funcionan y solo entonces pasas a limpio. Limpiar un frame precioso que luego descubres que sobraba es de las cosas más tristes que le pueden pasar a un animador.</p>
+<p>Si quieres ver cómo de sueltos pueden ser esos primeros dibujos, el museo ACMI de Melbourne expuso <a href="https://www.acmi.net.au/works/99982--hollow-knight-paper-sketchbook-a5-moleskine-red-cover/">los cuadernos de desarrollo de Hollow Knight</a> de Ari Gibson: <strong>todo empezó en un Moleskine</strong>.</p>
+<h2 id="animar-a-unos-y-a-doses">Animar a unos y a doses<a class="headerlink" href="#animar-a-unos-y-a-doses" title="Permanent link">&para;</a></h2>
+<p>En animación tradicional se habla de animar <strong>a unos</strong> cuando cada dibujo dura un fotograma y <strong>a doses</strong> cuando cada dibujo se mantiene dos fotogramas seguidos. A 24 fotogramas por segundo, animar a doses significa <strong>12 dibujos por segundo en lugar de 24</strong>. Es decir, la mitad de trabajo.</p>
+<p>¿Se nota? Mucho menos de lo que crees. La mayor parte de la animación clásica se hizo a doses, y en un videojuego el efecto es todavía más suave porque el ojo está pendiente de jugar. Reserva los unos para los momentos muy rápidos (un tajo, un impacto) y anima el resto a doses o incluso a treses.</p>
+<p>En el motor esto se traduce en algo que ya conoces del <a href="../05-principios-de-animacion/#timing">timing</a>: <strong>no todos los frames tienen que durar lo mismo</strong>. Dibuja menos y deja que cada dibujo aguante en pantalla el tiempo que necesita.</p>
+<table>
+<thead>
+<tr>
+<th>Forma de animar</th>
+<th>Dibujos por segundo (a 24 fps)</th>
+<th>Cuándo usarla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A unos</td>
+<td>24</td>
+<td>Movimientos muy rápidos o muy suaves, en momentos puntuales</td>
+</tr>
+<tr>
+<td>A doses</td>
+<td>12</td>
+<td>La opción por defecto para casi todo</td>
+</tr>
+<tr>
+<td>A treses</td>
+<td>8</td>
+<td>Idles, gestos tranquilos, personajes de fondo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="que-el-personaje-no-cambie-de-un-frame-a-otro">Que el personaje no cambie de un frame a otro<a class="headerlink" href="#que-el-personaje-no-cambie-de-un-frame-a-otro" title="Permanent link">&para;</a></h2>
+<p>En pixel art la rejilla te sujeta: si la cabeza mide 8 píxeles, mide 8 en todos los frames. Dibujando a mano no hay rejilla, y es facilísimo que <strong>el personaje engorde, encoja o cambie de proporciones</strong> entre un frame y el siguiente sin que te des cuenta hasta que lo reproduces (y entonces tiembla como un flan).</p>
+<p>Para evitarlo tienes dos aliados. El primero es tu <a href="../../concept/hojas-de-produccion/#model-sheet">model sheet</a>, que aquí pasa de ser recomendable a <strong>imprescindible</strong>: tenlo siempre abierto al lado. El segundo es el <strong>papel cebolla (onion skin)</strong>, que te muestra en transparencia el frame anterior y el siguiente para comparar tamaños mientras dibujas. Y otra vez, cuanto más sencillo es el diseño, más fácil es mantenerlo estable.</p>
+<h2 id="escenarios-por-capas">Escenarios por capas<a class="headerlink" href="#escenarios-por-capas" title="Permanent link">&para;</a></h2>
+<p>Los escenarios de <em>Hollow Knight</em> <strong>se montan colocando piezas dibujadas</strong> (rocas, columnas, raíces, plantas) en capas a distintas profundidades. Nada encaja en una rejilla, y por eso no se nota la repetición. Como esas capas viven en un espacio con profundidad, al mover la cámara cada una se desplaza a su ritmo y el <a href="../09-escenarios-2d/#fondos-y-parallax">parallax</a> sale solo.</p>
+<figure>
+<p><img alt="Escena atmosférica de Hollow Knight" loading="lazy" src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1619052859725-2QOOV2LX2JMOHJ4ZRFM3/atmospheric_example_01_banner.gif" /></p>
+<figcaption>Capas de piezas dibujadas, niebla y partículas: la profundidad sale de apilar planos, sin ningún tile a la vista. © Team Cherry, imagen enlazada desde su <a href="https://www.teamcherry.com.au/introducing-hollow-knight">blog</a>. Uso con fines educativos.</figcaption>
+</figure>
+<p>Ahora bien, el personaje necesita un suelo por el que andar y unas paredes con las que chocar, y eso <strong>sigue siendo un conjunto de piezas que se repiten</strong>. Tienes dos caminos. El primero es un <strong>tileset dibujado</strong>: las mismas reglas de <a href="../09-escenarios-2d/#tilesets-construir-con-piezas">tilesets</a> que ya conoces (que encaje, que cubra todos los casos, con variantes), pero con piezas más grandes y trazo de dibujo. El segundo, en Unity, es el paquete <strong>2D Sprite Shape</strong>, que repite una textura dibujada a lo largo de una curva que trazas en el editor. Es muy cómodo para suelos orgánicos con cuestas y bordes irregulares. Sobre esa base jugable colocas la decoración libremente, en capas por delante y por detrás.</p>
+<h2 id="que-cambia-respecto-al-pixel-art">Qué cambia respecto al pixel art<a class="headerlink" href="#que-cambia-respecto-al-pixel-art" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Pixel art</th>
+<th>Animación dibujada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Herramienta</td>
+<td>Editor de pixel art (Aseprite, Pyxel Edit)</td>
+<td>Programa de dibujo con línea de tiempo (Krita, Clip Studio Paint)</td>
+</tr>
+<tr>
+<td>Tamaño</td>
+<td>Lienzo pequeño y fijo, en potencias de dos</td>
+<td>Se dibuja más grande y se reduce al exportar</td>
+</tr>
+<tr>
+<td>Coste de cada frame</td>
+<td>Bajo o medio</td>
+<td>Alto: cada frame pasa por rough, limpieza y color</td>
+</tr>
+<tr>
+<td>Número de frames</td>
+<td>Pocos frames bien elegidos</td>
+<td>Todavía menos, animando a doses o a treses</td>
+</tr>
+<tr>
+<td>Consistencia</td>
+<td>La rejilla la garantiza</td>
+<td>Depende del model sheet y del papel cebolla</td>
+</tr>
+<tr>
+<td>Escenario</td>
+<td>Tileset en rejilla y fondos por capas</td>
+<td>Base jugable con tiles o Sprite Shape y decoración libre en capas</td>
+</tr>
+<tr>
+<td>Exportación</td>
+<td>Sprite sheet en PNG</td>
+<td>Sprite sheet en PNG (igual)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+          
+          <a href="../09-escenarios-2d/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Escenarios 2D">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Escenarios 2D
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../anexo-ui-ux/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Anexo · Diseño UI/UX para videojuegos">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Anexo · Diseño UI/UX para videojuegos
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>

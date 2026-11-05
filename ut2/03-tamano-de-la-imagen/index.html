@@ -963,6 +963,8 @@
       
         
       
+        
+      
     
     
     
@@ -1062,7 +1064,7 @@
   <span class="md-ellipsis">
     
   
-    Programas para pixel art
+    Programas para arte 2D
   
 
     
@@ -1169,6 +1171,17 @@
     <span class="md-ellipsis">
       
         Cómo decidir tu tamaño
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#si-tu-juego-es-dibujado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Si tu juego es dibujado
       
     </span>
   </a>
@@ -1339,6 +1352,34 @@
     
   
     Escenarios 2D
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-animacion-dibujada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animación dibujada
   
 
     
@@ -1806,6 +1847,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#si-tu-juego-es-dibujado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Si tu juego es dibujado
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1881,6 +1933,10 @@
 <h2 id="como-decidir-tu-tamano">Cómo decidir tu tamaño<a class="headerlink" href="#como-decidir-tu-tamano" title="Permanent link">&para;</a></h2>
 <p>Antes de crear el archivo, <strong>hazte tres preguntas</strong>. La primera es <strong>cómo se va a ver en pantalla</strong>: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es <strong>cuántos frames vas a dibujar</strong>: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es <strong>qué tamaño tienen los tiles del mundo</strong>, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).</p>
 <p>Y un consejo que te va a salvar más de una vez: <strong>prueba siempre a tamaño real</strong>. Con el zoom al 800 % todo parece precioso, y es mentira. Lo que importa es cómo se ve al 100 % o al 200 %, <strong>que es como lo va a ver el jugador</strong>.</p>
+<h2 id="si-tu-juego-es-dibujado">Si tu juego es dibujado<a class="headerlink" href="#si-tu-juego-es-dibujado" title="Permanent link">&para;</a></h2>
+<p>Al dibujar a mano <strong>no hay una rejilla que respetar</strong>, así que el tamaño del lienzo se decide de otra manera. La costumbre es <strong>dibujar más grande de lo que se verá en el juego y reducir al exportar</strong>. Al reducir, los pequeños temblores de la línea desaparecen y el dibujo gana limpieza. Si el personaje va a ocupar unos 200 píxeles de alto en pantalla, dibújalo al doble y exporta a la mitad.</p>
+<p>Lo que sí sigue igual es la factura, y aquí es más alta. Un frame de 512×512 píxeles ocupa en memoria <strong>unos 1 MB sin comprimir</strong> (cada píxel guarda cuatro valores: rojo, verde, azul y transparencia). Multiplícalo por todos los frames de todas las animaciones y entenderás por qué los juegos dibujados <strong>cuidan tanto cuántos frames tiene cada animación</strong>. Las potencias de dos tampoco desaparecen: los frames sueltos pueden tener cualquier tamaño, pero el sprite sheet que los reúne conviene que las respete.</p>
+<p>Lo tienes desarrollado en el apartado de <a href="../10-animacion-dibujada/">animación dibujada</a>.</p>
 
 
 
@@ -1918,7 +1974,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href="../02-programas-pixel-art/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Programas para pixel art">
+          <a href="../02-programas-pixel-art/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Programas para arte 2D">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1928,7 +1984,7 @@
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Programas para pixel art
+                Programas para arte 2D
               </div>
             </div>
           </a>
