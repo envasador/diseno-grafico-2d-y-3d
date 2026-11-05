@@ -35,6 +35,8 @@ Los tiles se colocan con un **editor de mapas**. Puedes usar **Tiled**, un edito
 
 Organiza el mapa en **capas separadas**. Una capa para el suelo y las paredes con las que el personaje colisiona, otra para la decoración que queda detrás, otra para la que queda delante. Esa separación facilita que programación configure las colisiones y te permite cambiar la decoración sin tocar lo jugable.
 
+En un juego dibujado a mano la decoración no suele ir en rejilla: se colocan piezas dibujadas libremente, en capas. Lo ves con *Hollow Knight* en el apartado de [animación dibujada](10-animacion-dibujada.md#escenarios-por-capas).
+
 ## Fondos y parallax
 
 Lo que queda detrás del nivel jugable (el cielo, las montañas, la ciudad lejana) no suele construirse con tiles. Se pinta como **ilustraciones grandes**, a menudo en un programa de ilustración, divididas en capas según su distancia.

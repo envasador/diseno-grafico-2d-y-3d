@@ -1,4 +1,4 @@
-# UT2.2 Programas para pixel art
+# UT2.2 Programas para arte 2D
 
 Técnicamente puedes hacer pixel art con cualquier programa que te deje pintar un píxel. Sí, incluido el Paint de Windows. Otra cosa es que quieras sufrir. Un programa pensado para pixel art te da rejillas de tiles, previsualización de la animación en tiempo real, paletas indexadas y exportación directa a sprite sheet, y eso se traduce en **horas ahorradas**.
 
@@ -22,6 +22,25 @@ Por último, puedes usar programas de ilustración generalistas como **Photoshop
 | Piskel | Gratuito y en el navegador | Muy básico para proyectos grandes | Web |
 | Photoshop | Archivos pesados, capas y efectos avanzados, probablemente ya lo conoces | Complejo, caro, no es exclusivo de pixel art | Windows, macOS |
 | Affinity | Gratuito, capas y efectos avanzados, ya lo conoces de la UT1 | Sin línea de tiempo para animar, no es exclusivo de pixel art | Windows, macOS |
+
+## Programas para animación dibujada
+
+Si tu juego va a ser dibujado a mano, como *Hollow Knight*, necesitas otra cosa: un programa de dibujo que además tenga **línea de tiempo y papel cebolla (onion skin)**, es decir, que te deje ver en transparencia el frame anterior y el siguiente mientras dibujas. Sin eso, animar se convierte en ir pasando capas a ciegas.
+
+**Krita** es la opción más recomendable para empezar: **es gratuito, libre y funciona en Windows, macOS y Linux**. Está pensado para ilustración y pintura digital, y trae una línea de tiempo con papel cebolla con la que se anima con bastante comodidad. Exporta la animación como **secuencia de imágenes PNG**, que después juntas en un sprite sheet.
+
+**Clip Studio Paint** es muy popular entre ilustradores y animadores de anime, y sus herramientas de animación son de las más cómodas. Es de pago, aunque tiene periodo de prueba.
+
+**Photoshop** también tiene línea de tiempo, pero animar frame a frame en ella es bastante engorroso. **Affinity** es estupendo para dibujar cada frame, aunque no anima: tendrías que comprobar el movimiento en otro programa o directamente en el motor.
+
+| Programa | A favor | En contra | Plataformas |
+|---|---|---|---|
+| Krita | Gratuito y libre, línea de tiempo y papel cebolla | Su interfaz cuesta un poco al principio | Windows, macOS, Linux |
+| Clip Studio Paint | Herramientas de animación muy completas | De pago | Windows, macOS, tabletas |
+| Photoshop | Probablemente ya lo conoces | Animar frame a frame es incómodo, caro | Windows, macOS |
+| Affinity | Gratuito, ya lo conoces de la UT1 | No tiene línea de tiempo para animar | Windows, macOS |
+
+Todo lo que cambia al animar dibujado lo tienes en el apartado de [animación dibujada](10-animacion-dibujada.md).
 
 ## Aplicaciones móviles
 

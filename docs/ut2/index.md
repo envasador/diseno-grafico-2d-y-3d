@@ -4,6 +4,8 @@ Hasta ahora tu personaje era un dibujo bonito. En esta unidad **le toca ponerse 
 
 Vamos a trabajar sobre todo con **pixel art**. ¿Por qué? Porque es **el estilo 2D que mejor enseña a tomar decisiones**. Con tan poca resolución **no hay dónde esconderse**: si falla la forma, el color o el timing, se ve.
 
+Si tu juego va a ser dibujado, como *Hollow Knight*, no te saltes nada: casi todo lo que vas a ver sirve igual. Al final de la unidad tienes un apartado de **animación dibujada** con lo que cambia.
+
 Esta unidad desarrolla el **RA3**: diseña elementos gráficos y animaciones en 2D teniendo en cuenta las características de los personajes.
 
 !!! concept "Fase de concept"
@@ -21,7 +23,7 @@ Esta unidad desarrolla el **RA3**: diseña elementos gráficos y animaciones en 
 | Apartado | Contenido |
 |---|---|
 | [UT2.1 El arte 2D en videojuegos](01-arte-2d.md) | Estilos 2D y tipos de animación |
-| [UT2.2 Programas para pixel art](02-programas-pixel-art.md) | Qué herramienta usar y para qué |
+| [UT2.2 Programas para arte 2D](02-programas-pixel-art.md) | Qué herramienta usar y para qué, en pixel art y en animación dibujada |
 | [UT2.3 Tamaño de la imagen](03-tamano-de-la-imagen.md) | Resolución, nivel de detalle y dimensiones recomendadas |
 | [UT2.4 Tiles y sprite sheets](04-tiles-y-sprite-sheets.md) | Tilesets, frames y potencias de dos |
 | [UT2.5 Principios de animación](05-principios-de-animacion.md) | Fotogramas clave, interpolaciones, timing, squash y stretch |
@@ -29,3 +31,4 @@ Esta unidad desarrolla el **RA3**: diseña elementos gráficos y animaciones en 
 | [UT2.7 Walking cycle](07-walking-cycle.md) | La receta de un ciclo de andar de 6 frames |
 | [UT2.8 Animación de ataque](08-animacion-de-ataque.md) | Anticipación, golpe, final y retroceso; easing |
 | [UT2.9 Escenarios 2D](09-escenarios-2d.md) | Tilemaps, parallax y perspectiva |
+| [UT2.10 Animación dibujada](10-animacion-dibujada.md) | Qué cambia si tu juego se dibuja a mano, con *Hollow Knight* como ejemplo |

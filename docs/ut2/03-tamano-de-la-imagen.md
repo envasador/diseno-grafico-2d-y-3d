@@ -43,3 +43,11 @@ Fíjate en que *Celeste* y *The Last Night* son pixel art y aun así están en e
 Antes de crear el archivo, **hazte tres preguntas**. La primera es **cómo se va a ver en pantalla**: si el personaje ocupa poco espacio en un escenario grande, un tamaño pequeño basta. La segunda es **cuántos frames vas a dibujar**: multiplica mentalmente el trabajo de un frame por todas las animaciones que tienes que entregar. La tercera es **qué tamaño tienen los tiles del mundo**, porque el personaje tiene que encajar en esa rejilla (un personaje de 32×32 sobre tiles de 16×16 ocupa dos tiles de alto, por ejemplo).
 
 Y un consejo que te va a salvar más de una vez: **prueba siempre a tamaño real**. Con el zoom al 800 % todo parece precioso, y es mentira. Lo que importa es cómo se ve al 100 % o al 200 %, **que es como lo va a ver el jugador**.
+
+## Si tu juego es dibujado
+
+Al dibujar a mano **no hay una rejilla que respetar**, así que el tamaño del lienzo se decide de otra manera. La costumbre es **dibujar más grande de lo que se verá en el juego y reducir al exportar**. Al reducir, los pequeños temblores de la línea desaparecen y el dibujo gana limpieza. Si el personaje va a ocupar unos 200 píxeles de alto en pantalla, dibújalo al doble y exporta a la mitad.
+
+Lo que sí sigue igual es la factura, y aquí es más alta. Un frame de 512×512 píxeles ocupa en memoria **unos 1 MB sin comprimir** (cada píxel guarda cuatro valores: rojo, verde, azul y transparencia). Multiplícalo por todos los frames de todas las animaciones y entenderás por qué los juegos dibujados **cuidan tanto cuántos frames tiene cada animación**. Las potencias de dos tampoco desaparecen: los frames sueltos pueden tener cualquier tamaño, pero el sprite sheet que los reúne conviene que las respete.
+
+Lo tienes desarrollado en el apartado de [animación dibujada](10-animacion-dibujada.md).

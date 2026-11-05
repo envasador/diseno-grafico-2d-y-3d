@@ -88,7 +88,7 @@ nav:
   - UT2 Arte 2D:
       - ut2/index.md
       - El arte 2D: ut2/01-arte-2d.md
-      - Programas para pixel art: ut2/02-programas-pixel-art.md
+      - Programas para arte 2D: ut2/02-programas-pixel-art.md
       - Tamaño de la imagen: ut2/03-tamano-de-la-imagen.md
       - Tiles y sprite sheets: ut2/04-tiles-y-sprite-sheets.md
       - Principios de animación: ut2/05-principios-de-animacion.md
@@ -96,6 +96,7 @@ nav:
       - Walking cycle: ut2/07-walking-cycle.md
       - Animación de ataque: ut2/08-animacion-de-ataque.md
       - Escenarios 2D: ut2/09-escenarios-2d.md
+      - Animación dibujada: ut2/10-animacion-dibujada.md
 #  - UT3 Arte 3D:
 #      - ut3/index.md
 #      - Introducción a Blender: ut3/01-introduccion-3d-blender.md
