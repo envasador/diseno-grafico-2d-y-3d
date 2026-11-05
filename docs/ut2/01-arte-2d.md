@@ -16,7 +16,7 @@ El **arte pintado a mano** (hand-drawn) usa técnicas de ilustración digital pa
 |---|---|---|---|
 | Pixel art | Lectura clara y estética muy reconocible | Cada frame se dibuja a mano | Aseprite, Pyxel Edit |
 | Vectorial | Escalable y fácil de animar por piezas | Puede resultar frío si no se estiliza | Affinity, Illustrator, Inkscape |
-| Pintado a mano | Máxima expresividad y detalle | Producción lenta, archivos pesados | Photoshop, Krita, Clip Studio Paint |
+| Pintado a mano | Máxima expresividad y detalle | Producción lenta, archivos pesados | Photoshop, Affinity, Krita, Clip Studio Paint |
 
 ## Tres formas de animar en 2D
 
