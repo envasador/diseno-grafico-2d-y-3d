@@ -10,20 +10,18 @@ Así que la pregunta interesante es otra: **qué herramienta encaja con cada par
 
 **Pyxel Edit** es más sencillo e intuitivo, y destaca en un punto concreto: **el trabajo con tiles**. Todo en él gira alrededor de la rejilla, así que es muy cómodo para construir tilesets y para animar en una tira de frames. Es barato y tiene una versión gratuita antigua. Sus limitaciones son que no agrupa capas y que no está disponible para Linux.
 
-**Photoshop** también sirve si configuras bien el lápiz y **desactivas el suavizado**, y tiene la ventaja de que seguramente ya sabes usarlo. Soporta archivos grandes, capas, grupos y efectos avanzados. A cambio es más complejo, más caro y no está pensado para pixel art, así que tareas como animar o exportar sprite sheets son más engorrosas.
-
-**Affinity**, el programa que ya usaste en la UT1, juega en la misma liga que Photoshop y tiene dos ventajas: **es gratuito** y ya lo conoces. En el estudio **Pixel** tienes la herramienta **Pincel de píxeles**, que pinta píxeles enteros sin suavizado, y con la rejilla ajustada a 1 px controlas cada punto. Igual que con Photoshop, no está pensado para pixel art: no tiene línea de tiempo para animar ni exporta sprite sheets por sí solo, así que te rinde más en fondos, escenarios y retoques que en animación.
-
 Hay alternativas gratuitas que merece la pena conocer: **Pixelorama** (libre y multiplataforma, muy completo) y **Piskel** (funciona en el navegador, ideal para empezar o para pruebas rápidas).
+
+Por último, puedes usar programas de ilustración generalistas como **Photoshop** o **Affinity**. Ninguno está pensado para pixel art, pero los dos sirven si configuras bien el lápiz y **desactivas el suavizado**, y tienen la ventaja de que seguramente ya los sabes usar (Affinity lo conoces de la UT1 y además es gratuito). En Affinity, por ejemplo, el estudio **Pixel** tiene la herramienta **Pincel de píxeles**, que pinta píxeles enteros, y con la rejilla ajustada a 1 px controlas cada punto. A cambio, ninguno de los dos tiene una línea de tiempo cómoda para animar ni exporta sprite sheets por sí solo, así que te rinden más en fondos, escenarios y retoques que en animación.
 
 | Programa | A favor | En contra | Plataformas |
 |---|---|---|---|
 | Aseprite | Exclusivo para pixel art, capas y grupos, animación y exportación excelentes | Complejidad intermedia, de pago | Windows, macOS, Linux |
 | Pyxel Edit | Muy sencillo, editor de tiles, versión de pago muy barata | No agrupa capas | Windows, macOS |
-| Photoshop | Archivos pesados, capas y efectos avanzados, probablemente ya lo conoces | Complejo, caro, no es exclusivo de pixel art | Windows, macOS |
-| Affinity | Gratuito, capas y efectos avanzados, ya lo conoces de la UT1 | Sin línea de tiempo para animar, no es exclusivo de pixel art | Windows, macOS |
 | Pixelorama | Libre y gratuito, animación y tiles | Menos pulido que Aseprite | Windows, macOS, Linux, web |
 | Piskel | Gratuito y en el navegador | Muy básico para proyectos grandes | Web |
+| Photoshop | Archivos pesados, capas y efectos avanzados, probablemente ya lo conoces | Complejo, caro, no es exclusivo de pixel art | Windows, macOS |
+| Affinity | Gratuito, capas y efectos avanzados, ya lo conoces de la UT1 | Sin línea de tiempo para animar, no es exclusivo de pixel art | Windows, macOS |
 
 ## Aplicaciones móviles
 
